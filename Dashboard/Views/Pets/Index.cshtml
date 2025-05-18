@@ -1,0 +1,53 @@
+﻿@model IEnumerable<Dashboard.Models.ViewModels.PetComDonoViewModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Pets</h1>
+
+<p>
+    <a class="btn btn-success" asp-action="Create">Adicionar Novo</a>
+</p>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Espécie</th>
+            <th>Porte</th>
+            <th>Raça</th>
+            <th>Cor</th>
+            <th>Sexo</th>
+            <th>Dono</th>
+            <th>Imagem</th>
+            <th class="col-acoes">Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Pet.Nome</td>
+                <td>@item.Pet.Idade</td>
+                <td>@item.Pet.Especie</td>
+                <td>@item.Pet.Porte</td>
+                <td>@item.Pet.Raca</td>
+                <td>@item.Pet.Cor</td>
+                <td>@item.Pet.Sexo</td>
+                <td>@item.NomeDono</td>
+                <td>
+                    @if (!string.IsNullOrEmpty(item.Pet.Foto))
+                    {
+                        <img src="~/@item.Pet.Foto" style="width: 60px; height: 60px; object-fit: cover;" />
+                    }
+                </td>
+                <td class="col-acoes">
+                    <a class="btn btn-outline-secondary" asp-action="Edit" asp-route-id="@item.Pet.Id"><img src="~/img/editar-arquivo.png"/></a> |
+                    <a class="btn btn-outline-secondary" asp-action="Details" asp-route-id="@item.Pet.Id"><img src="~/img/olho.png"/></a> |
+                    <a class="btn btn-outline-secondary" asp-action="Delete" asp-route-id="@item.Pet.Id"><img src="~/img/lixeira-xmark.png" /></a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

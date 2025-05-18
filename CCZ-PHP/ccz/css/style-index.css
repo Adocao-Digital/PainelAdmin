@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+body {
+    background-color: white;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;              
+}
+
+body::-webkit-scrollbar-track {
+    background: #f1f0f6;     
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #91c041;   
+    border-radius: 20px;       
+    border: 3px solid #f1f0f6; 
+}
+
+
+/* Carousel Imagens */
+.carousel {
+    max-width: 1000px;
+    margin: 0 auto; /* Centraliza o carousel no main */
+    border-radius: 10px;
+}
+
+.carousel-image {
+    height: 450px; /* Altura padrão */
+    width: 100%; /* Ajusta largura automaticamente */
+    object-fit: cover; /* Garante que a imagem preencha a área sem distorcer */
+    border-radius: 10px; /* Bordas arredondadas */
+}
+
+.mt-5 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.mt-5 a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.card {
+    background-color: #f1f0f6!important;
+    height: 240px; 
+    width: 200px; 
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; 
+}
+
+
+.card img {
+    width: 100px; 
+    height: 100px; 
+    object-fit: contain; 
+}
+
+
+.card p {
+    font-size: 16px; 
+    margin-top: 12px; 
+    text-align: center; 
+}

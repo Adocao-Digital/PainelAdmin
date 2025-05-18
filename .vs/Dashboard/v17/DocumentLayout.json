@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\git\\Dashboard-CCZ\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|Dashboard\\Dashboard.csproj|d:\\git\\dashboard-ccz\\dashboard\\controllers\\noticiascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|Dashboard\\Dashboard.csproj|solutionrelative:dashboard\\controllers\\noticiascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|Dashboard\\Dashboard.csproj|d:\\git\\dashboard-ccz\\dashboard\\views\\noticias\\noticiasantigas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|Dashboard\\Dashboard.csproj|solutionrelative:dashboard\\views\\noticias\\noticiasantigas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|Dashboard\\Dashboard.csproj|d:\\git\\dashboard-ccz\\dashboard\\views\\noticias\\noticiasatuais.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|Dashboard\\Dashboard.csproj|solutionrelative:dashboard\\views\\noticias\\noticiasatuais.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|Dashboard\\Dashboard.csproj|d:\\git\\dashboard-ccz\\dashboard\\views\\noticias\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|Dashboard\\Dashboard.csproj|solutionrelative:dashboard\\views\\noticias\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|Dashboard\\Dashboard.csproj|d:\\git\\dashboard-ccz\\dashboard\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|Dashboard\\Dashboard.csproj|solutionrelative:dashboard\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|Dashboard\\Dashboard.csproj|d:\\git\\dashboard-ccz\\dashboard\\models\\applicationrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|Dashboard\\Dashboard.csproj|solutionrelative:dashboard\\models\\applicationrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|Dashboard\\Dashboard.csproj|d:\\git\\dashboard-ccz\\dashboard\\models\\viewmodels\\editarnoticiaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|Dashboard\\Dashboard.csproj|solutionrelative:dashboard\\models\\viewmodels\\editarnoticiaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|Dashboard\\Dashboard.csproj|d:\\git\\dashboard-ccz\\dashboard\\models\\contextmongodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|Dashboard\\Dashboard.csproj|solutionrelative:dashboard\\models\\contextmongodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicationRole.cs",
+              "DocumentMoniker": "D:\\git\\Dashboard-CCZ\\Dashboard\\Models\\ApplicationRole.cs",
+              "RelativeDocumentMoniker": "Dashboard\\Models\\ApplicationRole.cs",
+              "ToolTip": "D:\\git\\Dashboard-CCZ\\Dashboard\\Models\\ApplicationRole.cs",
+              "RelativeToolTip": "Dashboard\\Models\\ApplicationRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T21:31:17.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NoticiasAtuais.cshtml",
+              "DocumentMoniker": "D:\\git\\Dashboard-CCZ\\Dashboard\\Views\\Noticias\\NoticiasAtuais.cshtml",
+              "RelativeDocumentMoniker": "Dashboard\\Views\\Noticias\\NoticiasAtuais.cshtml",
+              "ToolTip": "D:\\git\\Dashboard-CCZ\\Dashboard\\Views\\Noticias\\NoticiasAtuais.cshtml",
+              "RelativeToolTip": "Dashboard\\Views\\Noticias\\NoticiasAtuais.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-18T18:47:27.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\git\\Dashboard-CCZ\\Dashboard\\Views\\Noticias\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Dashboard\\Views\\Noticias\\Edit.cshtml",
+              "ToolTip": "D:\\git\\Dashboard-CCZ\\Dashboard\\Views\\Noticias\\Edit.cshtml",
+              "RelativeToolTip": "Dashboard\\Views\\Noticias\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-18T18:17:21.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NoticiasController.cs",
+              "DocumentMoniker": "D:\\git\\Dashboard-CCZ\\Dashboard\\Controllers\\NoticiasController.cs",
+              "RelativeDocumentMoniker": "Dashboard\\Controllers\\NoticiasController.cs",
+              "ToolTip": "D:\\git\\Dashboard-CCZ\\Dashboard\\Controllers\\NoticiasController.cs",
+              "RelativeToolTip": "Dashboard\\Controllers\\NoticiasController.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAmwG0AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T17:29:45.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EditarNoticiaViewModel.cs",
+              "DocumentMoniker": "D:\\git\\Dashboard-CCZ\\Dashboard\\Models\\ViewModels\\EditarNoticiaViewModel.cs",
+              "RelativeDocumentMoniker": "Dashboard\\Models\\ViewModels\\EditarNoticiaViewModel.cs",
+              "ToolTip": "D:\\git\\Dashboard-CCZ\\Dashboard\\Models\\ViewModels\\EditarNoticiaViewModel.cs",
+              "RelativeToolTip": "Dashboard\\Models\\ViewModels\\EditarNoticiaViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T17:47:59.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\git\\Dashboard-CCZ\\Dashboard\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Dashboard\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\git\\Dashboard-CCZ\\Dashboard\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Dashboard\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAEwE8AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-18T18:45:09.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NoticiasAntigas.cshtml",
+              "DocumentMoniker": "D:\\git\\Dashboard-CCZ\\Dashboard\\Views\\Noticias\\NoticiasAntigas.cshtml",
+              "RelativeDocumentMoniker": "Dashboard\\Views\\Noticias\\NoticiasAntigas.cshtml",
+              "ToolTip": "D:\\git\\Dashboard-CCZ\\Dashboard\\Views\\Noticias\\NoticiasAntigas.cshtml",
+              "RelativeToolTip": "Dashboard\\Views\\Noticias\\NoticiasAntigas.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-18T18:47:16.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ContextMongodb.cs",
+              "DocumentMoniker": "D:\\git\\Dashboard-CCZ\\Dashboard\\Models\\ContextMongodb.cs",
+              "RelativeDocumentMoniker": "Dashboard\\Models\\ContextMongodb.cs",
+              "ToolTip": "D:\\git\\Dashboard-CCZ\\Dashboard\\Models\\ContextMongodb.cs",
+              "RelativeToolTip": "Dashboard\\Models\\ContextMongodb.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAYwEIAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T18:30:51.508Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
