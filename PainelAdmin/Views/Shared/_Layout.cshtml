@@ -1,0 +1,100 @@
+﻿@using PainelAdmin.Models
+@using Microsoft.AspNetCore.Identity
+@inject UserManager<ApplicationUser> UserManager
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Dashboard</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Dashboard.styles.css" asp-append-version="true" />
+	<link rel="stylesheet" href="~/css/style-header.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/style-index.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/site-custom.css" asp-append-version="true" />
+
+
+    <link rel="icon" type="image/x-icon" href="img/dogo-argentino.png">
+</head>
+<body>
+    <header>
+        <div class="head1">
+        </div>
+        <div class="head2">
+            <img src="~/img/logo.png" alt="Logo" class="logo">
+        </div>
+    </header>
+
+
+    <div class="sidebar">
+       
+        <ul class="navbar-nav">
+            @if (User?.Identity?.IsAuthenticated ?? false)
+            {
+                var user = await UserManager.GetUserAsync(User);
+
+                <li class="nav-item no-hover userInfo">
+                    <img src="@user.Foto" alt="Foto do usuário" />
+                    <div class="username">Olá, @user.Nome</div>
+                </li>
+
+
+ 
+            }
+            else
+            {
+                <li class="nav-item mt-4">
+                    <a class="nav-link" asp-area="" asp-controller="User" asp-action="Create" asp-route-role="user">Criar Conta</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-area="" asp-controller="Account" asp-action="Login">Entrar</a>
+                </li>
+            }
+            <li class="nav-item">
+
+                <a class="nav-link Home" asp-area="" asp-controller="Home" asp-action="Index"><img src="~/img/casa.png" alt="Logo" class="casaft">  Página Inicial</a>
+			</li>
+            <li class="nav-item">
+                <a class="nav-link" asp-area="" asp-controller="Pets" asp-action="Index"><img src="~/img/coracao-de-pata.png" alt="Logo" class="petft">  Pets</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" asp-area="" asp-controller="Noticias" asp-action="NoticiasAntigas"><img src="~/img/jornal.png" alt="Logo" class="notift">  Ver notícias antigas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" asp-area="" asp-controller="Noticias" asp-action="NoticiasAtuais"><img src="~/img/jornal.png" alt="Logo" class="notift">  Ver notícias atuais</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" asp-area="" asp-controller="User" asp-action="Index"><img src="~/img/do-utilizador.png" alt="Logo" class="usuft">  Usuários</a>
+            </li>
+            @if (User.IsInRole("ADM"))
+            {
+                <li class="nav-item">
+                    <a class="nav-link" asp-area="" asp-controller="Noticias" asp-action="Create">Publique uma notícia</a>
+                </li>
+            }
+               @if (User?.Identity?.IsAuthenticated ?? false)
+            {
+
+                <div class="sidebar-bottom">
+                    <a class="nav-link text-danger" asp-area="" asp-controller="Account" asp-action="Logout">Sair</a>
+                </div>
+
+            }
+         
+        </ul>
+    </div>
+
+    <div class="content">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
