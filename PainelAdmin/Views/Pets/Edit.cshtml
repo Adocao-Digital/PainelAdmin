@@ -4,96 +4,122 @@
     ViewData["Title"] = "Editar Pet";
 }
 
-<h1>Editar Pet</h1>
+<head>
+    <link rel="stylesheet" href="~/css/modal-confirmacao.css" />
+</head>
 
-<hr />
-<div class="row">
-    <div class="col-md-6">
-        <form asp-action="Edit" enctype="multipart/form-data">
-            <input type="hidden" asp-for="Id" />
-            <input type="hidden" name="imagemAtual" value="@Model.Foto" />
+<h2 class="titulo-usuario">@ViewData["Title"]</h2>
 
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+<a asp-action="Index" class="text-success voltar" style="float: right; text-decoration: none;">← Voltar</a>
 
-            <div class="form-group">
-                <label asp-for="Nome" class="control-label"></label>
-                <input asp-for="Nome" class="form-control" />
-                <span asp-validation-for="Nome" class="text-danger"></span>
-            </div>
+<form asp-action="Edit" method="post" enctype="multipart/form-data" id="form-editar">
+    <input type="hidden" asp-for="Id" />
+    <input type="hidden" name="imagemAtual" value="@Model.Foto" />
 
-            <div class="form-group">
-                <label asp-for="Idade" class="control-label"></label>
-                <input asp-for="Idade" class="form-control" />
-                <span asp-validation-for="Idade" class="text-danger"></span>
-            </div>
+    <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
 
-            <div class="form-group">
-                <label asp-for="Especie" class="control-label"></label>
-                <input asp-for="Especie" class="form-control" />
-                <span asp-validation-for="Especie" class="text-danger"></span>
-            </div>
+    <div class="form-row">
+        <div class="form-group form-col">
+            <label asp-for="Nome" class="label-custom"></label>
+            <input asp-for="Nome" class="form-control campo-tamanho" />
+            <span asp-validation-for="Nome" class="text-danger"></span>
+        </div>
 
-            <div class="form-group">
-                <label asp-for="Porte" class="control-label"></label>
-                <select asp-for="Porte" class="form-control">
-                    <option value="">Selecione</option>
-                    <option selected="@Model.Porte == " Pequeno"">Pequeno</option>
-                    <option selected="@Model.Porte == " Médio"">Médio</option>
-                    <option selected="@Model.Porte == " Grande"">Grande</option>
-                </select>
-                <span asp-validation-for="Porte" class="text-danger"></span>
-            </div>
+        <div class="form-group form-col">
+            <label asp-for="Idade" class="label-custom"></label>
+            <input asp-for="Idade" class="form-control campo-tamanho" />
+            <span asp-validation-for="Idade" class="text-danger"></span>
+        </div>
+    </div>
 
-            <div class="form-group">
-                <label asp-for="Raca" class="control-label"></label>
-                <input asp-for="Raca" class="form-control" />
-                <span asp-validation-for="Raca" class="text-danger"></span>
-            </div>
+    <div class="form-row">
+        <div class="form-group form-col">
+            <label asp-for="Especie" class="label-custom"></label>
+            <input asp-for="Especie" class="form-control campo-tamanho" />
+            <span asp-validation-for="Especie" class="text-danger"></span>
+        </div>
 
-            <div class="form-group">
-                <label asp-for="Cor" class="control-label"></label>
-                <input asp-for="Cor" class="form-control" />
-                <span asp-validation-for="Cor" class="text-danger"></span>
-            </div>
+        <div class="form-group form-col">
+            <label asp-for="Porte" class="label-custom"></label>
+            <select asp-for="Porte" class="form-control campo-tamanho">
+                <option value="">Selecione</option>
+                <option value="Pequeno" selected="@(Model.Porte == "Pequeno")">Pequeno</option>
+                <option value="Médio" selected="@(Model.Porte == "Médio")">Médio</option>
+                <option value="Grande" selected="@(Model.Porte == "Grande")">Grande</option>
+            </select>
+            <span asp-validation-for="Porte" class="text-danger"></span>
+        </div>
+    </div>
 
-            <div class="form-group">
-                <label asp-for="Sexo" class="control-label"></label>
-                <select asp-for="Sexo" class="form-control">
-                    <option value="">Selecione</option>
-                    <option selected="@Model.Sexo == " Macho"">Macho</option>
-                    <option selected="@Model.Sexo == " Fêmea"">Fêmea</option>
-                </select>
-                <span asp-validation-for="Sexo" class="text-danger"></span>
-            </div>
+    <div class="form-row">
+        <div class="form-group form-col">
+            <label asp-for="Raca" class="label-custom"></label>
+            <input asp-for="Raca" class="form-control campo-tamanho" />
+            <span asp-validation-for="Raca" class="text-danger"></span>
+        </div>
 
-            <input type="hidden" asp-for="Situacao" />
-            <input type="hidden" asp-for="IdPessoa" />
+        <div class="form-group form-col">
+            <label asp-for="Cor" class="label-custom"></label>
+            <input asp-for="Cor" class="form-control campo-tamanho" />
+            <span asp-validation-for="Cor" class="text-danger"></span>
+        </div>
+    </div>
 
-            <div class="form-group">
-                <label class="fw-bold">Nova imagem (opcional)</label>
-                <input type="file" name="Imagem" class="form-control" accept="image/*" onchange="previewImage(event)" />
-            </div>
+    <div class="form-group form-col">
+        <label asp-for="Sexo" class="label-custom"></label>
+        <select asp-for="Sexo" class="form-control campo-tamanho">
+            <option value="">Selecione</option>
+            <option value="Macho" selected="@(Model.Sexo == "Macho")">Macho</option>
+            <option value="Fêmea" selected="@(Model.Sexo == "Fêmea")">Fêmea</option>
+        </select>
+        <span asp-validation-for="Sexo" class="text-danger"></span>
+    </div>
 
-            <div class="mb-3 mt-2">
-                <img id="imagePreview" src="~/@Model.Foto" alt="Imagem atual" style="width: 100px; height: 100px; object-fit: cover;" />
-            </div>
+    <input type="hidden" asp-for="Situacao" />
+    <input type="hidden" asp-for="IdPessoa" />
 
-            <div class="form-group">
-                <input type="submit" value="Salvar Alterações" class="btn btn-primary" />
-            </div>
-        </form>
+    <div class="form-group form-col">
+        <label class="label-custom fw-bold">Nova imagem (opcional)</label>
+        <input type="file" name="Imagem" class="form-control campo-tamanho" accept="image/*" onchange="previewImage(event)" />
+    </div>
+
+    <div class="form-group form-col mb-3 mt-2">
+        <img id="imagePreview" src="@Url.Content("~/" + Model.Foto)" alt="Imagem atual" style="width: 100px; height: 100px; object-fit: cover; border-radius: 8px; border: 1px solid #ccc;" />
+    </div>
+
+    <button type="button" class="btn btn-primary" onclick="abrirModal()">Salvar Alterações</button>
+</form>
+
+<!-- Modal de Confirmação -->
+<div id="modalConfirmacao" class="modal-custom">
+    <div class="modal-content-custom">
+        <p class="texto-modal">Tem certeza que deseja salvar as alterações?</p>
+        <div class="botoes-modal">
+            <button class="btn-cancelar" onclick="fecharModal()">Não</button>
+            <button class="btn-confirmar" onclick="enviarFormulario()">Sim</button>
+        </div>
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Voltar para a lista</a>
-</div>
-
 @section Scripts {
-    @{
-        await Html.RenderPartialAsync("_ValidationScriptsPartial");
-    }
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+
     <script>
+        function abrirModal() {
+            document.getElementById("modalConfirmacao").style.display = "flex";
+        }
+
+        function fecharModal() {
+            document.getElementById("modalConfirmacao").style.display = "none";
+        }
+
+        function enviarFormulario() {
+            const confirmarBtn = document.querySelector('.btn-confirmar');
+            confirmarBtn.disabled = true;
+            confirmarBtn.textContent = 'Salvando...';
+            document.getElementById("form-editar").submit();
+        }
+
         function previewImage(event) {
             var reader = new FileReader();
             reader.onload = function () {

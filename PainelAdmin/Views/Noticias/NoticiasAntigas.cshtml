@@ -15,6 +15,7 @@
             <th>
                 @Html.DisplayNameFor(model => model.Titulo)
             </th>
+
             <th>
                 @Html.DisplayNameFor(model => model.Conteudo)
             </th>
@@ -24,8 +25,12 @@
             <th>
                 @Html.DisplayNameFor(model => model.DataPublicacao)
             </th>
+
             <th>
                 @Html.DisplayNameFor(model => model.NomeAutor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NomeEditor)
             </th>
             <th class="col-acoes">Ações</th>
         </tr>
@@ -37,6 +42,7 @@
                 <td>
                     @Html.DisplayFor(modelItem => item.Titulo)
                 </td>
+
                 <td>
                     @Html.DisplayFor(modelItem => item.Conteudo)
                 </td>
@@ -46,8 +52,12 @@
                 <td>
                     @Html.DisplayFor(modelItem => item.DataPublicacao)
                 </td>
+
                 <td>
                     @Html.DisplayFor(modelItem => item.NomeAutor)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NomeEditor)
                 </td>
                 <td class="col-acoes">
                     <a class="btn btn-outline-secondary" asp-action="Edit" asp-route-id="@item.Id"><img src="~/img/editar-arquivo.png" /></a> |

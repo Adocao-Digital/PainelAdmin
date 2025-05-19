@@ -1,7 +1,7 @@
 ﻿@model IEnumerable<PainelAdmin.Models.Noticia>
 
 @{
-    ViewData["Title"] = "Notícias";
+    ViewData["Title"] = "Index";
 }
 
 <h1>Notícias</h1>
@@ -9,16 +9,29 @@
 <p>
     <a class="btn btn-success" asp-action="Create">Nova Notícia</a>
 </p>
-
 <table class="table table-bordered">
     <thead>
         <tr>
-            <th>@Html.DisplayNameFor(model => model.Titulo)</th>
-            <th>@Html.DisplayNameFor(model => model.Conteudo)</th>
-            <th>Imagem</th>
-            <th>@Html.DisplayNameFor(model => model.DataPublicacao)</th>
-            <th>@Html.DisplayNameFor(model => model.NomeAutor)</th>
-            <th>Editado por</th>
+            <th>
+                @Html.DisplayNameFor(model => model.Titulo)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.Conteudo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Foto)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DataPublicacao)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.NomeAutor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NomeEditor)
+            </th>
             <th class="col-acoes">Ações</th>
         </tr>
     </thead>
@@ -26,40 +39,30 @@
         @foreach (var item in Model)
         {
             <tr>
-                <td>@Html.DisplayFor(modelItem => item.Titulo)</td>
-                <td>@Html.DisplayFor(modelItem => item.Conteudo)</td>
                 <td>
-                    @if (!string.IsNullOrEmpty(item.Foto))
-                    {
-                        <img src="@Url.Content($"~/{item.Foto}")" alt="Imagem" style="max-width: 120px;" />
-                    }
-                    else
-                    {
-                        <span class="text-muted">Sem imagem</span>
-                    }
+                    @Html.DisplayFor(modelItem => item.Titulo)
                 </td>
-                <td>@item.DataPublicacao?.ToString("dd/MM/yyyy HH:mm")</td>
-                <td>@Html.DisplayFor(modelItem => item.NomeAutor)</td>
+
                 <td>
-                    @if (!string.IsNullOrEmpty(item.NomeEditor))
-                    {
-                        <span>@item.NomeEditor</span>
-                    }
-                    else
-                    {
-                        <span class="text-muted">Não editado</span>
-                    }
+                    @Html.DisplayFor(modelItem => item.Conteudo)
+                </td>
+                <td>
+                    <img src="@Html.DisplayFor(modelItem => item.Foto)" style="max-width: 120px" />
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DataPublicacao)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.NomeAutor)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NomeEditor)
                 </td>
                 <td class="col-acoes">
-                    <a class="btn btn-outline-secondary btn-sm me-1" asp-action="Edit" asp-route-id="@item.Id" title="Editar">
-                        <img src="~/img/editar-arquivo.png" alt="Editar" />
-                    </a>
-                    <a class="btn btn-outline-secondary btn-sm me-1" asp-action="Details" asp-route-id="@item.Id" title="Detalhes">
-                        <img src="~/img/olho.png" alt="Detalhes" />
-                    </a>
-                    <a class="btn btn-outline-secondary btn-sm" asp-action="Delete" asp-route-id="@item.Id" title="Excluir">
-                        <img src="~/img/lixeira-xmark.png" alt="Excluir" />
-                    </a>
+                    <a class="btn btn-outline-secondary" asp-action="Edit" asp-route-id="@item.Id"><img src="~/img/editar-arquivo.png" /></a> |
+                    <a class="btn btn-outline-secondary" asp-action="Details" asp-route-id="@item.Id"><img src="~/img/olho.png" /></a> |
+                    <a class="btn btn-outline-secondary" asp-action="Delete" asp-route-id="@item.Id"><img src="~/img/lixeira-xmark.png" /></a>
                 </td>
             </tr>
         }

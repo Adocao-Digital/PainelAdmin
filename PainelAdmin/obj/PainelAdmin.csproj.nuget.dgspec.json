@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\CCZ\\PainelAdmin\\PainelAdmin\\PainelAdmin.csproj": {}
+    "C:\\Users\\leopa\\OneDrive\\Área de Trabalho\\Git\\PainelAdmin\\PainelAdmin\\PainelAdmin.csproj": {}
   },
   "projects": {
-    "D:\\CCZ\\PainelAdmin\\PainelAdmin\\PainelAdmin.csproj": {
+    "C:\\Users\\leopa\\OneDrive\\Área de Trabalho\\Git\\PainelAdmin\\PainelAdmin\\PainelAdmin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\PainelAdmin.csproj",
+        "projectUniqueName": "C:\\Users\\leopa\\OneDrive\\Área de Trabalho\\Git\\PainelAdmin\\PainelAdmin\\PainelAdmin.csproj",
         "projectName": "PainelAdmin",
-        "projectPath": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\PainelAdmin.csproj",
-        "packagesPath": "C:\\Users\\Jhonatan\\.nuget\\packages\\",
-        "outputPath": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\obj\\",
+        "projectPath": "C:\\Users\\leopa\\OneDrive\\Área de Trabalho\\Git\\PainelAdmin\\PainelAdmin\\PainelAdmin.csproj",
+        "packagesPath": "C:\\Users\\leopa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\leopa\\OneDrive\\Área de Trabalho\\Git\\PainelAdmin\\PainelAdmin\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Jhonatan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\leopa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
