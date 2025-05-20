@@ -1,0 +1,28 @@
+﻿/* ===================== HEADER ===================== */
+.head1 {
+    background-color: #91c041;
+    height: 3vh;
+    z-index: 2000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.head2 {
+    background-color: #f1f0f6;
+    height: 12vh;
+    z-index: 2000;
+    position: fixed;
+    top: 3vh;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+}
+
+    .head2 img {
+        padding-left: 20px;
+        width: 35vh;
+        height: 100%;
+    }
