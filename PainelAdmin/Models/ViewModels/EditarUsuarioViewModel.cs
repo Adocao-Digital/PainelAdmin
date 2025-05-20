@@ -29,7 +29,6 @@ namespace PainelAdmin.Models.ViewModels
 
         public string? Foto { get; set; }
 
-        [Required]
         public bool Ativo { get; set; }
 
         // Endereço
@@ -47,5 +46,6 @@ namespace PainelAdmin.Models.ViewModels
         public string NovaRole { get; set; }
 
         public List<string> RolesDisponiveis { get; set; } = new List<string>();
+        public IFormFile? NovaFoto { get; set; }
     }
 }

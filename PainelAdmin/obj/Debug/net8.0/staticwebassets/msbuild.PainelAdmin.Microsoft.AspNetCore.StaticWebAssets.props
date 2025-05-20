@@ -720,6 +720,42 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\perfil\3141868c-d192-4ee5-91ac-78ef580c527f.png'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\perfil\6b775a70-7aab-444b-b1fa-5626fc3c800a.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>PainelAdmin</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/PainelAdmin</BasePath>
+      <RelativePath>img/perfil/6b775a70-7aab-444b-b1fa-5626fc3c800a.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>qzrjjtjw6u</Fingerprint>
+      <Integrity>dsvNUIvoSmZhKMoyi9WClYEaSmnwEKvMNyboo8MmNP0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\perfil\6b775a70-7aab-444b-b1fa-5626fc3c800a.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\perfil\6d87fe86-d536-4b4b-94dd-4e7d0bebd697.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>PainelAdmin</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/PainelAdmin</BasePath>
+      <RelativePath>img/perfil/6d87fe86-d536-4b4b-94dd-4e7d0bebd697.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>elcwm30jl0</Fingerprint>
+      <Integrity>wolONbCnerRx8yhMuV+qAQiwD6BJQsQ8Q/HFCvrodZo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\perfil\6d87fe86-d536-4b4b-94dd-4e7d0bebd697.png'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\perfil\8318d705-d716-49bc-908a-0decf947533f.webp'))">
       <SourceType>Package</SourceType>
       <SourceId>PainelAdmin</SourceId>
@@ -1818,23 +1854,23 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery\LICENSE.txt'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\PainelAdmin.r5yksq2dg4.bundle.scp.css'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\PainelAdmin.y4xapp942m.bundle.scp.css'))">
       <SourceType>Package</SourceType>
       <SourceId>PainelAdmin</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/PainelAdmin</BasePath>
-      <RelativePath>PainelAdmin.r5yksq2dg4.bundle.scp.css</RelativePath>
+      <RelativePath>PainelAdmin.y4xapp942m.bundle.scp.css</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>Reference</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName>ScopedCss</AssetTraitName>
       <AssetTraitValue>ProjectBundle</AssetTraitValue>
-      <Fingerprint>r5yksq2dg4</Fingerprint>
-      <Integrity>EXIHjxNfWmjDYSceICZG6LDD+0s9LJd4W41hn2wK8/E=</Integrity>
+      <Fingerprint>y4xapp942m</Fingerprint>
+      <Integrity>vuxyMIGOwiKnRyZplsGOqgcCdzE4HhSAQYME5K5j590=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\PainelAdmin.r5yksq2dg4.bundle.scp.css'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\PainelAdmin.y4xapp942m.bundle.scp.css'))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>

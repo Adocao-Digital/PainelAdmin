@@ -1,170 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\CCZ\\PainelAdmin\\",
+  "WorkspaceRootPath": "C:\\Users\\Victor\\Desktop\\pi\\PainelAdmin\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|d:\\ccz\\paineladmin\\paineladmin\\controllers\\noticiascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\controllers\\noticiascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|d:\\ccz\\paineladmin\\paineladmin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|d:\\ccz\\paineladmin\\paineladmin\\models\\viewmodels\\usuariocadastroviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\models\\viewmodels\\usuariocadastroviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|d:\\ccz\\paineladmin\\paineladmin\\models\\viewmodels\\petcomdonoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\models\\viewmodels\\petcomdonoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|d:\\ccz\\paineladmin\\paineladmin\\models\\viewmodels\\editarusuarioviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\models\\viewmodels\\editarusuarioviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|d:\\ccz\\paineladmin\\paineladmin\\models\\viewmodels\\editarnoticiaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\models\\viewmodels\\editarnoticiaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|d:\\ccz\\paineladmin\\paineladmin\\models\\viewmodels\\criarnoticiaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\models\\viewmodels\\criarnoticiaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|d:\\ccz\\paineladmin\\paineladmin\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|d:\\ccz\\paineladmin\\paineladmin\\views\\user\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\user\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|d:\\ccz\\paineladmin\\paineladmin\\views\\user\\createrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\user\\createrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|d:\\ccz\\paineladmin\\paineladmin\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|d:\\ccz\\paineladmin\\paineladmin\\data\\paineladmincontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\data\\paineladmincontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|d:\\ccz\\paineladmin\\paineladmin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|d:\\ccz\\paineladmin\\paineladmin\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|d:\\ccz\\paineladmin\\paineladmin\\properties\\servicedependencies.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\properties\\servicedependencies.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|d:\\ccz\\paineladmin\\paineladmin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|d:\\ccz\\paineladmin\\paineladmin\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|d:\\ccz\\paineladmin\\paineladmin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|d:\\ccz\\paineladmin\\paineladmin\\views\\pets\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\pets\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|d:\\ccz\\paineladmin\\paineladmin\\views\\pets\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\pets\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|d:\\ccz\\paineladmin\\paineladmin\\views\\pets\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\pets\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|d:\\ccz\\paineladmin\\paineladmin\\views\\pets\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\pets\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|d:\\ccz\\paineladmin\\paineladmin\\views\\pets\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\pets\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|d:\\ccz\\paineladmin\\paineladmin\\views\\noticias\\noticiasatuais.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\noticias\\noticiasatuais.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|d:\\ccz\\paineladmin\\paineladmin\\views\\noticias\\noticiasantigas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\noticias\\noticiasantigas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|d:\\ccz\\paineladmin\\paineladmin\\views\\noticias\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\noticias\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|d:\\ccz\\paineladmin\\paineladmin\\views\\noticias\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\noticias\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|d:\\ccz\\paineladmin\\paineladmin\\views\\noticias\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\noticias\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|d:\\ccz\\paineladmin\\paineladmin\\views\\noticias\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\noticias\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|d:\\ccz\\paineladmin\\paineladmin\\views\\noticias\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\noticias\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|d:\\ccz\\paineladmin\\paineladmin\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|d:\\ccz\\paineladmin\\paineladmin\\models\\pet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\models\\pet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|d:\\ccz\\paineladmin\\paineladmin\\models\\noticia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\models\\noticia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|d:\\ccz\\paineladmin\\paineladmin\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|d:\\ccz\\paineladmin\\paineladmin\\models\\endereco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\models\\endereco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|d:\\ccz\\paineladmin\\paineladmin\\models\\contextmongodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\models\\contextmongodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|d:\\ccz\\paineladmin\\paineladmin\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|d:\\ccz\\paineladmin\\paineladmin\\models\\applicationrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\models\\applicationrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|d:\\ccz\\paineladmin\\paineladmin\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\victor\\desktop\\pi\\paineladmin\\paineladmin\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|d:\\ccz\\paineladmin\\paineladmin\\controllers\\petscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\controllers\\petscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\victor\\desktop\\pi\\paineladmin\\paineladmin\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|d:\\ccz\\paineladmin\\paineladmin\\paineladmin.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\paineladmin.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\victor\\desktop\\pi\\paineladmin\\paineladmin\\models\\viewmodels\\editarusuarioviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\models\\viewmodels\\editarusuarioviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\victor\\desktop\\pi\\paineladmin\\paineladmin\\views\\user\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\user\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\victor\\desktop\\pi\\paineladmin\\paineladmin\\models\\noticia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\models\\noticia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -174,540 +30,87 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 6,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CreateRole.cshtml",
-              "DocumentMoniker": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Views\\User\\CreateRole.cshtml",
-              "RelativeDocumentMoniker": "PainelAdmin\\Views\\User\\CreateRole.cshtml",
-              "ToolTip": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Views\\User\\CreateRole.cshtml",
-              "RelativeToolTip": "PainelAdmin\\Views\\User\\CreateRole.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-18T23:49:47.421Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Views\\User\\Create.cshtml",
-              "RelativeDocumentMoniker": "PainelAdmin\\Views\\User\\Create.cshtml",
-              "ToolTip": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Views\\User\\Create.cshtml",
-              "RelativeToolTip": "PainelAdmin\\Views\\User\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-18T23:49:38.351Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CriarNoticiaViewModel.cs",
-              "DocumentMoniker": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Models\\ViewModels\\CriarNoticiaViewModel.cs",
-              "RelativeDocumentMoniker": "PainelAdmin\\Models\\ViewModels\\CriarNoticiaViewModel.cs",
-              "ToolTip": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Models\\ViewModels\\CriarNoticiaViewModel.cs",
-              "RelativeToolTip": "PainelAdmin\\Models\\ViewModels\\CriarNoticiaViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T23:44:11.179Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EditarNoticiaViewModel.cs",
-              "DocumentMoniker": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Models\\ViewModels\\EditarNoticiaViewModel.cs",
-              "RelativeDocumentMoniker": "PainelAdmin\\Models\\ViewModels\\EditarNoticiaViewModel.cs",
-              "ToolTip": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Models\\ViewModels\\EditarNoticiaViewModel.cs",
-              "RelativeToolTip": "PainelAdmin\\Models\\ViewModels\\EditarNoticiaViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T23:44:15.485Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "EditarUsuarioViewModel.cs",
-              "DocumentMoniker": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Models\\ViewModels\\EditarUsuarioViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Victor\\Desktop\\pi\\PainelAdmin\\PainelAdmin\\Models\\ViewModels\\EditarUsuarioViewModel.cs",
               "RelativeDocumentMoniker": "PainelAdmin\\Models\\ViewModels\\EditarUsuarioViewModel.cs",
-              "ToolTip": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Models\\ViewModels\\EditarUsuarioViewModel.cs",
+              "ToolTip": "C:\\Users\\Victor\\Desktop\\pi\\PainelAdmin\\PainelAdmin\\Models\\ViewModels\\EditarUsuarioViewModel.cs",
               "RelativeToolTip": "PainelAdmin\\Models\\ViewModels\\EditarUsuarioViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAASwDAAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T23:44:20.558Z",
+              "WhenOpened": "2025-05-20T02:04:07.445Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "PetComDonoViewModel.cs",
-              "DocumentMoniker": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Models\\ViewModels\\PetComDonoViewModel.cs",
-              "RelativeDocumentMoniker": "PainelAdmin\\Models\\ViewModels\\PetComDonoViewModel.cs",
-              "ToolTip": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Models\\ViewModels\\PetComDonoViewModel.cs",
-              "RelativeToolTip": "PainelAdmin\\Models\\ViewModels\\PetComDonoViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T23:44:25.477Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UsuarioCadastroViewModel.cs",
-              "DocumentMoniker": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Models\\ViewModels\\UsuarioCadastroViewModel.cs",
-              "RelativeDocumentMoniker": "PainelAdmin\\Models\\ViewModels\\UsuarioCadastroViewModel.cs",
-              "ToolTip": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Models\\ViewModels\\UsuarioCadastroViewModel.cs",
-              "RelativeToolTip": "PainelAdmin\\Models\\ViewModels\\UsuarioCadastroViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T23:44:29.529Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "PainelAdmin\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "PainelAdmin\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAQwCMAAAAQAAAAAAAAAA==",
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "C:\\Users\\Victor\\Desktop\\pi\\PainelAdmin\\PainelAdmin\\Views\\User\\Editar.cshtml",
+              "RelativeDocumentMoniker": "PainelAdmin\\Views\\User\\Editar.cshtml",
+              "ToolTip": "C:\\Users\\Victor\\Desktop\\pi\\PainelAdmin\\PainelAdmin\\Views\\User\\Editar.cshtml",
+              "RelativeToolTip": "PainelAdmin\\Views\\User\\Editar.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-18T23:45:20.727Z",
+              "WhenOpened": "2025-05-20T02:01:59.645Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "NoticiasController.cs",
-              "DocumentMoniker": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Controllers\\NoticiasController.cs",
-              "RelativeDocumentMoniker": "PainelAdmin\\Controllers\\NoticiasController.cs",
-              "ToolTip": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Controllers\\NoticiasController.cs",
-              "RelativeToolTip": "PainelAdmin\\Controllers\\NoticiasController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T23:42:47.376Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Editar.cshtml",
-              "DocumentMoniker": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Views\\User\\Editar.cshtml",
-              "RelativeDocumentMoniker": "PainelAdmin\\Views\\User\\Editar.cshtml",
-              "ToolTip": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Views\\User\\Editar.cshtml",
-              "RelativeToolTip": "PainelAdmin\\Views\\User\\Editar.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-18T23:49:52.627Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Views\\User\\Index.cshtml",
-              "RelativeDocumentMoniker": "PainelAdmin\\Views\\User\\Index.cshtml",
-              "ToolTip": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Views\\User\\Index.cshtml",
-              "RelativeToolTip": "PainelAdmin\\Views\\User\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-18T23:49:57.846Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "serviceDependencies.json",
-              "DocumentMoniker": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Properties\\serviceDependencies.json",
-              "RelativeDocumentMoniker": "PainelAdmin\\Properties\\serviceDependencies.json",
-              "ToolTip": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Properties\\serviceDependencies.json",
-              "RelativeToolTip": "PainelAdmin\\Properties\\serviceDependencies.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-18T23:48:23.019Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\appsettings.json",
-              "RelativeDocumentMoniker": "PainelAdmin\\appsettings.json",
-              "ToolTip": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\appsettings.json",
-              "RelativeToolTip": "PainelAdmin\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-18T23:47:10.455Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "PainelAdmin\\Views\\_ViewImports.cshtml",
-              "ToolTip": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "PainelAdmin\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-18T23:47:00.599Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Views\\Pets\\Index.cshtml",
-              "RelativeDocumentMoniker": "PainelAdmin\\Views\\Pets\\Index.cshtml",
-              "ToolTip": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Views\\Pets\\Index.cshtml",
-              "RelativeToolTip": "PainelAdmin\\Views\\Pets\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-18T23:46:33.426Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Views\\Pets\\Edit.cshtml",
-              "RelativeDocumentMoniker": "PainelAdmin\\Views\\Pets\\Edit.cshtml",
-              "ToolTip": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Views\\Pets\\Edit.cshtml",
-              "RelativeToolTip": "PainelAdmin\\Views\\Pets\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-18T23:46:29.832Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Views\\Pets\\Details.cshtml",
-              "RelativeDocumentMoniker": "PainelAdmin\\Views\\Pets\\Details.cshtml",
-              "ToolTip": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Views\\Pets\\Details.cshtml",
-              "RelativeToolTip": "PainelAdmin\\Views\\Pets\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-18T23:46:26.174Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Views\\Pets\\Delete.cshtml",
-              "RelativeDocumentMoniker": "PainelAdmin\\Views\\Pets\\Delete.cshtml",
-              "ToolTip": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Views\\Pets\\Delete.cshtml",
-              "RelativeToolTip": "PainelAdmin\\Views\\Pets\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-18T23:46:23.692Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "PainelAdmin\\Controllers\\AccountController.cs",
-              "ToolTip": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "PainelAdmin\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T23:42:25.023Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "PainelAdmin\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "PainelAdmin\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T23:42:43.86Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "PainelAdminContext.cs",
-              "DocumentMoniker": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Data\\PainelAdminContext.cs",
-              "RelativeDocumentMoniker": "PainelAdmin\\Data\\PainelAdminContext.cs",
-              "ToolTip": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Data\\PainelAdminContext.cs",
-              "RelativeToolTip": "PainelAdmin\\Data\\PainelAdminContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T23:39:13.923Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "NoticiasAtuais.cshtml",
-              "DocumentMoniker": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Views\\Noticias\\NoticiasAtuais.cshtml",
-              "RelativeDocumentMoniker": "PainelAdmin\\Views\\Noticias\\NoticiasAtuais.cshtml",
-              "ToolTip": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Views\\Noticias\\NoticiasAtuais.cshtml",
-              "RelativeToolTip": "PainelAdmin\\Views\\Noticias\\NoticiasAtuais.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-18T23:46:17.659Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "NoticiasAntigas.cshtml",
-              "DocumentMoniker": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Views\\Noticias\\NoticiasAntigas.cshtml",
-              "RelativeDocumentMoniker": "PainelAdmin\\Views\\Noticias\\NoticiasAntigas.cshtml",
-              "ToolTip": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Views\\Noticias\\NoticiasAntigas.cshtml",
-              "RelativeToolTip": "PainelAdmin\\Views\\Noticias\\NoticiasAntigas.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-18T23:46:14.918Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Views\\Noticias\\Index.cshtml",
-              "RelativeDocumentMoniker": "PainelAdmin\\Views\\Noticias\\Index.cshtml",
-              "ToolTip": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Views\\Noticias\\Index.cshtml",
-              "RelativeToolTip": "PainelAdmin\\Views\\Noticias\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-18T23:46:11.499Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Views\\Noticias\\Edit.cshtml",
-              "RelativeDocumentMoniker": "PainelAdmin\\Views\\Noticias\\Edit.cshtml",
-              "ToolTip": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Views\\Noticias\\Edit.cshtml",
-              "RelativeToolTip": "PainelAdmin\\Views\\Noticias\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-18T23:46:08.241Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Program.cs",
-              "RelativeDocumentMoniker": "PainelAdmin\\Program.cs",
-              "ToolTip": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Program.cs",
-              "RelativeToolTip": "PainelAdmin\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T23:37:25.72Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Views\\Noticias\\Details.cshtml",
-              "RelativeDocumentMoniker": "PainelAdmin\\Views\\Noticias\\Details.cshtml",
-              "ToolTip": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Views\\Noticias\\Details.cshtml",
-              "RelativeToolTip": "PainelAdmin\\Views\\Noticias\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-18T23:46:05.599Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Views\\Noticias\\Delete.cshtml",
-              "RelativeDocumentMoniker": "PainelAdmin\\Views\\Noticias\\Delete.cshtml",
-              "ToolTip": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Views\\Noticias\\Delete.cshtml",
-              "RelativeToolTip": "PainelAdmin\\Views\\Noticias\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-18T23:46:02.881Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Views\\Noticias\\Create.cshtml",
-              "RelativeDocumentMoniker": "PainelAdmin\\Views\\Noticias\\Create.cshtml",
-              "ToolTip": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Views\\Noticias\\Create.cshtml",
-              "RelativeToolTip": "PainelAdmin\\Views\\Noticias\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-18T23:45:58.795Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Views\\Pets\\Create.cshtml",
-              "RelativeDocumentMoniker": "PainelAdmin\\Views\\Pets\\Create.cshtml",
-              "ToolTip": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Views\\Pets\\Create.cshtml",
-              "RelativeToolTip": "PainelAdmin\\Views\\Pets\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-18T23:45:29.404Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Models\\Usuario.cs",
-              "RelativeDocumentMoniker": "PainelAdmin\\Models\\Usuario.cs",
-              "ToolTip": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Models\\Usuario.cs",
-              "RelativeToolTip": "PainelAdmin\\Models\\Usuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T23:45:06.448Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "Pet.cs",
-              "DocumentMoniker": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Models\\Pet.cs",
-              "RelativeDocumentMoniker": "PainelAdmin\\Models\\Pet.cs",
-              "ToolTip": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Models\\Pet.cs",
-              "RelativeToolTip": "PainelAdmin\\Models\\Pet.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T23:45:03.6Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "Noticia.cs",
-              "DocumentMoniker": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Models\\Noticia.cs",
-              "RelativeDocumentMoniker": "PainelAdmin\\Models\\Noticia.cs",
-              "ToolTip": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Models\\Noticia.cs",
-              "RelativeToolTip": "PainelAdmin\\Models\\Noticia.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T23:45:00.5Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "PainelAdmin\\Models\\ErrorViewModel.cs",
-              "ToolTip": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "PainelAdmin\\Models\\ErrorViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T23:44:57.225Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "Endereco.cs",
-              "DocumentMoniker": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Models\\Endereco.cs",
-              "RelativeDocumentMoniker": "PainelAdmin\\Models\\Endereco.cs",
-              "ToolTip": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Models\\Endereco.cs",
-              "RelativeToolTip": "PainelAdmin\\Models\\Endereco.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T23:44:52.154Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "ApplicationUser.cs",
-              "DocumentMoniker": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Models\\ApplicationUser.cs",
-              "RelativeDocumentMoniker": "PainelAdmin\\Models\\ApplicationUser.cs",
-              "ToolTip": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Models\\ApplicationUser.cs",
-              "RelativeToolTip": "PainelAdmin\\Models\\ApplicationUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T23:44:39.909Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "ApplicationRole.cs",
-              "DocumentMoniker": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Models\\ApplicationRole.cs",
-              "RelativeDocumentMoniker": "PainelAdmin\\Models\\ApplicationRole.cs",
-              "ToolTip": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Models\\ApplicationRole.cs",
-              "RelativeToolTip": "PainelAdmin\\Models\\ApplicationRole.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T23:44:33.45Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "ContextMongodb.cs",
-              "DocumentMoniker": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Models\\ContextMongodb.cs",
-              "RelativeDocumentMoniker": "PainelAdmin\\Models\\ContextMongodb.cs",
-              "ToolTip": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Models\\ContextMongodb.cs",
-              "RelativeToolTip": "PainelAdmin\\Models\\ContextMongodb.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T23:38:49.362Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
               "Title": "UserController.cs",
-              "DocumentMoniker": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Controllers\\UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Victor\\Desktop\\pi\\PainelAdmin\\PainelAdmin\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "PainelAdmin\\Controllers\\UserController.cs",
-              "ToolTip": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Victor\\Desktop\\pi\\PainelAdmin\\PainelAdmin\\Controllers\\UserController.cs",
               "RelativeToolTip": "PainelAdmin\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAKIAAAAAAAAAAAAmwL4AAABtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T23:42:54.483Z",
+              "WhenOpened": "2025-05-20T01:44:44.895Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "PetsController.cs",
-              "DocumentMoniker": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Controllers\\PetsController.cs",
-              "RelativeDocumentMoniker": "PainelAdmin\\Controllers\\PetsController.cs",
-              "ToolTip": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Controllers\\PetsController.cs",
-              "RelativeToolTip": "PainelAdmin\\Controllers\\PetsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAARAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\Victor\\Desktop\\pi\\PainelAdmin\\PainelAdmin\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "PainelAdmin\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\Victor\\Desktop\\pi\\PainelAdmin\\PainelAdmin\\Models\\Usuario.cs",
+              "RelativeToolTip": "PainelAdmin\\Models\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T23:42:51.34Z",
+              "WhenOpened": "2025-05-20T01:44:22.101Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "PainelAdmin",
-              "DocumentMoniker": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\PainelAdmin.csproj",
-              "RelativeDocumentMoniker": "PainelAdmin\\PainelAdmin.csproj",
-              "ToolTip": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\PainelAdmin.csproj",
-              "RelativeToolTip": "PainelAdmin\\PainelAdmin.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-18T23:37:51.096Z",
-              "EditorCaption": ""
+              "DocumentIndex": 4,
+              "Title": "Noticia.cs",
+              "DocumentMoniker": "C:\\Users\\Victor\\Desktop\\pi\\PainelAdmin\\PainelAdmin\\Models\\Noticia.cs",
+              "RelativeDocumentMoniker": "PainelAdmin\\Models\\Noticia.cs",
+              "ToolTip": "C:\\Users\\Victor\\Desktop\\pi\\PainelAdmin\\PainelAdmin\\Models\\Noticia.cs",
+              "RelativeToolTip": "PainelAdmin\\Models\\Noticia.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T01:41:22.397Z"
             }
           ]
         }

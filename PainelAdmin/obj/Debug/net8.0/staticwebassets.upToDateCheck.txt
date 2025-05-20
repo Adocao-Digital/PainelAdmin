@@ -38,6 +38,8 @@ wwwroot\img\noticias\f72d9ee1-4136-42d5-817d-4514b6ae3b93.png
 wwwroot\img\noticias\fbefb6c7-905e-4576-9cc3-5606f59bbf3c.jpg
 wwwroot\img\olho.png
 wwwroot\img\perfil\3141868c-d192-4ee5-91ac-78ef580c527f.png
+wwwroot\img\perfil\6b775a70-7aab-444b-b1fa-5626fc3c800a.png
+wwwroot\img\perfil\6d87fe86-d536-4b4b-94dd-4e7d0bebd697.png
 wwwroot\img\perfil\8318d705-d716-49bc-908a-0decf947533f.webp
 wwwroot\img\perfil\a5318c51-3c56-426e-9e3c-5528e76de2ba.jpg
 wwwroot\img\perfil\cc9ada68-e20f-4ab0-8ca9-0b15a0705712.png

@@ -8374,23 +8374,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Jhonatan\\.nuget\\packages\\": {},
+    "C:\\Users\\Victor\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\PainelAdmin.csproj",
+      "projectUniqueName": "C:\\Users\\Victor\\Desktop\\pi\\PainelAdmin\\PainelAdmin\\PainelAdmin.csproj",
       "projectName": "PainelAdmin",
-      "projectPath": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\PainelAdmin.csproj",
-      "packagesPath": "C:\\Users\\Jhonatan\\.nuget\\packages\\",
-      "outputPath": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\obj\\",
+      "projectPath": "C:\\Users\\Victor\\Desktop\\pi\\PainelAdmin\\PainelAdmin\\PainelAdmin.csproj",
+      "packagesPath": "C:\\Users\\Victor\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Victor\\Desktop\\pi\\PainelAdmin\\PainelAdmin\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Jhonatan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Victor\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -8466,7 +8466,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

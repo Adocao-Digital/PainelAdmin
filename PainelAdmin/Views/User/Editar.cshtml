@@ -6,6 +6,17 @@
 <h2>Editar Usuário</h2>
 
 <form asp-action="Editar" method="post" enctype="multipart/form-data">
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    @* Trecho extra para debug, pode remover depois *@
+    @if (!ViewData.ModelState.IsValid)
+    {
+        <ul>
+            @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+            {
+                <li class="text-danger">@error.ErrorMessage</li>
+            }
+        </ul>
+    }
     <input type="hidden" asp-for="Id" />
     <input type="hidden" asp-for="Foto" /> <!-- Preserva a foto atual -->
 
@@ -51,7 +62,7 @@
     <!-- Upload de nova foto -->
     <div class="form-group">
         <label>Nova Foto</label>
-        <input type="file" name="NovaFoto" class="form-control" />
+        <input type="file" id="NovaFoto" name="NovaFoto" class="form-control" />
     </div>
 
     <h4>Endereço</h4>
