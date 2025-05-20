@@ -1,39 +1,45 @@
-﻿
-
-* {
+﻿* {
     box-sizing: border-box;
 }
 
-body{
-    margin-top:10vh;
+body {
+    margin-top: 5vh;
 }
+
+/* ===================== TABELAS ===================== */
 th, td {
     padding: 10px;
     text-align: center;
     vertical-align: middle;
 }
+
 th {
-    border: none; /* Remove bordas individuais */
+    border: none;
 }
+
 td {
     background-color: #fff;
 }
-    td a img {
+
+    td a img,
+    button img {
         width: 30px;
         height: 30px;
     }
+
     td a, th a {
         display: flex;
         justify-content: center;
         align-items: center;
         vertical-align: middle;
     }
+
 .col-acoes {
-    width: 18%; /* Ajuste conforme necessário */
+    width: 18%;
     text-align: center;
 }
 
-
+/* ===================== PERFIL ===================== */
 .ft-perfil {
     height: 40px;
     width: 40px;
@@ -50,7 +56,7 @@ li {
     align-content: center;
 }
 
-/* Informações do usuário */
+/* ===================== INFO DO USUÁRIO ===================== */
 .userInfo {
     font-size: 1.2em;
     font-weight: bold;
@@ -73,14 +79,15 @@ li {
         width: 60px;
         height: 60px;
         border-radius: 50%;
-        margin-top: 8px; /* espaço entre o texto e a imagem */
+        margin-top: 8px;
     }
+
 /* ===================== SIDEBAR ===================== */
 .sidebar {
     position: fixed;
-    top: 10vh; /* soma das alturas de .head1 + .head2 */
+    top: 13vh;
     left: 0;
-    width: 250px;
+    width: 34vh;
     height: calc(100vh - 10vh);
     padding-top: 10vh;
     background-color: #f8f9fa;
@@ -88,13 +95,12 @@ li {
     flex-direction: column;
     overflow-y: auto;
     border-right: 2px solid #ccc;
-    /* Esconde barra de rolagem, mas mantém rolagem funcional */
-    scrollbar-width: none; /* Firefox */
-    -ms-overflow-style: none; /* IE 10+ */
+    scrollbar-width: none;
+    -ms-overflow-style: none;
 }
 
     .sidebar::-webkit-scrollbar {
-        display: none; /* Chrome, Safari */
+        display: none;
     }
 
     .sidebar .nav-link {
@@ -113,15 +119,80 @@ li {
     margin-bottom: 30px;
 }
 
-/* ===================== CONTEÚDO ===================== */
-.content {
-    margin-left: 250px; /* mesma largura da sidebar */
-    padding: 20px;
-    padding-top: 100px; /* compensa os headers fixos */
+/* Sidebar responsiva */
+@media (max-width: 900px) {
+    .sidebar {
+        width: 180px;
+    }
+
+    .content {
+        margin-left: 0;
+    }
 }
 
+@media (max-width: 600px) {
+    .sidebar {
+        width: 70px;
+        padding-top: 5vh;
+    }
+
+    .content {
+        padding-top: 80px;
+    }
+
+    .sidebar .nav-link span,
+    .sidebar .nav-link p,
+    .sidebar .nav-link strong {
+        display: none;
+    }
+
+    .sidebar .nav-link {
+        justify-content: center;
+        padding: 25px 0;
+    }
+}
+
+/* ===================== CONTEÚDO ===================== */
+.content {
+    margin-left: 36vh;
+    padding: 20px;
+    padding-top: 100px;
+}
+
+/* ===================== MODAL ===================== */
+.modal {
+    top: 15vh;
+}
+
+.modal-header {
+    background-color: #91c041;
+    color: #fff;
+    font-size: 1.5em;
+}
+
+.modal-content {
+    border-radius: 3%;
+    border: 10px solid #91c041;
+}
+
+/* ===================== FORMULÁRIOS ===================== */
+.form-control {
+    background-color: #f1f0f6;
+}
+
+.btn-success {
+    border-radius: 30px;
+}
+
+/* ===================== LINKS E BARRA ===================== */
 .sair {
     padding: 0 25px;
+}
+
+thead {
+    background-color: #efefef;
+    border: 1px solid #cacaca;
+    border-collapse: collapse;
 }
 
 /* Remove hover de "Olá" */
@@ -130,14 +201,39 @@ li {
     cursor: default;
 }
 
-
-thead {
-    background-color: #efefef;
-    border: 1px solid #cacaca;
-    border-collapse: collapse;
+/* ===================== NAV ITEM COM ICONE EXTERNO ===================== */
+.nav-item {
+    position: relative; /* necessário para o botão ficar "sobre" */
+    display: flex;
+    align-items: center;
 }
 
-.btn-success {
-    border-radius: 30px;
+.nav-link {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    text-decoration: none;
+    color: #000;
 }
 
+    .nav-link img.notift {
+        margin-right: 8px;
+        width: 20px;
+        height: 20px;
+    }
+
+/* botão flutuando sobre a li */
+.mostrarNoticia {
+    position: absolute;
+    top: 25%;
+    right: 8px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    z-index: 10; /* fica acima de outros elementos */
+}
+
+    .mostrarNoticia:hover {
+        background-color: #e9ecef;
+        border-radius: 50%;
+    }

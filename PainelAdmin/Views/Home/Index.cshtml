@@ -4,18 +4,24 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
+    <h1 class="text-start mb-3">Página Inicial</h1>
 
     @if (!string.IsNullOrEmpty(foto))
     {
-        <div>
-            <img src="@Url.Content(foto)" alt="Foto do usuário" class="rounded-circle shadow" style="width: 150px; height: 150px; object-fit: cover;" />
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <img src="~/img/PessoaIcon.png" class="card-img-top" alt="Foto do usuário" style="width: 50px; height: 50px; object-fit: cover;" />
+				<h3>@User.Identity.Name</h3>
+                <h5 class="card-title">Tutores</h5>
+             
+            </div>
         </div>
     }
     else
     {
-        <p>Você não está logado ou não possui uma foto.</p>
+        <p>Você não está logado.</p>
     }
+
 
     <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>

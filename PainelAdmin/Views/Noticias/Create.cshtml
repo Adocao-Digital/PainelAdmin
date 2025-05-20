@@ -1,4 +1,4 @@
-﻿@model PainelAdmin.Models.ViewModels.CriarNoticiaViewModel
+﻿@model PainelAdmin.Models.Noticia
 
 @{
     ViewData["Title"] = "Create";
@@ -17,6 +17,7 @@
                 <input asp-for="Titulo" class="form-control" />
                 <span asp-validation-for="Titulo" class="text-danger"></span>
             </div>
+           
             <div class="form-group">
                 <label asp-for="Conteudo" class="control-label"></label>
                 <input asp-for="Conteudo" class="form-control" />
@@ -38,6 +39,10 @@
             </div>
         </form>
     </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
 </div>
 
 @section Scripts {

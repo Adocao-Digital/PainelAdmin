@@ -14,6 +14,7 @@
 	<link rel="stylesheet" href="~/css/style-header.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/style-index.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/site-custom.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
 
 
     <link rel="icon" type="image/x-icon" href="img/dogo-argentino.png">
@@ -59,20 +60,38 @@
             <li class="nav-item">
                 <a class="nav-link" asp-area="" asp-controller="Pets" asp-action="Index"><img src="~/img/coracao-de-pata.png" alt="Logo" class="petft">  Pets</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" asp-area="" asp-controller="Noticias" asp-action="NoticiasAntigas"><img src="~/img/jornal.png" alt="Logo" class="notift">  Ver notícias antigas</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" asp-area="" asp-controller="Noticias" asp-action="NoticiasAtuais"><img src="~/img/jornal.png" alt="Logo" class="notift">  Ver notícias atuais</a>
-            </li>
+
+         
             <li class="nav-item">
                 <a class="nav-link" asp-area="" asp-controller="User" asp-action="Index"><img src="~/img/do-utilizador.png" alt="Logo" class="usuft">  Usuários</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" asp-area="" asp-controller="Noticias" asp-action="Index">
+                    <img src="~/img/jornal.png" alt="Logo" class="notift" />
+                    Ver notícias
+                </a>
+                <img class="mostrarNoticia"
+                     src="~/img/angulo-pequeno-direito.png"
+                     data-bs-toggle="collapse"
+                     data-bs-target="#collapseExample"
+                     aria-expanded="false"
+                     aria-controls="collapseExample"
+                     onclick="alternarIcone()" />
+            </li>
+
+
+
+            
+
+
             @if (User.IsInRole("ADM"))
             {
-                <li class="nav-item">
+              
+                <li id="collapseExample" class="nav-item collapse">
                     <a class="nav-link" asp-area="" asp-controller="Noticias" asp-action="Create">Publique uma notícia</a>
                 </li>
+                   
+                
             }
                @if (User?.Identity?.IsAuthenticated ?? false)
             {

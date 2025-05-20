@@ -2,7 +2,6 @@
 .head1 {
     background-color: #91c041;
     height: 3vh;
-    z-index: 2000;
     position: fixed;
     top: 0;
     left: 0;
@@ -12,7 +11,7 @@
 .head2 {
     background-color: #f1f0f6;
     height: 12vh;
-    z-index: 2000;
+    z-index: 1; /* Certifique-se de que o cabeçalho esteja acima de outros elementos */
     position: fixed;
     top: 3vh;
     left: 0;
