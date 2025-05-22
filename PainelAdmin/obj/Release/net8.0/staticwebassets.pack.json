@@ -1,0 +1,437 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\PainelAdmin.bundle.scp.css",
+      "PackagePath": "staticwebassets\\PainelAdmin.y4xapp942m.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\css\\site-custom.css",
+      "PackagePath": "staticwebassets\\css\\site-custom.css"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\css\\style-header.css",
+      "PackagePath": "staticwebassets\\css\\style-header.css"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\css\\style-index.css",
+      "PackagePath": "staticwebassets\\css\\style-index.css"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\img\\2916624c-1a7a-48f0-a282-ce4b933dde9f.png",
+      "PackagePath": "staticwebassets\\img\\2916624c-1a7a-48f0-a282-ce4b933dde9f.png"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\img\\3366ff67-518d-489c-8b5f-b5564695a730.webp",
+      "PackagePath": "staticwebassets\\img\\3366ff67-518d-489c-8b5f-b5564695a730.webp"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\img\\35161d50-0a06-4292-8071-993d59b37d92.png",
+      "PackagePath": "staticwebassets\\img\\35161d50-0a06-4292-8071-993d59b37d92.png"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\img\\608abc76-abc8-48e0-9f0d-61ec350be020.png",
+      "PackagePath": "staticwebassets\\img\\608abc76-abc8-48e0-9f0d-61ec350be020.png"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\img\\70b86ef0-554d-44b8-b71f-3b1900ed82c2.png",
+      "PackagePath": "staticwebassets\\img\\70b86ef0-554d-44b8-b71f-3b1900ed82c2.png"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\img\\74054c1e-77b4-47f0-b528-11b2dd9da06c.png",
+      "PackagePath": "staticwebassets\\img\\74054c1e-77b4-47f0-b528-11b2dd9da06c.png"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\img\\7b1c49ba-3bc7-422b-84db-11a79e8b8b08.png",
+      "PackagePath": "staticwebassets\\img\\7b1c49ba-3bc7-422b-84db-11a79e8b8b08.png"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\img\\8e0e0339-eb90-427b-b2e2-6120e234c002.webp",
+      "PackagePath": "staticwebassets\\img\\8e0e0339-eb90-427b-b2e2-6120e234c002.webp"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\img\\animais1.avif",
+      "PackagePath": "staticwebassets\\img\\animais1.avif"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\img\\c393c029-2ffe-4f6a-9da4-74a9a11d53ce.png",
+      "PackagePath": "staticwebassets\\img\\c393c029-2ffe-4f6a-9da4-74a9a11d53ce.png"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\img\\cachorro2.webp",
+      "PackagePath": "staticwebassets\\img\\cachorro2.webp"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\img\\cachorro3.webp",
+      "PackagePath": "staticwebassets\\img\\cachorro3.webp"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\img\\cachorro4.webp",
+      "PackagePath": "staticwebassets\\img\\cachorro4.webp"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\img\\casa.png",
+      "PackagePath": "staticwebassets\\img\\casa.png"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\img\\coracao-de-pata.png",
+      "PackagePath": "staticwebassets\\img\\coracao-de-pata.png"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\img\\d5ae2ed9-0d38-4a37-9783-62ee41aea133.jpg",
+      "PackagePath": "staticwebassets\\img\\d5ae2ed9-0d38-4a37-9783-62ee41aea133.jpg"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\img\\ddc00cde-60b7-4b7b-b426-9771273712a4.png",
+      "PackagePath": "staticwebassets\\img\\ddc00cde-60b7-4b7b-b426-9771273712a4.png"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\img\\do-utilizador.png",
+      "PackagePath": "staticwebassets\\img\\do-utilizador.png"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\img\\dog-training.png",
+      "PackagePath": "staticwebassets\\img\\dog-training.png"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\img\\dogo-argentino.png",
+      "PackagePath": "staticwebassets\\img\\dogo-argentino.png"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\img\\e36acaac-1dff-4ebc-957a-b4a087ac20a7.png",
+      "PackagePath": "staticwebassets\\img\\e36acaac-1dff-4ebc-957a-b4a087ac20a7.png"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\img\\editar-arquivo.png",
+      "PackagePath": "staticwebassets\\img\\editar-arquivo.png"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\img\\gatoPreto.jfif",
+      "PackagePath": "staticwebassets\\img\\gatoPreto.jfif"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\img\\jornal.png",
+      "PackagePath": "staticwebassets\\img\\jornal.png"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\img\\lixeira-xmark.png",
+      "PackagePath": "staticwebassets\\img\\lixeira-xmark.png"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\img\\noticias\\05bfa03a-53a8-4a60-a5b9-06b77ed0727e.jpg",
+      "PackagePath": "staticwebassets\\img\\noticias\\05bfa03a-53a8-4a60-a5b9-06b77ed0727e.jpg"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\img\\noticias\\1e2b0928-79ec-4ece-afa5-73e1f1aa7dd5.jpg",
+      "PackagePath": "staticwebassets\\img\\noticias\\1e2b0928-79ec-4ece-afa5-73e1f1aa7dd5.jpg"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\img\\noticias\\2335577b-e734-4c09-a0c5-9660a904c0db.jpg",
+      "PackagePath": "staticwebassets\\img\\noticias\\2335577b-e734-4c09-a0c5-9660a904c0db.jpg"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\img\\noticias\\97816a3b-59a2-494c-ac6b-9e3677e29388.png",
+      "PackagePath": "staticwebassets\\img\\noticias\\97816a3b-59a2-494c-ac6b-9e3677e29388.png"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\img\\noticias\\985229cf-ed43-42d4-9105-6a20eacb4317.jpg",
+      "PackagePath": "staticwebassets\\img\\noticias\\985229cf-ed43-42d4-9105-6a20eacb4317.jpg"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\img\\noticias\\f72d9ee1-4136-42d5-817d-4514b6ae3b93.png",
+      "PackagePath": "staticwebassets\\img\\noticias\\f72d9ee1-4136-42d5-817d-4514b6ae3b93.png"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\img\\noticias\\fbefb6c7-905e-4576-9cc3-5606f59bbf3c.jpg",
+      "PackagePath": "staticwebassets\\img\\noticias\\fbefb6c7-905e-4576-9cc3-5606f59bbf3c.jpg"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\img\\olho.png",
+      "PackagePath": "staticwebassets\\img\\olho.png"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\img\\perfil\\3141868c-d192-4ee5-91ac-78ef580c527f.png",
+      "PackagePath": "staticwebassets\\img\\perfil\\3141868c-d192-4ee5-91ac-78ef580c527f.png"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\img\\perfil\\8318d705-d716-49bc-908a-0decf947533f.webp",
+      "PackagePath": "staticwebassets\\img\\perfil\\8318d705-d716-49bc-908a-0decf947533f.webp"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\img\\perfil\\a5318c51-3c56-426e-9e3c-5528e76de2ba.jpg",
+      "PackagePath": "staticwebassets\\img\\perfil\\a5318c51-3c56-426e-9e3c-5528e76de2ba.jpg"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\img\\perfil\\c85c4f0b-472c-4d56-a25c-252777757854.jpg",
+      "PackagePath": "staticwebassets\\img\\perfil\\c85c4f0b-472c-4d56-a25c-252777757854.jpg"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\img\\perfil\\cc9ada68-e20f-4ab0-8ca9-0b15a0705712.png",
+      "PackagePath": "staticwebassets\\img\\perfil\\cc9ada68-e20f-4ab0-8ca9-0b15a0705712.png"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.PainelAdmin.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.PainelAdmin.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.PainelAdmin.props",
+      "PackagePath": "build\\PainelAdmin.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.PainelAdmin.props",
+      "PackagePath": "buildMultiTargeting\\PainelAdmin.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.PainelAdmin.props",
+      "PackagePath": "buildTransitive\\PainelAdmin.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

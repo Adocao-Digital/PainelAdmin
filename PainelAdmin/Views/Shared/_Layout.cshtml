@@ -15,7 +15,6 @@
     <link rel="stylesheet" href="~/css/style-index.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/site-custom.css" asp-append-version="true" />
 
-
     <link rel="icon" type="image/x-icon" href="img/dogo-argentino.png">
 </head>
 <body>
@@ -36,12 +35,9 @@
                 var user = await UserManager.GetUserAsync(User);
 
                 <li class="nav-item no-hover userInfo">
-                    <img src="@user.Foto" alt="Foto do usuário" />
+                    <img src="~/@user.Foto" alt="Foto do usuário" />
                     <div class="username">Olá, @user.Nome</div>
                 </li>
-
-
- 
             }
             else
             {

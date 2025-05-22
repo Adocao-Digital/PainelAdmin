@@ -1,0 +1,143 @@
+﻿
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin-top:10vh;
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+th {
+    border: none; /* Remove bordas individuais */
+}
+td {
+    background-color: #fff;
+}
+    td a img {
+        width: 30px;
+        height: 30px;
+    }
+    td a, th a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        vertical-align: middle;
+    }
+.col-acoes {
+    width: 18%; /* Ajuste conforme necessário */
+    text-align: center;
+}
+
+
+.ft-perfil {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    align-items: center;
+}
+
+li img {
+    width: 8%;
+}
+
+li {
+    text-align: center;
+    align-content: center;
+}
+
+/* Informações do usuário */
+.userInfo {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+    .userInfo a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .userInfo img {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        margin-top: 8px; /* espaço entre o texto e a imagem */
+    }
+/* ===================== SIDEBAR ===================== */
+.sidebar {
+    position: fixed;
+    top: 10vh; /* soma das alturas de .head1 + .head2 */
+    left: 0;
+    width: 250px;
+    height: calc(100vh - 10vh);
+    padding-top: 10vh;
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    border-right: 2px solid #ccc;
+    /* Esconde barra de rolagem, mas mantém rolagem funcional */
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE 10+ */
+}
+
+    .sidebar::-webkit-scrollbar {
+        display: none; /* Chrome, Safari */
+    }
+
+    .sidebar .nav-link {
+        padding: 25px 20px;
+        text-align: left;
+        color: #333;
+        display: block;
+    }
+
+        .sidebar .nav-link:hover {
+            background-color: #e9ecef;
+            width: 100%;
+        }
+
+.sidebar-bottom {
+    margin-bottom: 30px;
+}
+
+/* ===================== CONTEÚDO ===================== */
+.content {
+    margin-left: 250px; /* mesma largura da sidebar */
+    padding: 20px;
+    padding-top: 100px; /* compensa os headers fixos */
+}
+
+.sair {
+    padding: 0 25px;
+}
+
+/* Remove hover de "Olá" */
+.no-hover .nav-link:hover {
+    background-color: inherit;
+    cursor: default;
+}
+
+
+thead {
+    background-color: #efefef;
+    border: 1px solid #cacaca;
+    border-collapse: collapse;
+}
+
+.btn-success {
+    border-radius: 30px;
+}
+
