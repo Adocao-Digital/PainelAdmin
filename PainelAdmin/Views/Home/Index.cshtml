@@ -8,12 +8,54 @@
 
     @if (!string.IsNullOrEmpty(foto))
     {
-        <div class="card" style="width: 18rem;">
-            <div class="card-body">
-                <img src="~/img/PessoaIcon.png" class="card-img-top" alt="Foto do usuário" style="width: 50px; height: 50px; object-fit: cover;" />
-				<h3>@User.Identity.Name</h3>
-                <h5 class="card-title">Tutores</h5>
-             
+        <div class="container">
+            <div class="row g-4">
+                <!-- Espaçamento entre os cards -->
+
+                <div class="col-md-6 col-lg-6">
+                    <div class="card h-100">
+                        <div class="card-body text-start">
+                            <img src="~/img/PessoaIcon.png" class="card-img-top mb-2" alt="Usuário"
+                                 style="width: 50px; height: 50px; object-fit: cover;" />
+                            <h3>52</h3>
+                            <h5 class="card-title">Tutores</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-6">
+                    <div class="card h-100">
+                        <div class="card-body text-start">
+                            <img src="~/img/FuncioIcon.png" class="card-img-top mb-2" alt="Funcionarios"
+                                 style="width: 50px; height: 50px; object-fit: cover;" />
+                            <h3>120</h3>
+                            <h5 class="card-title">Funcionarios</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-6">
+                    <div class="card h-100">
+                        <div class="card-body text-start">
+                            <img src="~/img/PetIcon (1).png" class="card-img-top mb-2" alt="PetsAdocao"
+                                 style="width: 50px; height: 50px; object-fit: cover;" />
+                            <h3>18</h3>
+                            <h5 class="card-title">Animais para adoção</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-6">
+                    <div class="card h-100">
+                        <div class="card-body text-start">
+                            <img src="~/img/VetIcon.png" class="card-img-top mb-2" alt="AnimaisTutores"
+                                 style="width: 50px; height: 50px; object-fit: cover;" />
+                            <h3>34</h3>
+                            <h5 class="card-title">Animais com tutores</h5>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     }
@@ -23,5 +65,4 @@
     }
 
 
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>

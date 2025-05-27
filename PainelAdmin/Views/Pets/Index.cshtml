@@ -33,11 +33,40 @@
                     }
                 </td>
                 <td class="col-acoes">
-                    <a class="btn btn-outline-secondary" asp-action="Edit" asp-route-id="@item.Pet.Id"><img src="~/img/editar-arquivo.png"/></a> |
-                    <button class="btn btn-outline-secondary olho" data-bs-toggle="modal" data-bs-target="#modal-@item.Pet.Id">
+                    <a class="btn btn-outline-secondary" asp-action="Edit" asp-route-id="@item.Pet.Id">
+                        <img src="~/img/editar-arquivo.png" />
+                    </a> |
+                    <button class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#modal-@item.Pet.Id">
                         <img src="~/img/olho.png" />
-                    </button>|
-                    <a class="btn btn-outline-secondary" asp-action="Delete" asp-route-id="@item.Pet.Id"><img src="~/img/lixeira-xmark.png" /></a>
+                    </button>
+                    |
+                    <button class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#deleteModal-@item.Pet.Id">
+                        <img src="~/img/lixeira-xmark.png" />
+                    </button>
+
+                
+                  
+
+                    <!-- Modal de Confirmação de Exclusão -->
+                    <div class="modal fade" id="deleteModal-@item.Pet.Id" tabindex="-1" aria-labelledby="deleteModalLabel-@item.Pet.Id" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header bg-danger text-white">
+                                    <h5 class="modal-title" id="deleteModalLabel-@item.Pet.Id">Confirmar Exclusão</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Tem certeza que deseja excluir o pet <strong>@item.Pet.Nome</strong>?
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                                    <form asp-action="Delete" asp-route-id="@item.Pet.Id" method="post" class="d-inline">
+                                        <button type="submit" class="btn btn-danger">Excluir</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <!-- Modal -->
                     <div class="modal fade" id="modal-@item.Pet.Id" tabindex="-1" aria-labelledby="modalLabel-@item.Pet.Id" aria-hidden="true">
                         <div class="modal-dialog">

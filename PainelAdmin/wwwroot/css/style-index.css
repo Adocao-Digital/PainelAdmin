@@ -82,6 +82,23 @@ li {
         margin-top: 8px;
     }
 
+@media (max-width: 600px) {
+    .userInfo {
+        flex-direction: row;
+        justify-content: flex-end;
+        padding-right: 10px;
+        text-align: right;
+    }
+
+        .userInfo img {
+            margin: 0;
+        }
+    .logo {
+        width: 120px; /* tamanho reduzido para mobile */
+    }
+      
+}
+
 /* ===================== SIDEBAR ===================== */
 .sidebar {
     position: fixed;
@@ -97,6 +114,7 @@ li {
     border-right: 2px solid #ccc;
     scrollbar-width: none;
     -ms-overflow-style: none;
+    transition: transform 0.3s ease;
 }
 
     .sidebar::-webkit-scrollbar {
@@ -107,7 +125,9 @@ li {
         padding: 25px 20px;
         text-align: left;
         color: #333;
-        display: block;
+        display: flex;
+        align-items: center;
+        gap: 10px;
     }
 
         .sidebar .nav-link:hover {
@@ -130,27 +150,8 @@ li {
     }
 }
 
-@media (max-width: 600px) {
-    .sidebar {
-        width: 70px;
-        padding-top: 5vh;
-    }
 
-    .content {
-        padding-top: 80px;
-    }
 
-    .sidebar .nav-link span,
-    .sidebar .nav-link p,
-    .sidebar .nav-link strong {
-        display: none;
-    }
-
-    .sidebar .nav-link {
-        justify-content: center;
-        padding: 25px 0;
-    }
-}
 
 /* ===================== CONTEÚDO ===================== */
 .content {
@@ -203,7 +204,7 @@ thead {
 
 /* ===================== NAV ITEM COM ICONE EXTERNO ===================== */
 .nav-item {
-    position: relative; /* necessário para o botão ficar "sobre" */
+    position: relative;
     display: flex;
     align-items: center;
 }
@@ -223,17 +224,66 @@ thead {
     }
 
 /* botão flutuando sobre a li */
-.mostrarNoticia {
-    position: absolute;
-    top: 25%;
-    right: 8px;
-    width: 30px;
-    height: 30px;
-    cursor: pointer;
-    z-index: 10; /* fica acima de outros elementos */
+.transition {
+    transition: transform 0.3s ease;
 }
 
-    .mostrarNoticia:hover {
-        background-color: #e9ecef;
-        border-radius: 50%;
+.rotate-180 {
+    transform: rotate(180deg);
+}
+
+.menu-toggle {
+    position: fixed;
+    top: 30px;
+    left: 15px;
+    z-index: 1050;
+    background-color: #fff;
+    border: none;
+    font-size: 24px;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+/* Sidebar padrão para desktop */
+.sidebar {
+    transition: transform 0.3s ease;
+}
+
+/* Oculta sidebar no mobile por padrão */
+@media (max-width: 768px) {
+    .sidebar {
+        transform: translateX(-100%);
+        width: 240px;
+        z-index: 1;
+        position: fixed;
+        top: 14vh;
+        height: calc(100% - 60px);
+        background-color: #f8f9fa;
+        border-right: 2px solid #ccc;
+        padding-top: 20px;
     }
+
+        .sidebar.show {
+            transform: translateX(0);
+        }
+
+    .content {
+        margin-left: 0 !important;
+        padding-top: 100px;
+    }
+}
+.modal .btn:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.modal-content {
+    border: none !important;
+    box-shadow: none !important;
+}
+.ModUsu {
+    width: 90vh;
+    max-width: 90vh;
+    margin: auto;
+    transform: translateX(-10%);
+}

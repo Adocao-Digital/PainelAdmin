@@ -10,17 +10,24 @@ document.querySelectorAll('.mostrarNoticia').forEach(icon => {
 
 let aberto = false;
 
-function alternarIcone() {
-    const seta = document.querySelector(".mostrarNoticia");
-
-    if (aberto) {
-        seta.src = "/img/angulo-pequeno-direito.png";
-    } else {
-        seta.src = "/img/angulo-pequeno-para-baixo (3).png";
-    }
-
-    aberto = !aberto;
+function alternarSeta() {
+    const seta = document.getElementById('setaNoticias');
+    seta.classList.toggle('rotate-180');
 }
+
+// Garante que se o collapse abrir por Bootstrap, a seta também vira
+document.addEventListener('DOMContentLoaded', function () {
+    const noticiasCollapse = document.getElementById('noticiasCollapse');
+    const seta = document.getElementById('setaNoticias');
+
+    noticiasCollapse.addEventListener('show.bs.collapse', function () {
+        seta.classList.add('rotate-180');
+    });
+
+    noticiasCollapse.addEventListener('hide.bs.collapse', function () {
+        seta.classList.remove('rotate-180');
+    });
+});
 
     function toggleSenha(inputId, button) {
         const input = document.getElementById(inputId);
@@ -35,4 +42,8 @@ function alternarIcone() {
     img.src = "/img/olho.png";
     img.alt = "Mostrar senha";
         }
+}
+function toggleSidebar() {
+    const sidebar = document.querySelector('.sidebar');
+    sidebar.classList.toggle('show');
 }

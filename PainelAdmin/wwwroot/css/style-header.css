@@ -3,6 +3,7 @@
     background-color: #91c041;
     height: 3vh;
     position: fixed;
+    z-index: 100;
     top: 0;
     left: 0;
     right: 0;
@@ -11,7 +12,7 @@
 .head2 {
     background-color: #f1f0f6;
     height: 12vh;
-    z-index: 1; /* Certifique-se de que o cabeçalho esteja acima de outros elementos */
+    z-index: 100; /* Certifique-se de que o cabeçalho esteja acima de outros elementos */
     position: fixed;
     top: 3vh;
     left: 0;
@@ -21,7 +22,9 @@
 }
 
     .head2 img {
-        padding-left: 20px;
+        position:fixed;
+        left: 10vh;
         width: 35vh;
-        height: 100%;
+        
     }
+
