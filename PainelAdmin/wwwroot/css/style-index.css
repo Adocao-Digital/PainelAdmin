@@ -287,3 +287,43 @@ thead {
     margin: auto;
     transform: translateX(-10%);
 }
+.custom-control {
+    background-color: #28a745; /* verde Bootstrap */
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+
+    .custom-control:hover {
+        background-color: #218838; /* verde mais escuro */
+    }
+
+    .custom-control .custom-arrow {
+        color: #fff;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+.carousel-control-prev {
+    left: 18%;
+}
+
+.carousel-control-next {
+    right: 15px;
+}
+
+.fixed-control {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.col-acoes img {
+    width: 30px;
+    height: 30px;
+}

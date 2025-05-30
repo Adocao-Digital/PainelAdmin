@@ -90,8 +90,13 @@
                                             <dd class="mb-0">
                                                 @if (!string.IsNullOrEmpty(usuario.Foto))
                                                 {
-                                                    <img src="~/@usuario.Foto" style="width: 150px; height: 150px; object-fit: cover;" />
+                                                    <img src="@usuario.Foto" style="width: 150px; height: 150px; " />
                                                 }
+                                                else
+                                                {
+                                                    <p>Sem foto</p>
+                                                }
+
                                             </dd>
                                         </div>
                                     </div>

@@ -2,83 +2,71 @@
 
 @{
     ViewData["Title"] = "Notícias";
+    var index = 0;
 }
 
-<h1>Notícias</h1>
+<h1>Notícias atuais</h1>
 
 <p class="text-end mb-3">
     <a class="btn btn-success" asp-action="Create">Nova Notícia</a>
 </p>
 
-<table class="table table-bordered">
-    <thead>
-        <tr>
-            <th>@Html.DisplayNameFor(model => model.Titulo)</th>
-            <th>@Html.DisplayNameFor(model => model.Conteudo)</th>
-            <th>Imagem</th>
-            <th>@Html.DisplayNameFor(model => model.DataPublicacao)</th>
-            <th>@Html.DisplayNameFor(model => model.NomeAutor)</th>
-            <th>Editado por</th>
-            <th class="col-acoes">Ações</th>
-        </tr>
-    </thead>
-    <tbody>
+<div id="carouselNoticias" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
         @foreach (var item in Model)
         {
-            <tr>
-                <td>@Html.DisplayFor(modelItem => item.Titulo)</td>
-                <td>@Html.DisplayFor(modelItem => item.Conteudo)</td>
-                <td>
-                    @if (!string.IsNullOrEmpty(item.Foto))
-                    {
-                        <img src="@Url.Content($"~/{item.Foto}")" alt="Imagem" style="max-width: 120px;" />
-                    }
-                    else
-                    {
-                        <span class="text-muted">Sem imagem</span>
-                    }
-                </td>
-                <td>@item.DataPublicacao?.ToString("dd/MM/yyyy HH:mm")</td>
-                <td>@Html.DisplayFor(modelItem => item.NomeAutor)</td>
-                <td>
-                    @if (!string.IsNullOrEmpty(item.NomeEditor))
-                    {
-                        <span>@item.NomeEditor</span>
-                    }
-                    else
-                    {
-                        <span class="text-muted">Não editado</span>
-                    }
-                </td>
-                <td class="col-acoes">
-                    <a class="btn btn-outline-secondary btn-sm me-1" asp-action="Edit" asp-route-id="@item.Id" title="Editar">
-                        <img src="~/img/editar-arquivo.png" alt="Editar" />
-                    </a>
-                    <button class="btn btn-outline-secondary olho" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                       <img src="~/img/olho.png" />
-                    </button>
-                    <a class="btn btn-outline-secondary btn-sm" asp-action="Delete" asp-route-id="@item.Id" title="Excluir">
-                        <img src="~/img/lixeira-xmark.png" alt="Excluir" />
-                    </a>
-                </td>
-            </tr>
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="carousel-item @(index == 0 ? "active" : "")">
+                <div class="card mx-auto" style="width: 90%; max-width: 1200px;">
+                    <div class="d-flex justify-content-between align-items-center p-2">
+                        <p class="card-text mb-0">
+                            <small class="text-muted">Publicado em: @item.DataPublicacao?.ToString("dd/MM/yyyy")</small>
+                        </p>
+                        <div class="col-acoes">
+                            <a class="btn btn-outline-secondary" asp-action="Edit" asp-route-id="@item.Id">
+                                <img src="~/img/editar-arquivo.png" /> 
+                            </a>
+                            |
+                            <button class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#deleteModal-@item.Id">
+                                <img src="~/img/lixeira-xmark.png" />
+                            </button>
+
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h2 class="card-title">@item.Titulo</h2>
+                        <p class="card-text">@item.Conteudo</p>
+                    </div>
+                    <img src="~/@item.Foto" class="card-img-top" alt="@item.Titulo" style="height: 400px; object-fit: cover;">
+                </div>
+            </div>
+            <div class="modal fade" id="deleteModal-@item.Id" tabindex="-1" aria-labelledby="deleteModalLabel-@item.Id" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
-                        <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <div class="modal-header bg-danger text-white">
+                            <h5 class="modal-title" id="deleteModalLabel-@item.Id">Confirmar Exclusão</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
                         </div>
                         <div class="modal-body">
-                            ...
+                            Tem certeza que deseja excluir a notícia <strong>@item.Titulo</strong>?
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                            <form asp-action="Delete" asp-route-id="@item.Id" method="post" class="d-inline">
+                                <button type="submit" class="btn btn-danger">Excluir</button>
+                            </form>
                         </div>
                     </div>
                 </div>
             </div>
+
+            index++;
         }
-    </tbody>
-</table>
+    </div>
+
+    <button class="carousel-control-prev custom-control fixed-control" type="button" data-bs-target="#carouselNoticias" data-bs-slide="prev">
+        <span class="custom-arrow">&larr;</span>
+    </button>
+    <button class="carousel-control-next custom-control fixed-control" type="button" data-bs-target="#carouselNoticias" data-bs-slide="next">
+        <span class="custom-arrow">&rarr;</span>
+    </button>
+</div>

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "hMMNAPnRXUFFFsLnEz3BGtoWCHNmQ9YbCmN3qz6LLZY=",
+  "Hash": "UuGzFQKlmB2a9kgKB/vsZgzUa8Dgafn2dyMG/6HFOtM=",
   "Source": "PainelAdmin",
   "BasePath": "_content/PainelAdmin",
   "Mode": "Default",
@@ -136,8 +136,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "lrap6tm0k4",
-      "Integrity": "P0Mw4bVNCR/ayMhB98dHn2qCg7oF1EFgY4/cCiFijkc=",
+      "Fingerprint": "te8lk6txky",
+      "Integrity": "1ZmGbJGO4nsq7nfV5CacKMg8Xe5WSqRoev0maOHqz/U=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\style-index.css"
@@ -960,6 +960,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\noticias\\985229cf-ed43-42d4-9105-6a20eacb4317.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\wwwroot\\img\\noticias\\b1bf6a5f-bc0f-4ba8-8d6b-e958cce3825f.png",
+      "SourceId": "PainelAdmin",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\wwwroot\\",
+      "BasePath": "_content/PainelAdmin",
+      "RelativePath": "img/noticias/b1bf6a5f-bc0f-4ba8-8d6b-e958cce3825f#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cpwizutzng",
+      "Integrity": "EEHMflx5UPdvfAWGV7bNcydXC1KSjoRfF268bEv5WBs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\noticias\\b1bf6a5f-bc0f-4ba8-8d6b-e958cce3825f.png"
     },
     {
       "Identity": "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\wwwroot\\img\\noticias\\ec2c6bac-641d-4640-9dd1-ace0a0d52cfe.webp",
@@ -2942,7 +2963,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5341"
+          "Value": "6064"
         },
         {
           "Name": "Content-Type",
@@ -2950,11 +2971,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"P0Mw4bVNCR/ayMhB98dHn2qCg7oF1EFgY4/cCiFijkc=\""
+          "Value": "\"1ZmGbJGO4nsq7nfV5CacKMg8Xe5WSqRoev0maOHqz/U=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 23 May 2025 13:32:33 GMT"
+          "Value": "Thu, 29 May 2025 12:11:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2964,12 +2985,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-P0Mw4bVNCR/ayMhB98dHn2qCg7oF1EFgY4/cCiFijkc="
+          "Value": "sha256-1ZmGbJGO4nsq7nfV5CacKMg8Xe5WSqRoev0maOHqz/U="
         }
       ]
     },
     {
-      "Route": "css/style-index.lrap6tm0k4.css",
+      "Route": "css/style-index.te8lk6txky.css",
       "AssetFile": "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\wwwroot\\css\\style-index.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2979,7 +3000,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5341"
+          "Value": "6064"
         },
         {
           "Name": "Content-Type",
@@ -2987,11 +3008,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"P0Mw4bVNCR/ayMhB98dHn2qCg7oF1EFgY4/cCiFijkc=\""
+          "Value": "\"1ZmGbJGO4nsq7nfV5CacKMg8Xe5WSqRoev0maOHqz/U=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 23 May 2025 13:32:33 GMT"
+          "Value": "Thu, 29 May 2025 12:11:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3001,7 +3022,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "lrap6tm0k4"
+          "Value": "te8lk6txky"
         },
         {
           "Name": "label",
@@ -3009,7 +3030,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-P0Mw4bVNCR/ayMhB98dHn2qCg7oF1EFgY4/cCiFijkc="
+          "Value": "sha256-1ZmGbJGO4nsq7nfV5CacKMg8Xe5WSqRoev0maOHqz/U="
         }
       ]
     },
@@ -6208,6 +6229,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-46BbNtSmKCFT0q6Scd+u4YpLueVyJA4FBVitA8dvheo="
+        }
+      ]
+    },
+    {
+      "Route": "img/noticias/b1bf6a5f-bc0f-4ba8-8d6b-e958cce3825f.cpwizutzng.png",
+      "AssetFile": "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\wwwroot\\img\\noticias\\b1bf6a5f-bc0f-4ba8-8d6b-e958cce3825f.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "386157"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EEHMflx5UPdvfAWGV7bNcydXC1KSjoRfF268bEv5WBs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 11:03:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cpwizutzng"
+        },
+        {
+          "Name": "label",
+          "Value": "img/noticias/b1bf6a5f-bc0f-4ba8-8d6b-e958cce3825f.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EEHMflx5UPdvfAWGV7bNcydXC1KSjoRfF268bEv5WBs="
+        }
+      ]
+    },
+    {
+      "Route": "img/noticias/b1bf6a5f-bc0f-4ba8-8d6b-e958cce3825f.png",
+      "AssetFile": "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\wwwroot\\img\\noticias\\b1bf6a5f-bc0f-4ba8-8d6b-e958cce3825f.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "386157"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EEHMflx5UPdvfAWGV7bNcydXC1KSjoRfF268bEv5WBs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 11:03:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EEHMflx5UPdvfAWGV7bNcydXC1KSjoRfF268bEv5WBs="
         }
       ]
     },

@@ -246,7 +246,7 @@ namespace PainelAdmin.Controllers
                 return RedirectToAction(nameof(NoticiasAtuais));
             }
 
-            return View(noticia);
+            return View("Edit", noticia);
         }
 
         // GET: Noticias/Delete/5

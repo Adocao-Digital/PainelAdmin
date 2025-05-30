@@ -1,4 +1,4 @@
-﻿@model PainelAdmin.Models.Noticia
+﻿@model PainelAdmin.Models.ViewModels.EditarNoticiaViewModel
 
 @{
     ViewData["Title"] = "Edit";
@@ -34,11 +34,7 @@
                 <span asp-validation-for="Foto" class="text-danger"></span>
             </div>
     
-            <div class="form-group">
-                <label asp-for="IdAutor" class="control-label"></label>
-                <input asp-for="IdAutor" class="form-control" />
-                <span asp-validation-for="IdAutor" class="text-danger"></span>
-            </div>
+          
             <div class="form-group">
 
                 <br />
