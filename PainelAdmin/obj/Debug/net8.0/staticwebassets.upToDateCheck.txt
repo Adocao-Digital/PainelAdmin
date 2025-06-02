@@ -9,6 +9,7 @@ wwwroot\img\35161d50-0a06-4292-8071-993d59b37d92.png
 wwwroot\img\608abc76-abc8-48e0-9f0d-61ec350be020.png
 wwwroot\img\70b86ef0-554d-44b8-b71f-3b1900ed82c2.png
 wwwroot\img\74054c1e-77b4-47f0-b528-11b2dd9da06c.png
+wwwroot\img\757ad543-7f46-4022-b208-65e84251e006.jpeg
 wwwroot\img\7b1c49ba-3bc7-422b-84db-11a79e8b8b08.png
 wwwroot\img\8e0e0339-eb90-427b-b2e2-6120e234c002.webp
 wwwroot\img\animais1.avif
@@ -31,6 +32,7 @@ wwwroot\img\lixeira-xmark.png
 wwwroot\img\logo.png
 wwwroot\img\noticias\05bfa03a-53a8-4a60-a5b9-06b77ed0727e.jpg
 wwwroot\img\noticias\1e2b0928-79ec-4ece-afa5-73e1f1aa7dd5.jpg
+wwwroot\img\noticias\20942c65-ae3e-4f88-b498-8c2c479bd77d.jpg
 wwwroot\img\noticias\2335577b-e734-4c09-a0c5-9660a904c0db.jpg
 wwwroot\img\noticias\97816a3b-59a2-494c-ac6b-9e3677e29388.png
 wwwroot\img\noticias\985229cf-ed43-42d4-9105-6a20eacb4317.jpg
@@ -42,6 +44,7 @@ wwwroot\img\perfil\6b775a70-7aab-444b-b1fa-5626fc3c800a.png
 wwwroot\img\perfil\6d87fe86-d536-4b4b-94dd-4e7d0bebd697.png
 wwwroot\img\perfil\8318d705-d716-49bc-908a-0decf947533f.webp
 wwwroot\img\perfil\a5318c51-3c56-426e-9e3c-5528e76de2ba.jpg
+wwwroot\img\perfil\a74c6515-0b60-4c0d-900f-af14c401a4a3.jpg
 wwwroot\img\perfil\cc9ada68-e20f-4ab0-8ca9-0b15a0705712.png
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css

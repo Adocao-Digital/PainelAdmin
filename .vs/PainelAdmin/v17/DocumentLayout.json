@@ -1,26 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Victor\\Desktop\\pi\\PainelAdmin\\",
+  "WorkspaceRootPath": "C:\\Users\\Victor\\Desktop\\clone\\PainelAdmin\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\victor\\desktop\\pi\\paineladmin\\paineladmin\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\victor\\desktop\\clone\\paineladmin\\paineladmin\\controllers\\petscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\controllers\\petscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\victor\\desktop\\pi\\paineladmin\\paineladmin\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\victor\\desktop\\clone\\paineladmin\\paineladmin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\victor\\desktop\\pi\\paineladmin\\paineladmin\\models\\viewmodels\\editarusuarioviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\models\\viewmodels\\editarusuarioviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\victor\\desktop\\pi\\paineladmin\\paineladmin\\views\\user\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\user\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\victor\\desktop\\pi\\paineladmin\\paineladmin\\models\\noticia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\models\\noticia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\victor\\desktop\\clone\\paineladmin\\paineladmin\\views\\pets\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\pets\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -51,66 +43,39 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "EditarUsuarioViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Victor\\Desktop\\pi\\PainelAdmin\\PainelAdmin\\Models\\ViewModels\\EditarUsuarioViewModel.cs",
-              "RelativeDocumentMoniker": "PainelAdmin\\Models\\ViewModels\\EditarUsuarioViewModel.cs",
-              "ToolTip": "C:\\Users\\Victor\\Desktop\\pi\\PainelAdmin\\PainelAdmin\\Models\\ViewModels\\EditarUsuarioViewModel.cs",
-              "RelativeToolTip": "PainelAdmin\\Models\\ViewModels\\EditarUsuarioViewModel.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAASwDAAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T02:04:07.445Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Editar.cshtml",
-              "DocumentMoniker": "C:\\Users\\Victor\\Desktop\\pi\\PainelAdmin\\PainelAdmin\\Views\\User\\Editar.cshtml",
-              "RelativeDocumentMoniker": "PainelAdmin\\Views\\User\\Editar.cshtml",
-              "ToolTip": "C:\\Users\\Victor\\Desktop\\pi\\PainelAdmin\\PainelAdmin\\Views\\User\\Editar.cshtml",
-              "RelativeToolTip": "PainelAdmin\\Views\\User\\Editar.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Victor\\Desktop\\clone\\PainelAdmin\\PainelAdmin\\Views\\Pets\\Index.cshtml",
+              "RelativeDocumentMoniker": "PainelAdmin\\Views\\Pets\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Victor\\Desktop\\clone\\PainelAdmin\\PainelAdmin\\Views\\Pets\\Index.cshtml",
+              "RelativeToolTip": "PainelAdmin\\Views\\Pets\\Index.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAADQAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-20T02:01:59.645Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\Victor\\Desktop\\pi\\PainelAdmin\\PainelAdmin\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "PainelAdmin\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\Victor\\Desktop\\pi\\PainelAdmin\\PainelAdmin\\Controllers\\UserController.cs",
-              "RelativeToolTip": "PainelAdmin\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAKIAAAAAAAAAAAAmwL4AAABtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T01:44:44.895Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T19:55:09.254Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\Victor\\Desktop\\pi\\PainelAdmin\\PainelAdmin\\Models\\Usuario.cs",
-              "RelativeDocumentMoniker": "PainelAdmin\\Models\\Usuario.cs",
-              "ToolTip": "C:\\Users\\Victor\\Desktop\\pi\\PainelAdmin\\PainelAdmin\\Models\\Usuario.cs",
-              "RelativeToolTip": "PainelAdmin\\Models\\Usuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T01:44:22.101Z",
-              "EditorCaption": ""
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Victor\\Desktop\\clone\\PainelAdmin\\PainelAdmin\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "PainelAdmin\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Victor\\Desktop\\clone\\PainelAdmin\\PainelAdmin\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "PainelAdmin\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T19:28:47.842Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Noticia.cs",
-              "DocumentMoniker": "C:\\Users\\Victor\\Desktop\\pi\\PainelAdmin\\PainelAdmin\\Models\\Noticia.cs",
-              "RelativeDocumentMoniker": "PainelAdmin\\Models\\Noticia.cs",
-              "ToolTip": "C:\\Users\\Victor\\Desktop\\pi\\PainelAdmin\\PainelAdmin\\Models\\Noticia.cs",
-              "RelativeToolTip": "PainelAdmin\\Models\\Noticia.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAASAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "PetsController.cs",
+              "DocumentMoniker": "C:\\Users\\Victor\\Desktop\\clone\\PainelAdmin\\PainelAdmin\\Controllers\\PetsController.cs",
+              "RelativeDocumentMoniker": "PainelAdmin\\Controllers\\PetsController.cs",
+              "ToolTip": "C:\\Users\\Victor\\Desktop\\clone\\PainelAdmin\\PainelAdmin\\Controllers\\PetsController.cs",
+              "RelativeToolTip": "PainelAdmin\\Controllers\\PetsController.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAjwB4AAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T01:41:22.397Z"
+              "WhenOpened": "2025-06-02T19:22:49.27Z",
+              "EditorCaption": ""
             }
           ]
         }

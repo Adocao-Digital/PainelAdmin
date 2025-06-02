@@ -28,6 +28,7 @@ namespace PainelAdmin.Controllers
         public async Task<IActionResult> Index()
         {
             var pets = await _context.Pet.Find(_ => true).ToListAsync();
+            var contador = await _context.Pet.CountDocumentsAsync(_ => true);
 
             var lista = new List<PetComDonoViewModel>();
 
@@ -40,7 +41,7 @@ namespace PainelAdmin.Controllers
                     NomeDono = dono?.Nome ?? "Desconhecido"
                 });
             }
-
+            ViewBag.ContadorPet = contador;
             return View(lista);
         }
 
@@ -180,7 +181,6 @@ namespace PainelAdmin.Controllers
 
             return RedirectToAction(nameof(Index));
         }
-
         private bool PetExists(Guid id)
         {
             return _context.Pet.Find(e => e.Id == id).Any();
