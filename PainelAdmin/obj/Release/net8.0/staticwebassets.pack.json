@@ -141,6 +141,10 @@
       "PackagePath": "staticwebassets\\img\\noticias\\2335577b-e734-4c09-a0c5-9660a904c0db.jpg"
     },
     {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\img\\noticias\\945f25e8-3464-45dc-9422-69afd0eb8b31.jpg",
+      "PackagePath": "staticwebassets\\img\\noticias\\945f25e8-3464-45dc-9422-69afd0eb8b31.jpg"
+    },
+    {
       "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\img\\noticias\\97816a3b-59a2-494c-ac6b-9e3677e29388.png",
       "PackagePath": "staticwebassets\\img\\noticias\\97816a3b-59a2-494c-ac6b-9e3677e29388.png"
     },
@@ -163,6 +167,14 @@
     {
       "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\img\\perfil\\3141868c-d192-4ee5-91ac-78ef580c527f.png",
       "PackagePath": "staticwebassets\\img\\perfil\\3141868c-d192-4ee5-91ac-78ef580c527f.png"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\img\\perfil\\338f616a-a173-4ddd-8bb8-67300262acac.jpg",
+      "PackagePath": "staticwebassets\\img\\perfil\\338f616a-a173-4ddd-8bb8-67300262acac.jpg"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\img\\perfil\\43389de6-e908-4ef6-bbfb-641dbbc3e0a3.jpg",
+      "PackagePath": "staticwebassets\\img\\perfil\\43389de6-e908-4ef6-bbfb-641dbbc3e0a3.jpg"
     },
     {
       "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\img\\perfil\\8318d705-d716-49bc-908a-0decf947533f.webp",

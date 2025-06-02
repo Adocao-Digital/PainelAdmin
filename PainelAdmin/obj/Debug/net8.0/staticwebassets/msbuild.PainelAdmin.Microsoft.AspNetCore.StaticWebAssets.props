@@ -612,6 +612,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\noticias\2335577b-e734-4c09-a0c5-9660a904c0db.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\noticias\945f25e8-3464-45dc-9422-69afd0eb8b31.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>PainelAdmin</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/PainelAdmin</BasePath>
+      <RelativePath>img/noticias/945f25e8-3464-45dc-9422-69afd0eb8b31.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>j4kg350vsu</Fingerprint>
+      <Integrity>46BbNtSmKCFT0q6Scd+u4YpLueVyJA4FBVitA8dvheo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\noticias\945f25e8-3464-45dc-9422-69afd0eb8b31.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\noticias\97816a3b-59a2-494c-ac6b-9e3677e29388.png'))">
       <SourceType>Package</SourceType>
       <SourceId>PainelAdmin</SourceId>
@@ -738,6 +756,42 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\perfil\338f616a-a173-4ddd-8bb8-67300262acac.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\perfil\43389de6-e908-4ef6-bbfb-641dbbc3e0a3.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>PainelAdmin</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/PainelAdmin</BasePath>
+      <RelativePath>img/perfil/43389de6-e908-4ef6-bbfb-641dbbc3e0a3.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>j4kg350vsu</Fingerprint>
+      <Integrity>46BbNtSmKCFT0q6Scd+u4YpLueVyJA4FBVitA8dvheo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\perfil\43389de6-e908-4ef6-bbfb-641dbbc3e0a3.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\perfil\534fac02-a1af-40f3-bf9d-fa2a7abe03f5.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>PainelAdmin</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/PainelAdmin</BasePath>
+      <RelativePath>img/perfil/534fac02-a1af-40f3-bf9d-fa2a7abe03f5.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>j4kg350vsu</Fingerprint>
+      <Integrity>46BbNtSmKCFT0q6Scd+u4YpLueVyJA4FBVitA8dvheo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\perfil\534fac02-a1af-40f3-bf9d-fa2a7abe03f5.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\perfil\8318d705-d716-49bc-908a-0decf947533f.webp'))">
       <SourceType>Package</SourceType>
       <SourceId>PainelAdmin</SourceId>
@@ -756,6 +810,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\perfil\8318d705-d716-49bc-908a-0decf947533f.webp'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\perfil\92d9a9fe-02d0-4459-807e-faae4204cc99.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>PainelAdmin</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/PainelAdmin</BasePath>
+      <RelativePath>img/perfil/92d9a9fe-02d0-4459-807e-faae4204cc99.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>vzyjxkxtsx</Fingerprint>
+      <Integrity>6xj/MmUxfQ48qJfgZbrLo3rLwJBk9DgINihWT1+3GzA=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\perfil\92d9a9fe-02d0-4459-807e-faae4204cc99.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\perfil\a5318c51-3c56-426e-9e3c-5528e76de2ba.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>PainelAdmin</SourceId>
@@ -773,6 +845,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\perfil\a5318c51-3c56-426e-9e3c-5528e76de2ba.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\perfil\b9bf15a3-e914-4461-96eb-0a22e9b6f7bc.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>PainelAdmin</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/PainelAdmin</BasePath>
+      <RelativePath>img/perfil/b9bf15a3-e914-4461-96eb-0a22e9b6f7bc.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>j75kg139gr</Fingerprint>
+      <Integrity>oYRT59B6gELbd1Dzx/2V62S/8vuNPOh7N50S/YHTnPI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\perfil\b9bf15a3-e914-4461-96eb-0a22e9b6f7bc.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\perfil\c85c4f0b-472c-4d56-a25c-252777757854.jpg'))">
       <SourceType>Package</SourceType>

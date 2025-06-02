@@ -30,6 +30,7 @@ namespace PainelAdmin.Controllers
 
 
         // GET: Noticias Atuais - mostra as 3 últimas criadas
+        [Authorize]
         public async Task<IActionResult> NoticiasAtuais()
         {
             var noticias = await _context.Noticia

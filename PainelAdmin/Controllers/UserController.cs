@@ -3,6 +3,8 @@ using PainelAdmin.Models.ViewModels;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using MongoDB.Driver;
+using PainelAdmin.api;
+using Microsoft.AspNetCore.Authorization;
 
 namespace PainelAdmin.Controllers
 {
@@ -125,6 +127,7 @@ namespace PainelAdmin.Controllers
             return View(model);
         }
 
+        [Authorize]
         public async Task<IActionResult> Editar(string id)
         {
             var usuario = await _userManager.FindByIdAsync(id);
@@ -165,7 +168,6 @@ namespace PainelAdmin.Controllers
 
             return View(viewModel);
         }
-
 
         [HttpPost]
         public async Task<IActionResult> Editar(EditarUsuarioViewModel model, IFormFile NovaFoto)
@@ -236,9 +238,6 @@ namespace PainelAdmin.Controllers
             TempData["MensagemSucesso"] = "Usuário atualizado com sucesso!";
             return RedirectToAction("Index");
         }
-
-
-
 
         public async Task<IActionResult> Index()
         {

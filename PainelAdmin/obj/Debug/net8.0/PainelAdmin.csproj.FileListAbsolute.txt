@@ -277,3 +277,4 @@ D:\CCZ\PainelAdmin\PainelAdmin\obj\Debug\net8.0\refint\PainelAdmin.dll
 D:\CCZ\PainelAdmin\PainelAdmin\obj\Debug\net8.0\PainelAdmin.pdb
 D:\CCZ\PainelAdmin\PainelAdmin\obj\Debug\net8.0\PainelAdmin.genruntimeconfig.cache
 D:\CCZ\PainelAdmin\PainelAdmin\obj\Debug\net8.0\ref\PainelAdmin.dll
+D:\CCZ\PainelAdmin\PainelAdmin\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
