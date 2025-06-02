@@ -1,43 +1,47 @@
 ﻿@model PainelAdmin.Models.ViewModels.CriarNoticiaViewModel
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Nova Notícia";
 }
 
-<h1>Create</h1>
+<link rel="stylesheet" href="~/css/noticia.css" />
 
-<h4>Noticia</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Create" enctype="multipart/form-data">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="Titulo" class="control-label"></label>
-                <input asp-for="Titulo" class="form-control" />
-                <span asp-validation-for="Titulo" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Conteudo" class="control-label"></label>
-                <input asp-for="Conteudo" class="form-control" />
-                <span asp-validation-for="Conteudo" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Foto"></label>
-                <input asp-for="Foto" type="file" class="form-control" />
-                <span asp-validation-for="Foto" class="text-danger" onchange="previewImage(event)"></span>
-            </div>
-            <div class="form-group">
-                <br />
-                <div class="mb-3">
-                    <img id="imagePreview" src="#" alt="Imagem Preview" style="display: none; width: 100px; height: 100px; object-fit: cover;" />
-                </div>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
-        </form>
+<div class="conteudo">
+    <div class="topo">
+        <h1>Nova notícia</h1>
+        <a class="voltar" href="/Noticias/NoticiasAntigas">← Voltar</a>
     </div>
+
+    <form asp-action="Create" enctype="multipart/form-data" class="form-noticia">
+        <div class="form-group">
+            <label asp-for="Titulo">Título</label>
+            <input asp-for="Titulo" class="form-control" />
+            <span asp-validation-for="Titulo" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Conteudo">Texto</label>
+            <textarea asp-for="Conteudo" class="form-control textarea-grande"></textarea>
+            <span asp-validation-for="Conteudo" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Foto">Imagem</label>
+            <input asp-for="Foto" type="file" class="form-control" onchange="previewImage(event)" />
+            <span asp-validation-for="Foto" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label>Pré-visualização</label>
+            <div class="preview-container">
+                <img id="imagePreview" src="#" alt="Imagem Preview" style="display:none;" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <button type="submit" class="btn-salvar">Salvar</button>
+        </div>
+    </form>
 </div>
 
 @section Scripts {
@@ -51,7 +55,8 @@
         reader.onload = function () {
             var output = document.getElementById('imagePreview');
             output.src = reader.result;
-            output.style.display = 'block';             }
+            output.style.display = 'block';
+        }
         reader.readAsDataURL(event.target.files[0]);
     }
 </script>

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0n4d2H1DnRU=",
+  "dgSpecHash": "bX8rebQNV8c=",
   "success": true,
-  "projectFilePath": "C:\\Users\\leopa\\OneDrive\\Área de Trabalho\\Git\\PainelAdmin\\PainelAdmin\\PainelAdmin.csproj",
+  "projectFilePath": "C:\\Users\\leopa\\OneDrive\\Área de Trabalho\\PainelAdmin-Leonardo\\PainelAdmin\\PainelAdmin.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\leopa\\.nuget\\packages\\aspnetcore.identity.mongodbcore\\3.1.2\\aspnetcore.identity.mongodbcore.3.1.2.nupkg.sha512",
     "C:\\Users\\leopa\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",

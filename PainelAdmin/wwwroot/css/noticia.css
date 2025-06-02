@@ -1,0 +1,84 @@
+﻿body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fafafa;
+}
+
+.conteudo {
+    padding: 40px;
+}
+
+.topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    .topo h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 5px;
+    margin-left: 25px;
+    margin-top: 10px;
+    }
+
+
+    .topo .voltar {
+        color: green;
+        text-decoration: none;
+        font-size: 1.4rem;
+    }
+
+.form-noticia {
+    margin-top: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px 14px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.textarea-grande {
+    height: 200px;
+    resize: none;
+}
+
+.preview-container {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #fff;
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .preview-container img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+
+.btn-salvar {
+    background-color: #2e7d32;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+    .btn-salvar:hover {
+        background-color: #1b5e20;
+    }

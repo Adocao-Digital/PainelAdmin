@@ -1,0 +1,67 @@
+﻿.modal-custom {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.modal-content-custom {
+    background-color: #fff;
+    border-radius: 10px;
+    width: 350px;
+    height: 180px; /* Aumentado para refletir a imagem */
+    padding: 25px 20px;
+    position: relative;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Texto da modal */
+.texto-modal {
+    font-size: 15px;
+    font-weight: 600;
+    color: #000;
+    margin: 0;
+    text-align: left;
+    line-height: 1.4;
+}
+
+/* Container dos botões */
+.botoes-modal {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+/* Botão "Não" */
+.btn-cancelar {
+    background-color: #a90000;
+    color: white;
+    border: none;
+    padding: 6px 18px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* Botão "Sim" */
+.btn-confirmar {
+    background-color: #97c146;
+    color: white;
+    border: none;
+    padding: 6px 18px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+}

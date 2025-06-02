@@ -1,3 +1,5 @@
+wwwroot\css\modal-confirmacao.css
+wwwroot\css\noticia.css
 wwwroot\css\site.css
 wwwroot\css\site-custom.css
 wwwroot\css\style-header.css
@@ -29,11 +31,15 @@ wwwroot\img\gatoPreto.jfif
 wwwroot\img\jornal.png
 wwwroot\img\lixeira-xmark.png
 wwwroot\img\logo.png
+wwwroot\img\noticias\0105156b-e7d7-4416-9e6b-3762f149cf0f.png
 wwwroot\img\noticias\05bfa03a-53a8-4a60-a5b9-06b77ed0727e.jpg
 wwwroot\img\noticias\1e2b0928-79ec-4ece-afa5-73e1f1aa7dd5.jpg
 wwwroot\img\noticias\2335577b-e734-4c09-a0c5-9660a904c0db.jpg
+wwwroot\img\noticias\74ff9f2e-5381-46cd-8545-b49ab4ebdd67.png
 wwwroot\img\noticias\97816a3b-59a2-494c-ac6b-9e3677e29388.png
 wwwroot\img\noticias\985229cf-ed43-42d4-9105-6a20eacb4317.jpg
+wwwroot\img\noticias\a8e97dc4-59fc-43b0-9bb7-45dcb1cfe533.png
+wwwroot\img\noticias\e4a65238-28b3-4a0b-a3a3-c71a23e09cbb.png
 wwwroot\img\noticias\f72d9ee1-4136-42d5-817d-4514b6ae3b93.png
 wwwroot\img\noticias\fbefb6c7-905e-4576-9cc3-5606f59bbf3c.jpg
 wwwroot\img\olho.png

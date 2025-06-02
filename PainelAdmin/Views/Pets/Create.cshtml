@@ -1,52 +1,38 @@
 ﻿@model PainelAdmin.Models.Pet
 
 @{
-    ViewData["Title"] = "Cadastrar Pet";
+    ViewData["Title"] = "Novo Animal";
 }
 
-<h2 class="titulo-usuario">@ViewData["Title"]</h2>
-
 <a asp-action="Index" class="text-success voltar" style="float: right; text-decoration: none;">← Voltar</a>
+<h2>@ViewData["Title"]</h2>
 
 <form asp-action="Create" method="post" enctype="multipart/form-data">
     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
     <div class="form-row">
         <div class="form-group form-col">
-            <label asp-for="Nome" class="label-custom"></label>
+            <label asp-for="Nome" class="label-custom">Nome *</label>
             <input asp-for="Nome" class="form-control campo-tamanho" />
             <span asp-validation-for="Nome" class="text-danger"></span>
         </div>
 
         <div class="form-group form-col">
-            <label asp-for="Idade" class="label-custom"></label>
-            <input asp-for="Idade" class="form-control campo-tamanho" />
-            <span asp-validation-for="Idade" class="text-danger"></span>
-        </div>
-    </div>
-
-    <div class="form-row">
-        <div class="form-group form-col">
-            <label asp-for="Especie" class="label-custom"></label>
+            <label asp-for="Especie" class="label-custom">Espécie *</label>
             <input asp-for="Especie" class="form-control campo-tamanho" />
             <span asp-validation-for="Especie" class="text-danger"></span>
         </div>
-
-        <div class="form-group form-col">
-            <label asp-for="Raca" class="label-custom"></label>
-            <input asp-for="Raca" class="form-control campo-tamanho" />
-            <span asp-validation-for="Raca" class="text-danger"></span>
-        </div>
     </div>
 
     <div class="form-row">
         <div class="form-group form-col">
-            <label asp-for="Cor" class="label-custom"></label>
-            <input asp-for="Cor" class="form-control campo-tamanho" />
-            <span asp-validation-for="Cor" class="text-danger"></span>
+            <label asp-for="Idade" class="label-custom">Idade</label>
+            <input asp-for="Idade" class="form-control campo-tamanho" />
+            <span asp-validation-for="Idade" class="text-danger"></span>
         </div>
+
         <div class="form-group form-col">
-            <label asp-for="Porte" class="label-custom"></label>
+            <label asp-for="Porte" class="label-custom">Porte *</label>
             <select asp-for="Porte" class="form-control campo-tamanho">
                 <option value="">Selecione</option>
                 <option>Pequeno</option>
@@ -57,7 +43,7 @@
         </div>
 
         <div class="form-group form-col">
-            <label asp-for="Sexo" class="label-custom"></label>
+            <label asp-for="Sexo" class="label-custom">Sexo</label>
             <select asp-for="Sexo" class="form-control campo-tamanho">
                 <option value="">Selecione</option>
                 <option>Macho</option>
@@ -67,38 +53,27 @@
         </div>
     </div>
 
-    <input type="hidden" asp-for="Situacao" value="@Model.Situacao" />
-
     <div class="form-row">
         <div class="form-group form-col">
-            <label class="label-custom">Imagem do Pet</label>
-            <input class="form-control campo-tamanho" type="file" name="Imagem" accept="image/*" onchange="previewImage(event)" />
+            <label asp-for="Situacao" class="label-custom">Status *</label>
+            <select asp-for="Situacao" class="form-control campo-tamanho">
+                <option value="">Selecione</option>
+                <option>Disponível</option>
+                <option>Adotado</option>
+                <option>Em tratamento</option>
+            </select>
+            <span asp-validation-for="Situacao" class="text-danger"></span>
+        </div>
+
+        <div class="form-group form-col">
+            <label class="label-custom">Tutor</label>
+            <input class="form-control campo-tamanho"/>
         </div>
     </div>
 
-    <div class="form-row">
-        <div class="form-group form-col">
-            <img id="imagePreview" src="#" alt="Pré-visualização" style="display: none; width: 100px; height: 100px; object-fit: cover;" />
-        </div>
-    </div>
-
-    <br />
-    <button type="submit" class="btn btn-primary">Cadastrar</button>
+    <button type="submit" class="btn btn-primary">Salvar</button>
 </form>
 
 @section Scripts {
     @Html.Partial("_ValidationScriptsPartial")
 }
-
-    <script>
-        function previewImage(event) {
-            var reader = new FileReader();
-            reader.onload = function () {
-                var output = document.getElementById('imagePreview');
-                output.src = reader.result;
-                output.style.display = 'block';
-            };
-            reader.readAsDataURL(event.target.files[0]);
-        }
-    </script>
-

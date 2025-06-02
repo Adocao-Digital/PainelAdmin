@@ -122,7 +122,7 @@
 <!-- Modal de Confirmação -->
 <div id="modalConfirmacao" class="modal-custom">
     <div class="modal-content-custom">
-        <p class="texto-modal">Tem certeza que deseja salvar as alterações?</p>
+        <p class="texto-modal">Tem certeza que deseja salvar as<br />alterações?</p>
         <div class="botoes-modal">
             <button class="btn-cancelar" onclick="fecharModal()">Não</button>
             <button class="btn-confirmar" onclick="enviarFormulario()">Sim</button>
@@ -130,11 +130,13 @@
     </div>
 </div>
 
+
+
 @section Scripts {
     @Html.Partial("_ValidationScriptsPartial")
 
     <script>
-        function abrirModal() {
+               function abrirModal() {
             document.getElementById("modalConfirmacao").style.display = "flex";
         }
 
@@ -148,5 +150,6 @@
             confirmarBtn.textContent = 'Salvando...';
             document.getElementById("form-editar").submit();
         }
+
     </script>
 }
