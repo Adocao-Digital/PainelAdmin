@@ -3,43 +3,30 @@ using Microsoft.AspNetCore.Mvc;
 using PainelAdmin.Models;
 using Microsoft.AspNetCore.Identity;
 
-namespace PainelAdmin.Controllers;
-
-public class HomeController : Controller
+namespace PainelAdmin.Controllers
 {
-    private readonly ILogger<HomeController> _logger;
-    private readonly UserManager<ApplicationUser> _userManager;
-
-
-    public HomeController(ILogger<HomeController> logger, UserManager<ApplicationUser> userManager)
+    [Route("painel/[controller]/[action]")]
+    public class HomeController : Controller
     {
-        _logger = logger;
-        _userManager = userManager;
-    }
+        private readonly ILogger<HomeController> _logger;
+        private readonly UserManager<ApplicationUser> _userManager;
 
-    public async Task<IActionResult> Index()
-    {
-        string? fotoPath = null;
 
-        if (User.Identity?.IsAuthenticated ?? false)
+        public HomeController(ILogger<HomeController> logger, UserManager<ApplicationUser> userManager)
         {
-            var usuario = await _userManager.GetUserAsync(User);
-            fotoPath = usuario?.Foto;
+            _logger = logger;
+            _userManager = userManager;
         }
 
-        ViewBag.Foto = fotoPath ?? "/img/perfil/default.png";
+        public IActionResult Index()
+        {
+            return View();
+        }
 
-        return View();
-    }
-
-    public IActionResult Privacy()
-    {
-        return View();
-    }
-
-    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-    public IActionResult Error()
-    {
-        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+        public IActionResult Error()
+        {
+            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
     }
 }

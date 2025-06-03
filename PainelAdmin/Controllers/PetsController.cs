@@ -14,6 +14,7 @@ using PainelAdmin.Models.ViewModels;
 
 namespace PainelAdmin.Controllers
 {
+    [Route("painel/[controller]/[action]")]
     [Authorize]
     public class PetsController : Controller
     {

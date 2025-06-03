@@ -16,6 +16,7 @@ using PainelAdmin.Models.ViewModels;
 
 namespace PainelAdmin.Controllers
 {
+    [Route("painel/[controller]/[action]")]
     //[Authorize(Roles = "ADM")]
     public class NoticiasController : Controller
     {

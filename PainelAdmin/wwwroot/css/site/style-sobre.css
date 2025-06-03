@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal; 
+    scroll-behavior: smooth;
+}
+
+.principal {
+    margin-top: 120px;
+    margin-left: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.left-mine {
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    max-width: 280px;
+    margin: 0 auto;
+}
+
+.cap a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 300%;
+    color: #545454;
+    font-weight: lighter;
+    text-decoration: none;
+    width: 100%;
+}
+
+.principal h1 {
+    font-size: 40px;
+    font-weight: lighter;
+    color: #91C041;
+}
+
+.foto-canil {
+    margin-top: 55px;
+    height: 350px;
+    width: 100%;
+    z-index: 1;
+    border-radius: 20px;
+}
+
+/* @media screen and (max-width: 577px) {
+    .principal {
+        margin-left: 10px;
+        margin-top: 80px;
+    }
+
+    .left-mine {
+        width: 90%;
+        max-width: 280px;
+        font-size: 10px;
+        height: 350px;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        border-radius: 8px;
+        order: -1;
+    }
+
+    .foto-canil {
+        height: 120px;
+        max-width: 300px;
+        border-radius: 20px;
+    }
+
+    .principal h1 {
+        font-size: 30px;
+        margin-top: 20px;
+    }
+
+    .cap {
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .principal {
+        margin-left: 20px;
+        margin-top: 100px;
+    }
+
+    .left-mine {
+        width: 250%;
+        font-size: 50%;
+        height: 350px;
+        margin-left: -20px;
+    }
+
+    .foto-canil {
+        height: auto;
+    }
+
+    .principal h1 {
+        font-size: 32px;
+        margin-top: 40px;
+    }
+} */
+
+/* @media screen and (min-width: 992px) and (max-width: 1024px) {
+    .principal {
+        margin-left: 100px;
+        margin-top: 120px;
+    }
+
+    .left-mine {
+        font-size: 70%;
+        width: 120%;
+        height: 350px;
+    }
+
+    .foto-canil {
+        height: auto;
+    }
+
+    .principal h1 {
+        font-size: 36px;
+        margin-top: 30px;  
+        
+    }
+} */
+
+/* @media screen and (min-width: 1025px) {
+    .principal {
+        margin-left: 150px;
+        margin-top: 120px;
+    }
+
+    .left-mine {
+        width: 150%;
+        height: 350px;
+        font-size: 70%;
+    }
+
+    .foto-canil {
+        margin-top: 55px;
+        height: 350px;
+        width: 100%;
+        z-index: 1;
+        border-radius: 20px;
+    }
+
+    .principal h1 {
+        font-size: 40px;
+    }
+} */

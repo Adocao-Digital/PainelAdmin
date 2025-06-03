@@ -3,11 +3,11 @@ using PainelAdmin.Models.ViewModels;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using MongoDB.Driver;
-using PainelAdmin.api;
 using Microsoft.AspNetCore.Authorization;
 
 namespace PainelAdmin.Controllers
 {
+    [Route("painel/[controller]/[action]")]
     public class UserController : Controller
     {
         ContextMongodb _context = new ContextMongodb();

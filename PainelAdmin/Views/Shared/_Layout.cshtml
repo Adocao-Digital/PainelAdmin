@@ -1,46 +1,56 @@
 ﻿@using PainelAdmin.Models
 @using Microsoft.AspNetCore.Identity
 @inject UserManager<ApplicationUser> UserManager
+@inject SignInManager<ApplicationUser> SignInManager
+
+@{
+    Layout = null;
+    ApplicationUser user = null;
+    if (User?.Identity?.IsAuthenticated ?? false)
+    {
+        user = await UserManager.GetUserAsync(User);
+    }
+}
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - Dashboard</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/Dashboard.styles.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/css/style-header.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/css/style-index.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/css/site-custom.css" asp-append-version="true" />
 
-    <link rel="icon" type="image/x-icon" href="img/dogo-argentino.png">
+    <!-- CSS -->
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/painel/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/painel/style-header.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/painel/style-index.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/painel/site-custom.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="icon" type="image/x-icon" href="~/img/dogo-argentino.png">
+
 </head>
 <body>
     <header>
-        <div class="head1">
-        </div>
+        <div class="head1"></div>
         <div class="head2">
-            <img src="~/img/logo.png" alt="Logo" class="logo">
+            <img src="@Url.Content("~/img/logo.png")" alt="Logo" width="50" height="50" class="d-inline-block align-text-top">
         </div>
+
     </header>
+    <!-- Botão Menu Mobile -->
+    <button class="menu-toggle d-md-none" onclick="toggleSidebar()">
+        <i class="fas fa-bars"></i>
+    </button>
 
 
     <div class="sidebar">
-
         <ul class="navbar-nav">
-            @if (User?.Identity?.IsAuthenticated ?? false)
+            @if (SignInManager.IsSignedIn(User))
             {
-                var user = await UserManager.GetUserAsync(User);
-                if (user != null)
-                {
-
-                    <li class="nav-item no-hover userInfo">
-                        <img src="~/@user.Foto" alt="Foto do usuário" />
-                    <div class="username">Olá, @user.Nome</div>
-                    </li>
-                }
+                <li class="nav-item no-hover userInfo">
+                    <img src="@user?.Foto" alt="Foto do usuário" />
+                    <div class="username">Olá, @user?.Nome</div>
+                </li>
             }
             else
             {
@@ -51,46 +61,78 @@
                     <a class="nav-link" asp-area="" asp-controller="Account" asp-action="Login">Entrar</a>
                 </li>
             }
-            <li class="nav-item">
 
-                <a class="nav-link Home" asp-area="" asp-controller="Home" asp-action="Index"><img src="~/img/casa.png" alt="Logo" class="casaft">  Página Inicial</a>
-			</li>
             <li class="nav-item">
-                <a class="nav-link" asp-area="" asp-controller="Pets" asp-action="Index"><img src="~/img/coracao-de-pata.png" alt="Logo" class="petft">  Pets</a>
+                <a class="nav-link Home" asp-area="" asp-controller="Home" asp-action="Index">
+                    <img src="~/img/casa.png" alt="Home" class="casaft" /> Página Inicial
+                </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" asp-area="" asp-controller="Noticias" asp-action="NoticiasAntigas"><img src="~/img/jornal.png" alt="Logo" class="notift">  Ver notícias antigas</a>
+                <a class="nav-link" asp-area="" asp-controller="Pets" asp-action="Index">
+                    <img src="~/img/coracao-de-pata.png" alt="Pets" class="petft" /> Pets
+                </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" asp-area="" asp-controller="Noticias" asp-action="NoticiasAtuais"><img src="~/img/jornal.png" alt="Logo" class="notift">  Ver notícias atuais</a>
+                <a class="nav-link" asp-area="" asp-controller="User" asp-action="Index">
+                    <img src="~/img/do-utilizador.png" alt="Usuários" class="usuft" /> Usuários
+                </a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" asp-area="" asp-controller="User" asp-action="Index"><img src="~/img/do-utilizador.png" alt="Logo" class="usuft">  Usuários</a>
+
+            @{
+                var currentController = ViewContext.RouteData.Values["controller"]?.ToString();
+                var currentAction = ViewContext.RouteData.Values["action"]?.ToString();
+                var isNoticiasAtiva = currentController == "Noticias" &&
+                (currentAction == "NoticiasAntigas" || currentAction == "NoticiasAtuais");
+            }
+
+            <li>
+                <a class="nav-link principal-nav d-flex justify-content-between align-items-center"
+                   data-bs-toggle="collapse"
+                   data-bs-target="#noticiasCollapse"
+                   aria-expanded="@isNoticiasAtiva.ToString().ToLower()"
+                   aria-controls="noticiasCollapse"
+                   onclick="alternarSeta()">
+                    <span>
+                        <img src="~/img/jornal.png" alt="Notícias" class="notift" /> Notícias
+                    </span>
+                    <i id="setaNoticias" class="fa-solid fa-chevron-down transition @(isNoticiasAtiva ? "rotate-180" : "")"></i>
+                </a>
+
+                <div id="noticiasCollapse" class="collapse @(isNoticiasAtiva ? "show" : "")">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                        <li>
+                            <a class="nav-link" asp-area="" asp-controller="Noticias" asp-action="NoticiasAntigas">
+                                <img src="~/img/jornal.png" alt="Notícias Antigas" class="notift" /> Notícias Antigas
+                            </a>
+                        </li>
+                        <li>
+                            <a class="nav-link" asp-area="" asp-controller="Noticias" asp-action="NoticiasAtuais">
+                                <img src="~/img/jornal.png" alt="Notícias Atuais" class="notift" /> Notícias Atuais
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </li>
-            @if (User.IsInRole("ADM"))
+            @if (SignInManager.IsSignedIn(User))
             {
-                <li class="nav-item">
-                    <a class="nav-link" asp-area="" asp-controller="Noticias" asp-action="Create">Publique uma notícia</a>
+                <li class="nav-item mt-3">
+                    <a class="nav-link text-danger" asp-area="" asp-controller="Account" asp-action="Logout">Sair</a>
                 </li>
             }
-               @if (User?.Identity?.IsAuthenticated ?? false)
-            {
-
-                <div class="sidebar-bottom">
-                    <a class="nav-link text-danger" asp-area="" asp-controller="Account" asp-action="Logout">Sair</a>
-                </div>
-
-            }
-         
-        </ul>
     </div>
 
+   
+
+           
+      </ul>
+    </div>
     <div class="content">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
 
+    <!-- Scripts -->
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
