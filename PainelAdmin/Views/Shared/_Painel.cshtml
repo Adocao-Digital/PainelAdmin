@@ -41,7 +41,7 @@
                     <li class="nav-item"><a class="nav-link" href="/sobre">Sobre nós</a></li>
                     <li class="nav-item"><a class="nav-link" href="/fale">Fale conosco</a></li>
 
-                    @if (!string.IsNullOrEmpty(usuarioEmail) && usuarioRole == "ADM")
+                    @if (User.IsInRole("ADM"))
                     {
                         <li class="nav-item">
                             <a class="nav-link" href="http://localhost:5133/" target="_blank">Painel de Controle</a>

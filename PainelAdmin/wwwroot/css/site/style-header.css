@@ -91,7 +91,7 @@ header {
 
 @media (max-width: 500px){
     .navbar-brand img {
-        content: url("../img/minilogo.webp");
+        content: url("../../img/minilogo.webp");
         max-width: 70px;
         max-height: 70px;
     }
