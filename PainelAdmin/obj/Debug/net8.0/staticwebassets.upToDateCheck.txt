@@ -3,6 +3,7 @@ wwwroot\css\site-custom.css
 wwwroot\css\style-header.css
 wwwroot\css\style-index.css
 wwwroot\favicon.ico
+wwwroot\img\004f2a49-756a-4bb8-9c50-6ec78186e5bb.jpg
 wwwroot\img\2916624c-1a7a-48f0-a282-ce4b933dde9f.png
 wwwroot\img\3366ff67-518d-489c-8b5f-b5564695a730.webp
 wwwroot\img\35161d50-0a06-4292-8071-993d59b37d92.png
@@ -14,16 +15,20 @@ wwwroot\img\70b86ef0-554d-44b8-b71f-3b1900ed82c2.png
 wwwroot\img\72540697-af7c-4d2b-b093-d33de4afcef6.jpg
 wwwroot\img\74054c1e-77b4-47f0-b528-11b2dd9da06c.png
 wwwroot\img\7b1c49ba-3bc7-422b-84db-11a79e8b8b08.png
+wwwroot\img\8074772f-ae48-4696-b8a3-b2b73298b73c.webp
 wwwroot\img\8e0e0339-eb90-427b-b2e2-6120e234c002.webp
+wwwroot\img\a2011b26-882c-4e57-ac0c-013d8f2f7f5b.avif
 wwwroot\img\angulo-pequeno-direito.png
 wwwroot\img\angulo-pequeno-para-baixo (3).png
 wwwroot\img\animais1.avif
+wwwroot\img\b509c104-94ff-4227-8846-ac635dab14cb.avif
 wwwroot\img\c393c029-2ffe-4f6a-9da4-74a9a11d53ce.png
 wwwroot\img\cachorro2.webp
 wwwroot\img\cachorro3.webp
 wwwroot\img\cachorro4.webp
 wwwroot\img\casa.png
 wwwroot\img\coracao-de-pata.png
+wwwroot\img\d3a71123-b318-45ab-9fb4-802181c71e71.avif
 wwwroot\img\d5ae2ed9-0d38-4a37-9783-62ee41aea133.jpg
 wwwroot\img\ddc00cde-60b7-4b7b-b426-9771273712a4.png
 wwwroot\img\dogo-argentino.png
@@ -42,6 +47,7 @@ wwwroot\img\noticias\2335577b-e734-4c09-a0c5-9660a904c0db.jpg
 wwwroot\img\noticias\97816a3b-59a2-494c-ac6b-9e3677e29388.png
 wwwroot\img\noticias\985229cf-ed43-42d4-9105-6a20eacb4317.jpg
 wwwroot\img\noticias\b1bf6a5f-bc0f-4ba8-8d6b-e958cce3825f.png
+wwwroot\img\noticias\cec232cc-4b67-477f-913e-042b584f943c.png
 wwwroot\img\noticias\ec2c6bac-641d-4640-9dd1-ace0a0d52cfe.webp
 wwwroot\img\noticias\f72d9ee1-4136-42d5-817d-4514b6ae3b93.png
 wwwroot\img\noticias\fbefb6c7-905e-4576-9cc3-5606f59bbf3c.jpg

@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\leand\\onedrive\\\u00E1rea de trabalho\\dashprincipal\\paineladmin\\paineladmin\\wwwroot\\css\\style-index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\wwwroot\\css\\style-index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\leand\\onedrive\\\u00E1rea de trabalho\\dashprincipal\\paineladmin\\paineladmin\\views\\noticias\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\noticias\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\leand\\onedrive\\\u00E1rea de trabalho\\dashprincipal\\paineladmin\\paineladmin\\views\\noticias\\noticiasantigas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\noticias\\noticiasantigas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\leand\\onedrive\\\u00E1rea de trabalho\\dashprincipal\\paineladmin\\paineladmin\\views\\noticias\\noticiasatuais.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\noticias\\noticiasatuais.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\leand\\onedrive\\\u00E1rea de trabalho\\dashprincipal\\paineladmin\\paineladmin\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\leand\\onedrive\\\u00E1rea de trabalho\\dashprincipal\\paineladmin\\paineladmin\\views\\pets\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\pets\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\leand\\onedrive\\\u00E1rea de trabalho\\dashprincipal\\paineladmin\\paineladmin\\views\\noticias\\noticiasatuais.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\noticias\\noticiasatuais.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\leand\\onedrive\\\u00E1rea de trabalho\\dashprincipal\\paineladmin\\paineladmin\\wwwroot\\css\\style-index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\wwwroot\\css\\style-index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\leand\\onedrive\\\u00E1rea de trabalho\\dashprincipal\\paineladmin\\paineladmin\\controllers\\noticiascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,20 +35,12 @@
       "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\models\\noticia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\leand\\onedrive\\\u00E1rea de trabalho\\dashprincipal\\paineladmin\\paineladmin\\views\\noticias\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\noticias\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\leand\\onedrive\\\u00E1rea de trabalho\\dashprincipal\\paineladmin\\paineladmin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\leand\\onedrive\\\u00E1rea de trabalho\\dashprincipal\\paineladmin\\paineladmin\\models\\viewmodels\\editarnoticiaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\models\\viewmodels\\editarnoticiaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\leand\\onedrive\\\u00E1rea de trabalho\\dashprincipal\\paineladmin\\paineladmin\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\leand\\onedrive\\\u00E1rea de trabalho\\dashprincipal\\paineladmin\\paineladmin\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -53,10 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\leand\\onedrive\\\u00E1rea de trabalho\\dashprincipal\\paineladmin\\paineladmin\\models\\viewmodels\\editarusuarioviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\models\\viewmodels\\editarusuarioviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\leand\\onedrive\\\u00E1rea de trabalho\\dashprincipal\\paineladmin\\paineladmin\\views\\noticias\\noticiasantigas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\noticias\\noticiasantigas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\leand\\onedrive\\\u00E1rea de trabalho\\dashprincipal\\paineladmin\\paineladmin\\wwwroot\\css\\style-header.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -178,24 +178,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "PainelAdmin\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "PainelAdmin\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-18T23:45:20.727Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -205,40 +192,26 @@
               "RelativeDocumentMoniker": "PainelAdmin\\Views\\Noticias\\NoticiasAtuais.cshtml",
               "ToolTip": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Views\\Noticias\\NoticiasAtuais.cshtml",
               "RelativeToolTip": "PainelAdmin\\Views\\Noticias\\NoticiasAtuais.cshtml",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwCAAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-18T23:46:17.659Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-18T23:46:17.659Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "NoticiasController.cs",
-              "DocumentMoniker": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Controllers\\NoticiasController.cs",
-              "RelativeDocumentMoniker": "PainelAdmin\\Controllers\\NoticiasController.cs",
-              "ToolTip": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Controllers\\NoticiasController.cs",
-              "RelativeToolTip": "PainelAdmin\\Controllers\\NoticiasController.cs",
-              "ViewState": "AgIAAOQAAAAAAAAAAAAmwBIBAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T23:42:47.376Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Views\\Noticias\\Edit.cshtml",
               "RelativeDocumentMoniker": "PainelAdmin\\Views\\Noticias\\Edit.cshtml",
               "ToolTip": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Views\\Noticias\\Edit.cshtml",
               "RelativeToolTip": "PainelAdmin\\Views\\Noticias\\Edit.cshtml",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwCQAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-18T23:46:08.241Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "EditarNoticiaViewModel.cs",
               "DocumentMoniker": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Models\\ViewModels\\EditarNoticiaViewModel.cs",
               "RelativeDocumentMoniker": "PainelAdmin\\Models\\ViewModels\\EditarNoticiaViewModel.cs",
@@ -250,7 +223,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "PainelAdmin\\Controllers\\UserController.cs",
@@ -262,7 +235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "style-index.css",
               "DocumentMoniker": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\wwwroot\\css\\style-index.css",
               "RelativeDocumentMoniker": "PainelAdmin\\wwwroot\\css\\style-index.css",
@@ -270,25 +243,71 @@
               "RelativeToolTip": "PainelAdmin\\wwwroot\\css\\style-index.css",
               "ViewState": "AgIAADkBAAAAAAAAAAAAwEkBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-05-20T12:14:19.87Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T12:14:19.87Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Views\\Pets\\Index.cshtml",
               "RelativeDocumentMoniker": "PainelAdmin\\Views\\Pets\\Index.cshtml",
               "ToolTip": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Views\\Pets\\Index.cshtml",
               "RelativeToolTip": "PainelAdmin\\Views\\Pets\\Index.cshtml",
-              "ViewState": "AgIAABcAAAAAAAAAAAAkwCYAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-18T23:46:33.426Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-18T23:46:33.426Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Views\\User\\Index.cshtml",
+              "RelativeDocumentMoniker": "PainelAdmin\\Views\\User\\Index.cshtml",
+              "ToolTip": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Views\\User\\Index.cshtml",
+              "RelativeToolTip": "PainelAdmin\\Views\\User\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-18T23:49:57.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NoticiasAntigas.cshtml",
+              "DocumentMoniker": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Views\\Noticias\\NoticiasAntigas.cshtml",
+              "RelativeDocumentMoniker": "PainelAdmin\\Views\\Noticias\\NoticiasAntigas.cshtml",
+              "ToolTip": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Views\\Noticias\\NoticiasAntigas.cshtml",
+              "RelativeToolTip": "PainelAdmin\\Views\\Noticias\\NoticiasAntigas.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-18T23:46:14.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NoticiasController.cs",
+              "DocumentMoniker": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Controllers\\NoticiasController.cs",
+              "RelativeDocumentMoniker": "PainelAdmin\\Controllers\\NoticiasController.cs",
+              "ToolTip": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Controllers\\NoticiasController.cs",
+              "RelativeToolTip": "PainelAdmin\\Controllers\\NoticiasController.cs",
+              "ViewState": "AgIAAOQAAAAAAAAAAAAmwBIBAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T23:42:47.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "PainelAdmin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "PainelAdmin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-18T23:45:20.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "site.js",
               "DocumentMoniker": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "PainelAdmin\\wwwroot\\js\\site.js",
@@ -300,7 +319,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Program.cs",
               "RelativeDocumentMoniker": "PainelAdmin\\Program.cs",
@@ -312,7 +331,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Noticia.cs",
               "DocumentMoniker": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Models\\Noticia.cs",
               "RelativeDocumentMoniker": "PainelAdmin\\Models\\Noticia.cs",
@@ -320,24 +339,11 @@
               "RelativeToolTip": "PainelAdmin\\Models\\Noticia.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T23:45:00.5Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-18T23:45:00.5Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Views\\User\\Index.cshtml",
-              "RelativeDocumentMoniker": "PainelAdmin\\Views\\User\\Index.cshtml",
-              "ToolTip": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Views\\User\\Index.cshtml",
-              "RelativeToolTip": "PainelAdmin\\Views\\User\\Index.cshtml",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAgwDUAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-18T23:49:57.846Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "EditarUsuarioViewModel.cs",
               "DocumentMoniker": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Models\\ViewModels\\EditarUsuarioViewModel.cs",
               "RelativeDocumentMoniker": "PainelAdmin\\Models\\ViewModels\\EditarUsuarioViewModel.cs",
@@ -346,18 +352,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-18T23:44:20.558Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "NoticiasAntigas.cshtml",
-              "DocumentMoniker": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Views\\Noticias\\NoticiasAntigas.cshtml",
-              "RelativeDocumentMoniker": "PainelAdmin\\Views\\Noticias\\NoticiasAntigas.cshtml",
-              "ToolTip": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Views\\Noticias\\NoticiasAntigas.cshtml",
-              "RelativeToolTip": "PainelAdmin\\Views\\Noticias\\NoticiasAntigas.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-18T23:46:14.918Z"
             },
             {
               "$type": "Document",
