@@ -43,7 +43,7 @@
                 string fotoUrl = baseUrlImagens + (n.Foto ?? "default.jpg");
 
                 <div class="carousel-item @(i == 0 ? "active" : null)">
-                    <a href="/noticia?id=@uuid" class="text-decoration-none text-white">
+                    <a asp-controller="Noticias" asp-action="Details" asp-route-id="@n.Id" class="text-decoration-none text-white">
                         <img src="@fotoUrl" class="d-block w-100 carousel-image" alt="Imagem da notícia">
                         <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
                             <h5>@(n.Titulo ?? "Sem título")</h5>
@@ -72,9 +72,9 @@
 <div class="d-flex flex-wrap justify-content-center gap-4 mt-5">
     <div class="card text-center" style="width: 15rem;">
         <a href="/adotar">
-            <img src="~/img/pets.png" class="card-img-top" alt="Imagem pets">
+            <img src="~/img/pets.png" alt="Imagem pets">
         </a>
-        <div class ="card-body">
+        <div class="card-body">
             <a href="/adotar" class="stretched-link">
                 <p class ="card-text">Encontre seu melhor amigo</p>
             </a>
@@ -84,7 +84,7 @@
         <a href="/cadastro-pet">
             <img src="~/img/form.png" alt="Imagem formulário">
         </a>
-        <div>
+        <div class="card-body">
             <a href="/cadastro-pet" class="stretched-link">
                 <p>Registre seu pet</p>
             </a>
@@ -96,7 +96,7 @@
             <a href="/cadastro">
                 <img src="~/img/registrese.png" alt="Imagem cadastro">
             </a>
-            <div>
+            <div class="card-body">
                 <a href="/cadastro" class="stretched-link">
                     <p>Faça seu cadastro</p>
                 </a>
@@ -107,7 +107,7 @@
         <a href="https://barrabonita.sp.gov.br" target="_blank">
             <img src="~/img/prefeitura.png" alt="Imagem prefeitura">
         </a>
-        <div>
+        <div class="card-body">
             <a href="https://barrabonita.sp.gov.br" target="_blank" class="stretched-link">
                 <p>Site da prefeitura</p>
             </a>

@@ -54,7 +54,7 @@ body::-webkit-scrollbar-thumb {
 .card {
     background-color: #f1f0f6!important;
     height: 240px; 
-    width: 200px; 
+    max-width: 200px; 
     border-radius: 10px;
     display: flex;
     flex-direction: column;

@@ -8,19 +8,18 @@
     var usuarioEmail = User.Identity?.IsAuthenticated == true ? User.Identity.Name : null;
     var usuarioRole = User.IsInRole("ADM") ? "ADM" : null;
 }
+
+@{
+    Layout = null;
+}
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - CCZ</title>
-
-    <!-- CSS -->
+    <title>@ViewData["Title"] - Login</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site/style-header.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/css/site/style-footer.css" asp-append-version="true" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-    <link rel="icon" type="image/x-icon" href="~/img/dogo-argentino.png">
+    <link rel="stylesheet" href="~/css/site/style-login.css" asp-append-version="true" />
     @RenderSection("Styles", required: false)
 </head>
 <body>
@@ -65,11 +64,9 @@
             </div>
         </div>
     </nav>
-    <div class="content">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
+    <main>
+        @RenderBody()
+    </main>
     @RenderSection("Scripts", required: false)
 </body>
 </html>

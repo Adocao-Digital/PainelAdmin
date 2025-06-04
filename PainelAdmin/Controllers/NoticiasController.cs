@@ -16,8 +16,6 @@ using PainelAdmin.Models.ViewModels;
 
 namespace PainelAdmin.Controllers
 {
-    [Route("painel/[controller]/[action]")]
-    //[Authorize(Roles = "ADM")]
     public class NoticiasController : Controller
     {
         ContextMongodb _context = new ContextMongodb();
@@ -29,7 +27,8 @@ namespace PainelAdmin.Controllers
             _userManager = userManager;
         }
 
-
+        [Route("painel/[controller]/[action]")]
+        [Authorize(Roles = "ADM")]
         // GET: Noticias Atuais - mostra as 3 últimas criadas
         [Authorize]
         public async Task<IActionResult> NoticiasAtuais()
@@ -44,6 +43,8 @@ namespace PainelAdmin.Controllers
         }
 
         // GET: Noticias Antigas - ignora as 3 últimas
+        [Route("painel/[controller]/[action]")]
+        [Authorize(Roles = "ADM")]
         public async Task<IActionResult> NoticiasAntigas()
         {
             var noticias = await _context.Noticia
@@ -74,12 +75,16 @@ namespace PainelAdmin.Controllers
         }
 
         // GET: Noticias/Create
+        [Route("painel/[controller]/[action]")]
+        [Authorize(Roles = "ADM")]
         public IActionResult Create()
         {
             return View();
         }
 
         // POST: Noticias/Create
+        [Route("painel/[controller]/[action]")]
+        [Authorize(Roles = "ADM")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(CriarNoticiaViewModel noticia)
@@ -146,6 +151,8 @@ namespace PainelAdmin.Controllers
 
 
         // GET: Noticias/Edit/5
+        [Route("painel/[controller]/[action]")]
+        [Authorize(Roles = "ADM")]
         public async Task<IActionResult> Edit(Guid? id)
         {
             if (id == null)
@@ -176,6 +183,8 @@ namespace PainelAdmin.Controllers
         // POST: Noticias/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [Route("painel/[controller]/[action]")]
+        [Authorize(Roles = "ADM")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(Guid id, EditarNoticiaViewModel noticia, string imagemAtual, IFormFile Imagem)
@@ -252,6 +261,8 @@ namespace PainelAdmin.Controllers
         }
 
         // GET: Noticias/Delete/5
+        [Route("painel/[controller]/[action]")]
+        [Authorize(Roles = "ADM")]
         public async Task<IActionResult> Delete(Guid? id)
         {
             if (id == null)
@@ -269,6 +280,8 @@ namespace PainelAdmin.Controllers
         }
 
         // POST: Noticias/Delete/5
+        [Route("painel/[controller]/[action]")]
+        [Authorize(Roles = "ADM")]
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(Guid id, string? imgAtual)

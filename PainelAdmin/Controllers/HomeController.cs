@@ -2,9 +2,11 @@ using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using PainelAdmin.Models;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Authorization;
 
 namespace PainelAdmin.Controllers
 {
+    [Authorize]
     [Route("painel/[controller]/[action]")]
     public class HomeController : Controller
     {

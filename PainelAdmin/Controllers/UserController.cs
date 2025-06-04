@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace PainelAdmin.Controllers
 {
+    [Authorize]
     [Route("painel/[controller]/[action]")]
     public class UserController : Controller
     {

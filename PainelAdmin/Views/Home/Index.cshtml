@@ -1,13 +1,33 @@
-﻿@{
+﻿@using PainelAdmin.Models
+@using Microsoft.AspNetCore.Identity
+@inject UserManager<ApplicationUser> UserManager
+@inject SignInManager<ApplicationUser> SignInManager
+
+@{
     ViewData["Title"] = "Home Page";
-    var foto = ViewBag.Foto as string;
+
+    ApplicationUser user = null;
+
+    if (User?.Identity?.IsAuthenticated ?? false)
+    {
+        user = await UserManager.GetUserAsync(User);
+    }
 }
 
 <div class="text-center">
     <h1 class="text-start mb-3">Página Inicial</h1>
 
-    @if (!string.IsNullOrEmpty(foto))
+    @if (SignInManager.IsSignedIn(User))
     {
+        <li class="nav-item no-hover userInfo">
+            <img src="@user?.Foto" alt="Foto do usuário" />
+            <div class="username">Olá, @user?.Nome</div>
+        </li>
+    }
+    else
+    {
+        <p>Você não está logado.</p>
+    }
         <div class="container">
             <div class="row g-4">
                 <!-- Espaçamento entre os cards -->
@@ -58,11 +78,4 @@
 
             </div>
         </div>
-    }
-    else
-    {
-        <p>Você não está logado.</p>
-    }
-
-
 </div>

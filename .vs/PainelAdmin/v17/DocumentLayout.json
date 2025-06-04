@@ -1,12 +1,194 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\0201392411005\\Desktop\\PainelAdmin\\",
-  "Documents": [],
+  "WorkspaceRootPath": "D:\\CCZ\\PainelAdmin\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|d:\\ccz\\paineladmin\\paineladmin\\wwwroot\\css\\site\\style-index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\wwwroot\\css\\site\\style-index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|d:\\ccz\\paineladmin\\paineladmin\\views\\painel\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\painel\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|d:\\ccz\\paineladmin\\paineladmin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|d:\\ccz\\paineladmin\\paineladmin\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|d:\\ccz\\paineladmin\\paineladmin\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|d:\\ccz\\paineladmin\\paineladmin\\models\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\models\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|d:\\ccz\\paineladmin\\paineladmin\\views\\shared\\_loginlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\shared\\_loginlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|d:\\ccz\\paineladmin\\paineladmin\\views\\shared\\_painel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\shared\\_painel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|d:\\ccz\\paineladmin\\paineladmin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|d:\\ccz\\paineladmin\\paineladmin\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "style-index.css",
+              "DocumentMoniker": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\css\\site\\style-index.css",
+              "RelativeDocumentMoniker": "PainelAdmin\\wwwroot\\css\\site\\style-index.css",
+              "ToolTip": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\css\\site\\style-index.css",
+              "RelativeToolTip": "PainelAdmin\\wwwroot\\css\\site\\style-index.css",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAD0AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-04T02:19:57.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Views\\Painel\\Index.cshtml",
+              "RelativeDocumentMoniker": "PainelAdmin\\Views\\Painel\\Index.cshtml",
+              "ToolTip": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Views\\Painel\\Index.cshtml",
+              "RelativeToolTip": "PainelAdmin\\Views\\Painel\\Index.cshtml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAEoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-04T00:36:05.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "PainelAdmin\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "PainelAdmin\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T00:33:54.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "PainelAdmin\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Controllers\\UserController.cs",
+              "RelativeToolTip": "PainelAdmin\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAALAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T00:33:06.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "PainelAdmin\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "PainelAdmin\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T00:28:34.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Painel.cshtml",
+              "DocumentMoniker": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Views\\Shared\\_Painel.cshtml",
+              "RelativeDocumentMoniker": "PainelAdmin\\Views\\Shared\\_Painel.cshtml",
+              "ToolTip": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Views\\Shared\\_Painel.cshtml",
+              "RelativeToolTip": "PainelAdmin\\Views\\Shared\\_Painel.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-04T00:22:14.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Models\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "PainelAdmin\\Models\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Models\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "PainelAdmin\\Models\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T01:16:46.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_LoginLayout.cshtml",
+              "DocumentMoniker": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Views\\Shared\\_LoginLayout.cshtml",
+              "RelativeDocumentMoniker": "PainelAdmin\\Views\\Shared\\_LoginLayout.cshtml",
+              "ToolTip": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Views\\Shared\\_LoginLayout.cshtml",
+              "RelativeToolTip": "PainelAdmin\\Views\\Shared\\_LoginLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-04T01:28:59.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Program.cs",
+              "RelativeDocumentMoniker": "PainelAdmin\\Program.cs",
+              "ToolTip": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\Program.cs",
+              "RelativeToolTip": "PainelAdmin\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T00:21:10.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\appsettings.json",
+              "RelativeDocumentMoniker": "PainelAdmin\\appsettings.json",
+              "ToolTip": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\appsettings.json",
+              "RelativeToolTip": "PainelAdmin\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-04T00:21:05.09Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
