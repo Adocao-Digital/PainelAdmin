@@ -22,47 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Victor\\Desktop\\clone\\PainelAdmin\\PainelAdmin\\Views\\Pets\\Index.cshtml",
-              "RelativeDocumentMoniker": "PainelAdmin\\Views\\Pets\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Victor\\Desktop\\clone\\PainelAdmin\\PainelAdmin\\Views\\Pets\\Index.cshtml",
-              "RelativeToolTip": "PainelAdmin\\Views\\Pets\\Index.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAADQAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-02T19:55:09.254Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Victor\\Desktop\\clone\\PainelAdmin\\PainelAdmin\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "PainelAdmin\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Victor\\Desktop\\clone\\PainelAdmin\\PainelAdmin\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "PainelAdmin\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-02T19:28:47.842Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PetsController.cs",
-              "DocumentMoniker": "C:\\Users\\Victor\\Desktop\\clone\\PainelAdmin\\PainelAdmin\\Controllers\\PetsController.cs",
-              "RelativeDocumentMoniker": "PainelAdmin\\Controllers\\PetsController.cs",
-              "ToolTip": "C:\\Users\\Victor\\Desktop\\clone\\PainelAdmin\\PainelAdmin\\Controllers\\PetsController.cs",
-              "RelativeToolTip": "PainelAdmin\\Controllers\\PetsController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAvwB4AAABNAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T19:22:49.27Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
@@ -78,6 +39,43 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Victor\\Desktop\\clone\\PainelAdmin\\PainelAdmin\\Views\\Pets\\Index.cshtml",
+              "RelativeDocumentMoniker": "PainelAdmin\\Views\\Pets\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Victor\\Desktop\\clone\\PainelAdmin\\PainelAdmin\\Views\\Pets\\Index.cshtml",
+              "RelativeToolTip": "PainelAdmin\\Views\\Pets\\Index.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAADQAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T19:55:09.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Victor\\Desktop\\clone\\PainelAdmin\\PainelAdmin\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "PainelAdmin\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Victor\\Desktop\\clone\\PainelAdmin\\PainelAdmin\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "PainelAdmin\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T19:28:47.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PetsController.cs",
+              "DocumentMoniker": "C:\\Users\\Victor\\Desktop\\clone\\PainelAdmin\\PainelAdmin\\Controllers\\PetsController.cs",
+              "RelativeDocumentMoniker": "PainelAdmin\\Controllers\\PetsController.cs",
+              "ToolTip": "C:\\Users\\Victor\\Desktop\\clone\\PainelAdmin\\PainelAdmin\\Controllers\\PetsController.cs",
+              "RelativeToolTip": "PainelAdmin\\Controllers\\PetsController.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAArwB4AAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T19:22:49.27Z",
+              "EditorCaption": ""
             }
           ]
         }
