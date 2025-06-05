@@ -85,6 +85,10 @@
       "PackagePath": "staticwebassets\\img\\3b914130-a83b-49ef-8b35-2e76e2489f15.jfif"
     },
     {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\img\\46a60c8c-65ba-4108-98de-b492761ab109.jpg",
+      "PackagePath": "staticwebassets\\img\\46a60c8c-65ba-4108-98de-b492761ab109.jpg"
+    },
+    {
       "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\img\\57058dcc-9275-45a3-b333-e73d58f46aa2.jfif",
       "PackagePath": "staticwebassets\\img\\57058dcc-9275-45a3-b333-e73d58f46aa2.jfif"
     },
@@ -117,6 +121,10 @@
       "PackagePath": "staticwebassets\\img\\8e0e0339-eb90-427b-b2e2-6120e234c002.webp"
     },
     {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\img\\9548340f-d88c-4be2-b89f-8a4bc772b2d1.jfif",
+      "PackagePath": "staticwebassets\\img\\9548340f-d88c-4be2-b89f-8a4bc772b2d1.jfif"
+    },
+    {
       "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\img\\FuncioIcon.png",
       "PackagePath": "staticwebassets\\img\\FuncioIcon.png"
     },
@@ -125,12 +133,12 @@
       "PackagePath": "staticwebassets\\img\\PessoaIcon.png"
     },
     {
-      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\img\\PetIcon (1).png",
-      "PackagePath": "staticwebassets\\img\\PetIcon (1).png"
-    },
-    {
       "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\img\\PetIcon (2).png",
       "PackagePath": "staticwebassets\\img\\PetIcon (2).png"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\img\\PetIcon1.png",
+      "PackagePath": "staticwebassets\\img\\PetIcon1.png"
     },
     {
       "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\img\\VetIcon.png",
@@ -375,6 +383,14 @@
     {
       "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\img\\opened-eye.png",
       "PackagePath": "staticwebassets\\img\\opened-eye.png"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\img\\perfil\\16dd8c62-7518-49d8-b925-94e7698378ec.jpg",
+      "PackagePath": "staticwebassets\\img\\perfil\\16dd8c62-7518-49d8-b925-94e7698378ec.jpg"
+    },
+    {
+      "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\img\\perfil\\27432662-7db0-4949-b91c-47edcff960ba.jpg",
+      "PackagePath": "staticwebassets\\img\\perfil\\27432662-7db0-4949-b91c-47edcff960ba.jpg"
     },
     {
       "Id": "D:\\CCZ\\PainelAdmin\\PainelAdmin\\wwwroot\\img\\perfil\\3141868c-d192-4ee5-91ac-78ef580c527f.png",

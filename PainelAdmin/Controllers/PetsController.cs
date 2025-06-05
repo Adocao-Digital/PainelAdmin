@@ -92,7 +92,8 @@ namespace PainelAdmin.Controllers
                 }
 
                 pet.Id = Guid.NewGuid();
-                pet.IdPessoa = _userManager.GetUserId(User);
+                pet.IdPessoa = _userManager.GetUserId(User) ?? string.Empty;
+                pet.Situacao = "Adocao";
 
                 await _context.Pet.InsertOneAsync(pet);
 

@@ -18,6 +18,7 @@ wwwroot\img\2916624c-1a7a-48f0-a282-ce4b933dde9f.png
 wwwroot\img\3366ff67-518d-489c-8b5f-b5564695a730.webp
 wwwroot\img\35161d50-0a06-4292-8071-993d59b37d92.png
 wwwroot\img\3b914130-a83b-49ef-8b35-2e76e2489f15.jfif
+wwwroot\img\46a60c8c-65ba-4108-98de-b492761ab109.jpg
 wwwroot\img\57058dcc-9275-45a3-b333-e73d58f46aa2.jfif
 wwwroot\img\608abc76-abc8-48e0-9f0d-61ec350be020.png
 wwwroot\img\6de22478-1ed3-43f7-ba6f-e9dc58c0c4b5.jfif
@@ -26,6 +27,7 @@ wwwroot\img\72540697-af7c-4d2b-b093-d33de4afcef6.jpg
 wwwroot\img\74054c1e-77b4-47f0-b528-11b2dd9da06c.png
 wwwroot\img\7b1c49ba-3bc7-422b-84db-11a79e8b8b08.png
 wwwroot\img\8e0e0339-eb90-427b-b2e2-6120e234c002.webp
+wwwroot\img\9548340f-d88c-4be2-b89f-8a4bc772b2d1.jfif
 wwwroot\img\angulo-pequeno-direito.png
 wwwroot\img\angulo-pequeno-para-baixo (3).png
 wwwroot\img\animais1.avif
@@ -87,6 +89,8 @@ wwwroot\img\noticias\fbefb6c7-905e-4576-9cc3-5606f59bbf3c.jpg
 wwwroot\img\olho.png
 wwwroot\img\olhos-cruzados.png
 wwwroot\img\opened-eye.png
+wwwroot\img\perfil\16dd8c62-7518-49d8-b925-94e7698378ec.jpg
+wwwroot\img\perfil\27432662-7db0-4949-b91c-47edcff960ba.jpg
 wwwroot\img\perfil\3141868c-d192-4ee5-91ac-78ef580c527f.png
 wwwroot\img\perfil\338f616a-a173-4ddd-8bb8-67300262acac.jpg
 wwwroot\img\perfil\41fb948f-5fdc-49f8-b809-80ee4e04f2a6.png
@@ -109,8 +113,8 @@ wwwroot\img\perfil\e22732bb-e4fc-4229-85bd-1aff625907ea.png
 wwwroot\img\perfil\edc0518b-4e83-4c4c-aec1-a19c35a6d792.png
 wwwroot\img\perfil\f7036def-8507-4a9e-af31-8e7f5a706dad.png
 wwwroot\img\PessoaIcon.png
-wwwroot\img\PetIcon (1).png
 wwwroot\img\PetIcon (2).png
+wwwroot\img\PetIcon1.png
 wwwroot\img\pets.png
 wwwroot\img\prefeitura.png
 wwwroot\img\registrese.png

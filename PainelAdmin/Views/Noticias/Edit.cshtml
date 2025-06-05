@@ -10,7 +10,15 @@
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Edit">
+        <form asp-action="Edit" enctype="multipart/form-data">
+            <input asp-for="Id" type="hidden" class="form-control" />
+
+            <div class="form-group">
+                <input asp-for="IdEditor" type="hidden" class="form-control" />
+            </div>
+            <div class="form-group">
+                <input asp-for="NomeEditor" type="hidden" class="form-control" />
+            </div>
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="Titulo" class="control-label"></label>
@@ -20,18 +28,18 @@
          
             <div class="form-group">
                 <label asp-for="Conteudo" class="control-label"></label>
-                <input asp-for="Conteudo" class="form-control" />
+                <textarea asp-for="Conteudo" class="form-control"></textarea>
                 <span asp-validation-for="Conteudo" class="text-danger"></span>
             </div>
             <div class="form-group">
 
-                <input name="imagemAtual" class="form-control" type="hidden" value="@Model.Foto" />
+                <input asp-for="Foto" type="hidden" />
 
             </div>
             <div class="form-group">
-                <label asp-for="Foto" class="control-label"></label>
-                <input asp-for="Foto" class="form-control" type="file" onchange="previewImage(event)" />
-                <span asp-validation-for="Foto" class="text-danger"></span>
+                <label asp-for="FotoUpload" class="control-label"></label>
+                <input asp-for="FotoUpload" class="form-control" type="file" accept=".jpg, .jpeg, .png, .gif, .webp, .tiff" onchange="previewImage(event)" />
+                <span asp-validation-for="FotoUpload" class="text-danger"></span>
             </div>
     
           
@@ -39,7 +47,7 @@
 
                 <br />
                 <div class="mb-3">
-                    <img id="imagePreview" src="@("/" + Model.Foto)" alt="Imagem Preview" />
+                    <img id="imagePreview" src="@(!string.IsNullOrEmpty(Model.Foto) ? "/" + Model.Foto : "#")" alt="Imagem Preview" style="max-width: 100%; height: auto;" />
                 </div>
 
             </div>

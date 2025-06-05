@@ -26,7 +26,11 @@
 
             <div class="form-group">
                 <label asp-for="Especie" class="control-label"></label>
-                <input asp-for="Especie" class="form-control" />
+                <select asp-for="Especie" class="form-control">
+                    <option value="">Selecione</option>
+                    <option>Cachorro</option>
+                    <option>Gato</option>
+                </select>
                 <span asp-validation-for="Especie" class="text-danger"></span>
             </div>
 

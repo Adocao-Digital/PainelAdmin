@@ -92,11 +92,13 @@ namespace PainelAdmin.Controllers
             return View(model);
         }
 
+        [Authorize(Roles = "ADM")]
         public IActionResult CreateRole()
         {
             return View();
         }
 
+        [Authorize(Roles = "ADM")]
         [HttpPost]
         public async Task<IActionResult> CreateRole(ApplicationRole model)
         {
@@ -171,7 +173,7 @@ namespace PainelAdmin.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Editar(EditarUsuarioViewModel model, IFormFile NovaFoto)
+        public async Task<IActionResult> Editar(EditarUsuarioViewModel model)
         {
             var usuario = await _userManager.FindByIdAsync(model.Id);
             if (usuario == null)
@@ -184,9 +186,14 @@ namespace PainelAdmin.Controllers
             }
 
             // Se uma nova foto foi enviada
-            if (NovaFoto != null && NovaFoto.Length > 0)
+            if (model.NovaFoto == null || model.NovaFoto.Length == 0)
             {
-                var nomeArquivo = $"{Guid.NewGuid()}{Path.GetExtension(NovaFoto.FileName)}";
+                Console.WriteLine("Nenhuma nova foto enviada.");
+                usuario.Foto = usuario.Foto;
+            }
+            else
+            {
+                var nomeArquivo = $"{Guid.NewGuid()}{Path.GetExtension(model.NovaFoto.FileName)}";
                 var caminhoPasta = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "img", "perfil");
 
                 // Cria a pasta se ela não existir
@@ -196,16 +203,10 @@ namespace PainelAdmin.Controllers
                 var caminhoDestino = Path.Combine(caminhoPasta, nomeArquivo);
                 using (var stream = new FileStream(caminhoDestino, FileMode.Create))
                 {
-                    await NovaFoto.CopyToAsync(stream);
+                    await model.NovaFoto.CopyToAsync(stream);
                 }
 
                 usuario.Foto = $"/img/perfil/{nomeArquivo}";
-            }
-
-            // Se não for enviada nova foto, mantém a antiga
-            if (NovaFoto == null || NovaFoto.Length == 0)
-            {
-                usuario.Foto = usuario.Foto ?? "/img/perfil/default.png"; // ou mantenha o que já estava
             }
 
             // Atualiza dados do usuário
