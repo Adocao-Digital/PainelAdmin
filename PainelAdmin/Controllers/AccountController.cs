@@ -6,7 +6,6 @@ using System.ComponentModel.DataAnnotations;
 
 namespace PainelAdmin.Controllers
 {
-    [Route("painel/[controller]/[action]")]
     public class AccountController : Controller
     {
         private UserManager<ApplicationUser>? _userManager;
@@ -36,7 +35,7 @@ namespace PainelAdmin.Controllers
 
                     if (result.Succeeded)
                     {
-                        return RedirectToAction("Index", "Painel");
+                        return RedirectToAction("Index", "Home");
                     }
                     ModelState.AddModelError(nameof(email), "Verifique suas credenciais");
                 }
@@ -48,7 +47,7 @@ namespace PainelAdmin.Controllers
         public async Task<IActionResult> Logout()
         {
             await _signInManager.SignOutAsync();
-            return RedirectToAction("Index", "Painel");
+            return RedirectToAction("Index", "Home");
         }
     }
 }

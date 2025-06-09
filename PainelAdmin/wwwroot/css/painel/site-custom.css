@@ -30,6 +30,12 @@ input.form-control {
     border: 1px solid #ccc;
 }
 
+select.form-control {
+    border-radius: 20px;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+}
+
 label {
     font-weight: 500;
 }
@@ -90,3 +96,6 @@ button.btn-primary {
     max-width: 200px; /* Define a largura máxima como 200px */
 }
 
+.d-md-none {
+    margin-top: 2vh;
+}

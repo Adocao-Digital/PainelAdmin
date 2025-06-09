@@ -12,7 +12,7 @@
 .head2 {
     background-color: #f1f0f6;
     height: 12vh;
-    z-index: 100; /* Certifique-se de que o cabeçalho esteja acima de outros elementos */
+    z-index: 100;
     position: fixed;
     top: 3vh;
     left: 0;
@@ -21,10 +21,9 @@
     align-items: center;
 }
 
-    .head2 img {
+.head2 img {
         position:fixed;
         left: 10vh;
-        width: 35vh;
-        
-    }
+        width: fit-content;        
+}
 

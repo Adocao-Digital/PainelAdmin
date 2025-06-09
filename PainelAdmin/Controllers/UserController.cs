@@ -21,18 +21,18 @@ namespace PainelAdmin.Controllers
             this._roleManager = roleManager;
         }
 
-
-
-        public IActionResult Create()
+        [Authorize(Roles = "ADM")]
+        public IActionResult CreateAdmin()
         {
             return View();
         }
+        [Authorize(Roles = "ADM")]
         [HttpPost]
-        public async Task<IActionResult> Create(UsuarioCadastroViewModel model)
+        public async Task<IActionResult> CreateAdmin(UsuarioAdminCadastroViewModel model)
         {
-            if (!await _roleManager.RoleExistsAsync("USER"))
+            if (!await _roleManager.RoleExistsAsync("ADM"))
             {
-                await _roleManager.CreateAsync(new ApplicationRole { Name = "USER" });
+                await _roleManager.CreateAsync(new ApplicationRole { Name = "ADM" });
             }
 
             if (ModelState.IsValid)
@@ -70,17 +70,18 @@ namespace PainelAdmin.Controllers
                     DataNascimento = model.DataNascimento,
                     Ativo = true,
                     Nome = model.Nome,
+                    Sexo = model.Sexo,
                     Endereco = endereco,
                     CPF = model.CPF,
-                    Foto = nomeArquivoFoto != null ? Path.Combine("img", "perfil", nomeArquivoFoto) : null
+                    Foto = nomeArquivoFoto != null ? $"/img/perfil/{nomeArquivoFoto}" : null
                 };
 
                 var result = await _userManager.CreateAsync(appUser, model.Senha);
                 if (result.Succeeded)
                 {
-                    await _userManager.AddToRoleAsync(appUser, "USER");
+                    await _userManager.AddToRoleAsync(appUser, "ADM");
                     TempData["MensagemSucesso"] = "Cadastro realizado com sucesso!";
-                    return RedirectToAction("Login", "Account");
+                    return RedirectToAction("Index", "User");
                 }
 
                 foreach (var error in result.Errors)
@@ -118,8 +119,8 @@ namespace PainelAdmin.Controllers
             if (result.Succeeded)
             {
                 ViewBag.Message = "Role cadastrada com sucesso!";
-                ModelState.Clear(); // Limpa o form
-                return View(); // retorna a view com campos vazios
+                ModelState.Clear();
+                return View();
             }
 
             foreach (var error in result.Errors)
@@ -130,7 +131,7 @@ namespace PainelAdmin.Controllers
             return View(model);
         }
 
-        [Authorize]
+        [Authorize(Roles = "ADM")]
         public async Task<IActionResult> Editar(string id)
         {
             var usuario = await _userManager.FindByIdAsync(id);
@@ -241,9 +242,30 @@ namespace PainelAdmin.Controllers
             return RedirectToAction("Index");
         }
 
+        [Authorize(Roles = "ADM")]
+        [HttpPost]
+        public async Task<IActionResult> Excluir(string id)
+        {
+            var usuario = await _userManager.FindByIdAsync(id);
+            if (usuario == null)
+            {
+                TempData["MensagemErro"] = "Usuário não encontrado.";
+                return RedirectToAction("Index");
+            }
+
+            // Soft delete
+            usuario.Ativo = false;
+
+            var filter = Builders<ApplicationUser>.Filter.Eq(u => u.Id, usuario.Id);
+            await _context.Usuarios.ReplaceOneAsync(filter, usuario);
+
+            TempData["MensagemSucesso"] = "Usuário excluido com sucesso!";
+            return RedirectToAction("Index");
+        }
+
         public async Task<IActionResult> Index()
         {
-            var usuarios = await _context.Usuarios.Find(_ => true).ToListAsync();
+            var usuarios = await _context.Usuarios.Find(u => u.Ativo).ToListAsync();
             return View(usuarios);
         }
     }

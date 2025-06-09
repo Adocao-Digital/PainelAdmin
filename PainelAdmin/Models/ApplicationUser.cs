@@ -15,5 +15,6 @@ namespace PainelAdmin.Models
         public bool Ativo { get; set; }
 
         public Endereco? Endereco { get; set; }
+        public string? Sexo { get; set; }
     }
 }
