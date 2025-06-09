@@ -6,6 +6,19 @@
 
 <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap" rel="stylesheet" />
 <link rel="stylesheet" href="~/css/site/style.login.css" />
+@if (TempData["MensagemErro"] != null)
+{
+    <div class="alert alert-danger" role="alert">
+        @TempData["MensagemErro"]
+    </div>
+}
+
+@if (TempData["MensagemSucesso"] != null)
+{
+    <div class="alert alert-success" role="alert">
+        @TempData["MensagemSucesso"]
+    </div>
+}
 
 <div class="conteudo-login">
     <div class="login">
@@ -40,7 +53,7 @@
         </form>
 
         <a href="#" class="parag">Esqueci minha senha</a>
-        <a href="/Cadastro" class="registro-link">Registrar</a>
+        <a asp-controller="User" asp-action="Cadastro" class="registro-link">Registrar</a>
     </div>
 </div>
 
