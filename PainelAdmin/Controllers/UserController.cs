@@ -268,5 +268,10 @@ namespace PainelAdmin.Controllers
             var usuarios = await _context.Usuarios.Find(u => u.Ativo).ToListAsync();
             return View(usuarios);
         }
+        public async Task<IActionResult> Desativados()
+        {
+            var usuarios = await _context.Usuarios.Find(u => u.Ativo == false).ToListAsync();
+            return View(usuarios);
+        }
     }
 }
