@@ -2,7 +2,7 @@
 
 namespace PainelAdmin.Models.ViewModels
 {
-    public class UsuarioAdminCadastroViewModel
+    public class UsuarioCadastroViewModel
     {
         // Dados Pessoais
         [Required]

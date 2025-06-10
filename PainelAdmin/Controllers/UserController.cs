@@ -28,7 +28,7 @@ namespace PainelAdmin.Controllers
         }
         [Authorize(Roles = "ADM")]
         [HttpPost]
-        public async Task<IActionResult> CreateAdmin(UsuarioAdminCadastroViewModel model)
+        public async Task<IActionResult> CreateAdmin(UsuarioCadastroViewModel model)
         {
             if (!await _roleManager.RoleExistsAsync("ADM"))
             {
@@ -99,7 +99,7 @@ namespace PainelAdmin.Controllers
         }
         [AllowAnonymous]
         [HttpPost]
-        public async Task<IActionResult> Cadastro(UsuarioAdminCadastroViewModel model)
+        public async Task<IActionResult> Cadastro(UsuarioCadastroViewModel model)
         {
             if (!await _roleManager.RoleExistsAsync("USER"))
             {
