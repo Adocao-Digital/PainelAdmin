@@ -74,6 +74,23 @@ namespace PainelAdmin.Controllers
             return View(noticia);
         }
 
+        public async Task<IActionResult> DetailsAntigas(Guid? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var noticia = await _context.Noticia.Find(m => m.Id == id).FirstOrDefaultAsync();
+
+            if (noticia == null)
+            {
+                return NotFound();
+            }
+
+            return View(noticia);
+        }
+
         // GET: Noticias/Create
         [Route("painel/[controller]/[action]")]
         [Authorize(Roles = "ADM")]
