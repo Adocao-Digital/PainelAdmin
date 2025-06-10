@@ -2,8 +2,6 @@
 
 @{
     ViewData["Title"] = "Início";
-
-    string baseUrlImagens = "http://localhost:5133/";
 }
 
 @section Styles {
@@ -39,11 +37,10 @@
                 if (n == null) { continue; }
 
                 string uuid = n.Id.ToString() ?? "";
-                string fotoUrl = baseUrlImagens + (n.Foto ?? "default.jpg");
 
                 <div class="carousel-item @(i == 0 ? "active" : null)">
                     <a asp-controller="Noticias" asp-action="Details" asp-route-id="@n.Id" class="text-decoration-none text-white">
-                        <img src="@fotoUrl" class="d-block w-100 carousel-image" alt="Imagem da notícia">
+                        <img src="~/@n.Foto" class="d-block w-100 carousel-image" alt="Imagem da notícia">
                         <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
                             <h5>@(n.Titulo ?? "Sem título")</h5>
                         </div>
