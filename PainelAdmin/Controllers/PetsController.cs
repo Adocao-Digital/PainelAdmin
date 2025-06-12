@@ -93,9 +93,15 @@ namespace PainelAdmin.Controllers
 
                 pet.Id = Guid.NewGuid();
                 pet.IdPessoa = _userManager.GetUserId(User) ?? string.Empty;
-                pet.Situacao = "Adocao";
+                if (User.IsInRole("ADM"))
+                {
+                    pet.Situacao = "Adocao";
+                } else
+                {
+                    pet.Situacao = "ComTutor";
+                }
 
-                await _context.Pet.InsertOneAsync(pet);
+                    await _context.Pet.InsertOneAsync(pet);
 
                 return RedirectToAction(nameof(Index));
             }

@@ -4,8 +4,9 @@
     ViewData["Title"] = "Login";
 }
 
-<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="~/css/site/style.login.css" />
+@section Styles {
+    <link rel="stylesheet" href="~/css/site/style.login.css" />
+}
 @if (TempData["MensagemErro"] != null)
 {
     <div class="alert alert-danger" role="alert">
