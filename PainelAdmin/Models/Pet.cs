@@ -22,6 +22,8 @@ namespace PainelAdmin.Models
         public string? Cor { get; set; }
         [Required]
         public string? Sexo { get; set; }
+
+        public string? Peso { get; set; }
         public string? Situacao { get; set; }
         public string? IdPessoa { get; set; }
         public string? Foto { get; set; }

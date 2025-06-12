@@ -15,6 +15,13 @@
     }
 }
 
+@if (TempData["MensagemSucesso"] != null)
+{
+    <div class="alert alert-success" role="alert">
+        @TempData["MensagemSucesso"]
+    </div>
+}
+
 <div class="text-center">
     <h1 class="text-start mb-3">Página Inicial</h1>
 

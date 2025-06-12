@@ -15,6 +15,13 @@
     </style>
 }
 
+@if (TempData["MensagemSucesso"] != null)
+{
+    <div class="alert alert-success" role="alert">
+        @TempData["MensagemSucesso"]
+    </div>
+}
+
 <div id="carouselExampleIndicators" class="carousel slide mx-auto mt-4" data-bs-ride="carousel">
     @{
         var listaNoticias = Model?.Take(3).ToList();
@@ -81,7 +88,7 @@
             <img src="~/img/form.png" alt="Imagem formulário">
         </a>
         <div class="card-body">
-            <a asp-controller="Pets" asp-action="Create" class="stretched-link">
+            <a asp-controller="Pets" asp-action="CadastroPet" class="stretched-link">
                 <p>Registre seu pet</p>
             </a>
         </div>

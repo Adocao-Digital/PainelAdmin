@@ -40,6 +40,11 @@
                     <li class="nav-item"><a class="nav-link text-black" asp-controller="Home" asp-action="Index">Home</a></li>
                     <li class="nav-item"><a class="nav-link text-black" asp-controller="Home" asp-action="Sobre">Sobre nós</a></li>
                     <li class="nav-item"><a class="nav-link text-black" asp-controller="Home" asp-action="FaleConosco">Fale conosco</a></li>
+                    
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <li class="nav-item"><a class="nav-link text-black" asp-controller="Pets" asp-action="MeusPets">Meus Pets</a></li>
+                    }
 
                     @if (User.IsInRole("ADM"))
                     {
@@ -70,7 +75,10 @@
             @RenderBody()
         </main>
     </div>
-    @RenderSection("Scripts", required: false)
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
 <footer class="footer">
