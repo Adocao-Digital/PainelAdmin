@@ -25,7 +25,7 @@ namespace PainelAdmin.Controllers
         {
             this._userManager = userManager;
         }
-
+        [Authorize(Roles = "ADM")]
         public async Task<IActionResult> Index()
         {
             var pets = await _context.Pet.Find(_ => true).ToListAsync();
@@ -119,7 +119,7 @@ namespace PainelAdmin.Controllers
                 } else
                 {
                     TempData["MensagemSucesso"] = "Seu pet foi cadastrado com sucesso!";
-                    return RedirectToAction("Index", "Home");
+                    return RedirectToAction("MeusPets", "Pets");
                 }
             }
             return View(pet);
@@ -132,7 +132,10 @@ namespace PainelAdmin.Controllers
                 return NotFound();
             var pets = await _context.Pet.Find(m => m.IdPessoa == idUsuario).ToListAsync();
             if (pets == null || !pets.Any())
-                return NotFound();
+            {
+                TempData["MensagemErro"] = "Você não possui nenhum pet.";
+                return View(pets);
+            }
             return View(pets);
         }
 
@@ -144,8 +147,14 @@ namespace PainelAdmin.Controllers
             var pet = await _context.Pet.Find(m => m.Id == id).FirstOrDefaultAsync();
             if (pet == null)
                 return NotFound();
-
-            return View(pet);
+            var dono = await _userManager.FindByIdAsync(pet.IdPessoa);
+            if (User.IsInRole("USER") && pet.IdPessoa != dono.Id)
+            {
+                return Unauthorized();
+            }
+            if(User.IsInRole("ADM"))
+                return View(pet);
+            return View("UserPet");
         }
 
         [HttpPost]
@@ -155,32 +164,43 @@ namespace PainelAdmin.Controllers
             if (id != pet.Id)
                 return NotFound();
 
-            if (ModelState.IsValid)
-            {
-                if (Imagem != null && Imagem.Length > 0)
+            if(User.IsInRole("ADM")) {
+
+                if (ModelState.IsValid)
                 {
-                    var folder = Path.Combine("wwwroot", "img");
-                    Directory.CreateDirectory(folder);
-
-                    var nomeArquivo = Guid.NewGuid() + Path.GetExtension(Imagem.FileName);
-                    var caminho = Path.Combine(folder, nomeArquivo);
-
-                    using var stream = new FileStream(caminho, FileMode.Create);
-                    await Imagem.CopyToAsync(stream);
-
-                    // Deleta antiga
-                    if (!string.IsNullOrEmpty(imagemAtual))
+                    if (Imagem != null && Imagem.Length > 0)
                     {
-                        var antigo = Path.Combine("wwwroot", imagemAtual);
-                        if (System.IO.File.Exists(antigo))
-                            System.IO.File.Delete(antigo);
-                    }
+                        var folder = Path.Combine("wwwroot", "img");
+                        Directory.CreateDirectory(folder);
 
-                    pet.Foto = Path.Combine("img", nomeArquivo);
+                        var nomeArquivo = Guid.NewGuid() + Path.GetExtension(Imagem.FileName);
+                        var caminho = Path.Combine(folder, nomeArquivo);
+
+                        using var stream = new FileStream(caminho, FileMode.Create);
+                        await Imagem.CopyToAsync(stream);
+
+                        // Deleta antiga
+                        if (!string.IsNullOrEmpty(imagemAtual))
+                        {
+                            var antigo = Path.Combine("wwwroot", imagemAtual);
+                            if (System.IO.File.Exists(antigo))
+                                System.IO.File.Delete(antigo);
+                        }
+
+                        pet.Foto = Path.Combine("img", nomeArquivo);
+                    }
+                    else
+                    {
+                        pet.Foto = imagemAtual;
+                    }
                 }
                 else
                 {
-                    pet.Foto = imagemAtual;
+                    var dono = await _userManager.FindByIdAsync(pet.IdPessoa);
+                    if (pet.IdPessoa != dono.Id)
+                    {
+                        return Unauthorized();
+                    }
                 }
 
                 await _context.Pet.ReplaceOneAsync(m => m.Id == pet.Id, pet);
@@ -213,8 +233,11 @@ namespace PainelAdmin.Controllers
                 if (System.IO.File.Exists(imagemFilePath))
                     System.IO.File.Delete(imagemFilePath);
             }
-
-            return RedirectToAction(nameof(Index));
+            if (User.IsInRole("ADM"))
+            {
+                return RedirectToAction(nameof(Index));
+            }
+            return RedirectToAction("MeusPets", "Pets");
         }
 
         private bool PetExists(Guid id)

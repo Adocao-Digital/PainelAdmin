@@ -1,6 +1,7 @@
 ﻿using MongoDbGenericRepository.Attributes;
 using AspNetCore.Identity.MongoDbCore.Models;
 using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace PainelAdmin.Models
 {
@@ -10,6 +11,7 @@ namespace PainelAdmin.Models
         public string? Nome { get; set; }
         public string? CPF { get; set; }
         public string? Foto { get; set; }
+        [DataType(DataType.Date)]
         public DateTime DataNascimento { get; set; }
 
         public bool Ativo { get; set; }

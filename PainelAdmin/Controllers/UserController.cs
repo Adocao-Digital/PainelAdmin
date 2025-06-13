@@ -8,7 +8,6 @@ using Microsoft.AspNetCore.Authorization;
 namespace PainelAdmin.Controllers
 {
     [Authorize]
-    [Route("painel/[controller]/[action]")]
     public class UserController : Controller
     {
         ContextMongodb _context = new ContextMongodb();
@@ -22,11 +21,13 @@ namespace PainelAdmin.Controllers
         }
 
         [Authorize(Roles = "ADM")]
+        [Route("painel/[controller]/[action]")]
         public IActionResult CreateAdmin()
         {
             return View();
         }
         [Authorize(Roles = "ADM")]
+        [Route("painel/[controller]/[action]")]
         [HttpPost]
         public async Task<IActionResult> CreateAdmin(UsuarioCadastroViewModel model)
         {
@@ -150,7 +151,7 @@ namespace PainelAdmin.Controllers
                 var result = await _userManager.CreateAsync(appUser, model.Senha);
                 if (result.Succeeded)
                 {
-                    await _userManager.AddToRoleAsync(appUser, "ADM");
+                    await _userManager.AddToRoleAsync(appUser, "USER");
                     TempData["MensagemSucesso"] = "Cadastro realizado com sucesso!";
                     return RedirectToAction("Login", "Account");
                 }
@@ -165,12 +166,14 @@ namespace PainelAdmin.Controllers
         }
 
         [Authorize(Roles = "ADM")]
+        [Route("painel/[controller]/[action]")]
         public IActionResult CreateRole()
         {
             return View();
         }
 
         [Authorize(Roles = "ADM")]
+        [Route("painel/[controller]/[action]")]
         [HttpPost]
         public async Task<IActionResult> CreateRole(ApplicationRole model)
         {
@@ -202,7 +205,6 @@ namespace PainelAdmin.Controllers
             return View(model);
         }
 
-        [Authorize(Roles = "ADM")]
         public async Task<IActionResult> Editar(string id)
         {
             var usuario = await _userManager.FindByIdAsync(id);
@@ -245,6 +247,7 @@ namespace PainelAdmin.Controllers
         }
 
         [HttpPost]
+
         public async Task<IActionResult> Editar(EditarUsuarioViewModel model)
         {
             var usuario = await _userManager.FindByIdAsync(model.Id);
@@ -314,6 +317,7 @@ namespace PainelAdmin.Controllers
         }
 
         [Authorize(Roles = "ADM")]
+        [Route("painel/[controller]/[action]")]
         [HttpPost]
         public async Task<IActionResult> Excluir(string id)
         {
@@ -334,11 +338,14 @@ namespace PainelAdmin.Controllers
             return RedirectToAction("Index");
         }
 
+        [Route("painel/[controller]/[action]")]
         public async Task<IActionResult> Index()
         {
             var usuarios = await _context.Usuarios.Find(u => u.Ativo).ToListAsync();
             return View(usuarios);
         }
+
+        [Route("painel/[controller]/[action]")]
         public async Task<IActionResult> Desativados()
         {
             var usuarios = await _context.Usuarios.Find(u => u.Ativo == false).ToListAsync();

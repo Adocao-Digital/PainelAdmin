@@ -38,6 +38,7 @@ namespace PainelAdmin.Models.ViewModels
         public string? Telefone { get; set; }
 
         [Required]
+        [DataType(DataType.Date)]
         [Display(Name = "Data de Nascimento")]
         public DateTime DataNascimento { get; set; }
 
