@@ -1,6 +1,7 @@
 ﻿using PainelAdmin.Data;
 using PainelAdmin.Models.ViewModels;
 using MongoDB.Driver;
+using MongoDB.Driver.Linq;
 
 namespace PainelAdmin.Models
 {
@@ -37,6 +38,14 @@ namespace PainelAdmin.Models
             get
             {
                 return _database.GetCollection<Pet>("Pet");
+            }
+        }
+
+        public IMongoQueryable<Pet> PetsQueryable
+        {
+            get
+            {
+                return Pet.AsQueryable(); // Aqui é IMongoQueryable
             }
         }
 

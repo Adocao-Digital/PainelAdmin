@@ -14,6 +14,7 @@ using PainelAdmin.Models.ViewModels;
 
 namespace PainelAdmin.Controllers
 {
+    [Route("painel/[controller]/[action]")]
     [Authorize]
     public class PetsController : Controller
     {
@@ -63,16 +64,25 @@ namespace PainelAdmin.Controllers
             return View(viewModel);
         }
 
-        public IActionResult Create(string situacao)
+        public IActionResult CadastroPet()
         {
-            Pet pet = new Pet { Situacao = situacao };
-            return View(pet);
+            return View();
+        }
+
+        [HttpGet]
+        public IActionResult Create()
+        {
+            return View();
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(Pet pet, IFormFile Imagem)
         {
+            if(!ModelState.IsValid)
+            {
+                Console.WriteLine("Model State é inválido.");
+            }
             if (ModelState.IsValid)
             {
                 string nomeArquivo = null;
@@ -91,13 +101,39 @@ namespace PainelAdmin.Controllers
                 }
 
                 pet.Id = Guid.NewGuid();
-                pet.IdPessoa = _userManager.GetUserId(User);
+                pet.IdPessoa = _userManager.GetUserId(User) ?? string.Empty;
+                if (User.IsInRole("ADM"))
+                {
+                    pet.Situacao = "Adocao";
+                } else
+                {
+                    pet.Situacao = "ComTutor";
+                }
 
                 await _context.Pet.InsertOneAsync(pet);
 
-                return RedirectToAction(nameof(Index));
+                if (User.IsInRole("ADM"))
+                {
+                    TempData["MensagemSucesso"] = "Seu pet foi cadastrado com sucesso!";
+                    return RedirectToAction(nameof(Index));
+                } else
+                {
+                    TempData["MensagemSucesso"] = "Seu pet foi cadastrado com sucesso!";
+                    return RedirectToAction("Index", "Home");
+                }
             }
             return View(pet);
+        }
+
+        public async Task<IActionResult> MeusPets()
+        {
+            var idUsuario = _userManager.GetUserId(User);
+            if (string.IsNullOrEmpty(idUsuario))
+                return NotFound();
+            var pets = await _context.Pet.Find(m => m.IdPessoa == idUsuario).ToListAsync();
+            if (pets == null || !pets.Any())
+                return NotFound();
+            return View(pets);
         }
 
         public async Task<IActionResult> Edit(Guid? id)

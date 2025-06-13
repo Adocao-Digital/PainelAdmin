@@ -24,14 +24,14 @@ namespace PainelAdmin.Controllers
         }
         [HttpPost]
         public async Task<IActionResult> Login([Required][EmailAddress] string email,
-                                               [Required] string password)
+                                               [Required] string senha)
         {
             if (ModelState.IsValid)
             {
                 ApplicationUser user = await _userManager.FindByEmailAsync(email);
                 if (user != null)
                 {
-                    Microsoft.AspNetCore.Identity.SignInResult result = await _signInManager.PasswordSignInAsync(user, password, false, false);
+                    Microsoft.AspNetCore.Identity.SignInResult result = await _signInManager.PasswordSignInAsync(user, senha, false, false);
 
                     if (result.Succeeded)
                     {

@@ -1,0 +1,130 @@
+body {
+    background-color: #f9f7e4;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #f1f0f6;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #91c041;
+    border-radius: 20px;
+    border: 3px solid #f1f0f6;
+}
+
+.titulo-cadastro {
+    position: relative;
+    top: 50px;
+    color: white;
+    text-align: center;
+}
+
+.botao-entrar {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 250px;
+}
+
+.botao-entrar a {
+    color: #6A8D2E;
+    border: 1px solid #6A8D2E;
+    padding: 10px;
+    background-color: white;
+    border-radius: 6px;
+    width: 60px;
+    text-align: center;
+}
+
+.caixa-total {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.caixa-direita {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 24px;
+    margin: 60px 0;
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    background: linear-gradient(0deg, rgba(221, 221, 221, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    border: 1px solid #ccc;
+}
+
+.formulario {
+    margin-top: 50px;
+}
+
+.caixa-direita h1 {
+    text-align: center;
+}
+
+label {
+    margin: 1rem;
+}
+
+.estilo-forms {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    border-radius: 8px;
+    border: 2px solid #F9B15D;
+    background-color: #FFBF7780;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+}
+
+select {
+    border-radius: 10px;
+    height: 41px;
+    padding: 3%;
+}
+
+input {
+    padding: 3%;
+}
+
+.submit-button {
+    background: #F9B15D;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.submit-button:hover {
+    background-color: #45a049;
+}
+
+/* Decorações */
+
+@media (max-width: 600px) {
+    .caixa-direita {
+        padding: 15px;
+    }
+
+    .estilo-forms {
+        padding: 8px;
+    }
+
+    .submit-button {
+        font-size: 14px;
+    }
+}

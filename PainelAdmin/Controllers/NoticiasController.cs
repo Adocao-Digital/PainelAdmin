@@ -16,7 +16,6 @@ using PainelAdmin.Models.ViewModels;
 
 namespace PainelAdmin.Controllers
 {
-    //[Authorize(Roles = "ADM")]
     public class NoticiasController : Controller
     {
         ContextMongodb _context = new ContextMongodb();
@@ -28,8 +27,10 @@ namespace PainelAdmin.Controllers
             _userManager = userManager;
         }
 
-
+        [Route("painel/[controller]/[action]")]
+        [Authorize(Roles = "ADM")]
         // GET: Noticias Atuais - mostra as 3 últimas criadas
+        [Authorize]
         public async Task<IActionResult> NoticiasAtuais()
         {
             var noticias = await _context.Noticia
@@ -42,6 +43,8 @@ namespace PainelAdmin.Controllers
         }
 
         // GET: Noticias Antigas - ignora as 3 últimas
+        [Route("painel/[controller]/[action]")]
+        [Authorize(Roles = "ADM")]
         public async Task<IActionResult> NoticiasAntigas()
         {
             var noticias = await _context.Noticia
@@ -71,13 +74,34 @@ namespace PainelAdmin.Controllers
             return View(noticia);
         }
 
+        public async Task<IActionResult> DetailsAntigas(Guid? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var noticia = await _context.Noticia.Find(m => m.Id == id).FirstOrDefaultAsync();
+
+            if (noticia == null)
+            {
+                return NotFound();
+            }
+
+            return View(noticia);
+        }
+
         // GET: Noticias/Create
+        [Route("painel/[controller]/[action]")]
+        [Authorize(Roles = "ADM")]
         public IActionResult Create()
         {
             return View();
         }
 
         // POST: Noticias/Create
+        [Route("painel/[controller]/[action]")]
+        [Authorize(Roles = "ADM")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(CriarNoticiaViewModel noticia)
@@ -144,6 +168,8 @@ namespace PainelAdmin.Controllers
 
 
         // GET: Noticias/Edit/5
+        [Route("painel/[controller]/[action]")]
+        [Authorize(Roles = "ADM")]
         public async Task<IActionResult> Edit(Guid? id)
         {
             if (id == null)
@@ -163,9 +189,7 @@ namespace PainelAdmin.Controllers
                 Titulo = noticia.Titulo,
                 Conteudo = noticia.Conteudo,
                 Foto = noticia.Foto,
-                DataEdicao = noticia.DataEdicao,
-                IdEditor = noticia.IdEditor,
-                NomeEditor = noticia.NomeEditor
+                DataEdicao = noticia.DataEdicao
             };
 
             return View(viewModel);
@@ -174,9 +198,11 @@ namespace PainelAdmin.Controllers
         // POST: Noticias/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [Route("painel/[controller]/[action]")]
+        [Authorize(Roles = "ADM")]
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(Guid id, EditarNoticiaViewModel noticia, string imagemAtual, IFormFile Imagem)
+        public async Task<IActionResult> Edit(Guid id, EditarNoticiaViewModel noticia)
         {
             if (id != noticia.Id)
             {
@@ -188,38 +214,49 @@ namespace PainelAdmin.Controllers
                 try
                 {
                     var user = await _userManager.GetUserAsync(User);
-                    string caminhoImagemSalva = imagemAtual;
+                    string? caminhoImagemSalva = noticia.Foto;
 
-                    // Se foi enviada nova imagem
-                    if (Imagem != null && Imagem.Length > 0)
+                    if (noticia.FotoUpload != null && noticia.FotoUpload.Length > 0)
                     {
-                        // Exclui imagem anterior, se existir
-                        var imagemFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", imagemAtual);
-                        if (System.IO.File.Exists(imagemFilePath))
+                        // Validação da extensão (opcional)
+                        var extensao = Path.GetExtension(noticia.FotoUpload.FileName).ToLowerInvariant();
+                        var permitidas = new[] { ".jpg", ".jpeg", ".png", ".gif", ".webp", ".tiff" };
+
+                        if (!permitidas.Contains(extensao))
                         {
-                            await Task.Run(() => System.IO.File.Delete(imagemFilePath));
+                            ModelState.AddModelError("FotoUpload", "Formato de imagem inválido.");
+                            return View(noticia);
                         }
 
-                        // Salva nova imagem
-                        var nomeArquivo = Guid.NewGuid() + Path.GetExtension(Imagem.FileName);
-                        var novaImagemPath = Path.Combine("img", "noticias", nomeArquivo);
-                        var filePathCompleto = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", novaImagemPath);
+                        // Exclui imagem anterior, se houver
+                        if (!string.IsNullOrEmpty(noticia.Foto))
+                        {
+                            var imagemFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", noticia.Foto);
+                            if (System.IO.File.Exists(imagemFilePath))
+                            {
+                                System.IO.File.Delete(imagemFilePath);
+                            }
+                        }
 
-                        var pastaImagem = Path.GetDirectoryName(filePathCompleto);
+                        var nomeArquivo = Guid.NewGuid().ToString() + extensao;
+                        var pastaRelativa = Path.Combine("img", "noticias");
+                        var caminhoRelativo = Path.Combine(pastaRelativa, nomeArquivo);
+                        var caminhoFisico = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", pastaRelativa, nomeArquivo);
+
+                        var pastaImagem = Path.GetDirectoryName(caminhoFisico);
                         if (!Directory.Exists(pastaImagem))
                         {
                             Directory.CreateDirectory(pastaImagem);
                         }
 
-                        using (var stream = new FileStream(filePathCompleto, FileMode.Create))
+                        using (var stream = new FileStream(caminhoFisico, FileMode.Create))
                         {
-                            await Imagem.CopyToAsync(stream);
+                            await noticia.FotoUpload.CopyToAsync(stream);
                         }
 
-                        caminhoImagemSalva = novaImagemPath;
+                        caminhoImagemSalva = caminhoRelativo;
                     }
 
-                    // Atualiza notícia
                     var filter = Builders<Noticia>.Filter.Eq(n => n.Id, noticia.Id);
                     var update = Builders<Noticia>.Update
                         .Set(n => n.Titulo, noticia.Titulo)
@@ -246,10 +283,12 @@ namespace PainelAdmin.Controllers
                 return RedirectToAction(nameof(NoticiasAtuais));
             }
 
-            return View("Edit", noticia);
+            return View(noticia);
         }
 
         // GET: Noticias/Delete/5
+        [Route("painel/[controller]/[action]")]
+        [Authorize(Roles = "ADM")]
         public async Task<IActionResult> Delete(Guid? id)
         {
             if (id == null)
@@ -267,6 +306,8 @@ namespace PainelAdmin.Controllers
         }
 
         // POST: Noticias/Delete/5
+        [Route("painel/[controller]/[action]")]
+        [Authorize(Roles = "ADM")]
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(Guid id, string? imgAtual)

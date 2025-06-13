@@ -1,34 +1,76 @@
-﻿@{
+﻿@model PainelAdmin.Models.ViewModels.LoginViewModel;
+
+@{
     ViewData["Title"] = "Login";
-    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-@if (ViewBag.MensagemSucesso != null)
+@section Styles {
+    <link rel="stylesheet" href="~/css/site/style.login.css" />
+}
+@if (TempData["MensagemErro"] != null)
 {
-    <div class="alert alert-success">
-        @ViewBag.MensagemSucesso
+    <div class="alert alert-danger" role="alert">
+        @TempData["MensagemErro"]
     </div>
 }
-<section class="meu-container">
-    <div class="form-geral">
-        <h1>Login</h1>
-        <div class="text-danger" asp-validation-summary="All"></div>
-        <form method="post">
-            <div>
-                <label class="form-label fw-bold fs-4">E-mail</label>
-                <input name="email" class="form-control" />
-            </div>
-            <div>
-                <label for="password" class="form-label fw-bold fs-4">Senha</label>
-                <input type="password" name="password" class="form-control" />
-            </div><br />
-            <div class="btn-container">
-                <button class="btn-meu" type="submit">Enviar</button>
-            </div>
-        </form>
-        <p>
-            Não tem conta? <a asp-area="" asp-controller="User" asp-action="Create">Clique aqui!</a>
-        </p>
-    </div>
-</section>
 
+@if (TempData["MensagemSucesso"] != null)
+{
+    <div class="alert alert-success" role="alert">
+        @TempData["MensagemSucesso"]
+    </div>
+}
+
+<div class="conteudo-login">
+    <div class="login">
+        <h1>Fazer Login</h1>
+
+        @if (TempData["ErroLogin"] != null)
+        {
+            <div class="alert alert-danger">@TempData["ErroLogin"]</div>
+        }
+
+        <form method="post" asp-action="Login" class="formulario">
+            <div class="controle">
+                <label for="email">
+                    <img class="img-person" src="~/img/usuario.png" alt="Ícone de usuário" />
+                </label>
+                <input class="bx" asp-for="Email" placeholder="Digite seu e-mail..." class="form-control" />
+            </div>
+            <span asp-validation-for="Email" class="text-danger" style="font-size:10px;"></span>
+
+            <div class="controle">
+                <label for="senha">
+                    <img class="img-lock" src="~/img/senha.png" alt="Ícone de senha" />
+                </label>
+                <input class="bx" asp-for="Senha" placeholder="Digite sua senha..." class="form-control" />
+                <button type="button" class="mostrar-senha" onclick="toggleSenha()">
+                    <img src="~/img/closed-eye.png" alt="Mostrar/Esconder senha" id="imgSenha" />
+                </button>
+            </div>
+            <span asp-validation-for="Senha" class="text-danger" style="font-size:10px;"></span>
+
+            <button class="controle-login bxlogin" type="submit">Login</button>
+        </form>
+
+        <a href="#" class="parag">Esqueci minha senha</a>
+        <a asp-controller="User" asp-action="Cadastro" class="registro-link">Registrar</a>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        function toggleSenha() {
+            const senhaInput = document.getElementById("Senha");
+            const img = document.getElementById("imgSenha");
+            if (senhaInput.type === "password") {
+                senhaInput.type = "text";
+                img.src = "/img/opened-eye.png";
+            } else {
+                senhaInput.type = "password";
+                img.src = "/img/closed-eye.png";
+            }
+        }
+    </script>
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}

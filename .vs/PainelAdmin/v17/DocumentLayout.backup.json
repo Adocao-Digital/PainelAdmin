@@ -3,6 +3,42 @@
   "WorkspaceRootPath": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\leand\\onedrive\\\u00E1rea de trabalho\\dashprincipal\\paineladmin\\paineladmin\\views\\user\\createadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\user\\createadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\leand\\onedrive\\\u00E1rea de trabalho\\dashprincipal\\paineladmin\\paineladmin\\wwwroot\\css\\painel\\style-index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\wwwroot\\css\\painel\\style-index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\leand\\onedrive\\\u00E1rea de trabalho\\dashprincipal\\paineladmin\\paineladmin\\wwwroot\\css\\painel\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\wwwroot\\css\\painel\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\leand\\onedrive\\\u00E1rea de trabalho\\dashprincipal\\paineladmin\\paineladmin\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\leand\\onedrive\\\u00E1rea de trabalho\\dashprincipal\\paineladmin\\paineladmin\\views\\pets\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\pets\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\leand\\onedrive\\\u00E1rea de trabalho\\dashprincipal\\paineladmin\\paineladmin\\views\\painel\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\painel\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\leand\\onedrive\\\u00E1rea de trabalho\\dashprincipal\\paineladmin\\paineladmin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\leand\\onedrive\\\u00E1rea de trabalho\\dashprincipal\\paineladmin\\paineladmin\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\leand\\onedrive\\\u00E1rea de trabalho\\dashprincipal\\paineladmin\\paineladmin\\models\\pet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\models\\pet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\leand\\onedrive\\\u00E1rea de trabalho\\dashprincipal\\paineladmin\\paineladmin\\views\\noticias\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\noticias\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -15,14 +51,6 @@
       "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\noticias\\noticiasatuais.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\leand\\onedrive\\\u00E1rea de trabalho\\dashprincipal\\paineladmin\\paineladmin\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\leand\\onedrive\\\u00E1rea de trabalho\\dashprincipal\\paineladmin\\paineladmin\\views\\pets\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\pets\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\leand\\onedrive\\\u00E1rea de trabalho\\dashprincipal\\paineladmin\\paineladmin\\wwwroot\\css\\style-index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\wwwroot\\css\\style-index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
@@ -33,10 +61,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\leand\\onedrive\\\u00E1rea de trabalho\\dashprincipal\\paineladmin\\paineladmin\\models\\noticia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\models\\noticia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\leand\\onedrive\\\u00E1rea de trabalho\\dashprincipal\\paineladmin\\paineladmin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\leand\\onedrive\\\u00E1rea de trabalho\\dashprincipal\\paineladmin\\paineladmin\\models\\viewmodels\\editarnoticiaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -91,10 +115,6 @@
       "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\pets\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\leand\\onedrive\\\u00E1rea de trabalho\\dashprincipal\\paineladmin\\paineladmin\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\leand\\onedrive\\\u00E1rea de trabalho\\dashprincipal\\paineladmin\\paineladmin\\views\\user\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\user\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -139,10 +159,6 @@
       "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\leand\\onedrive\\\u00E1rea de trabalho\\dashprincipal\\paineladmin\\paineladmin\\models\\pet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\models\\pet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\leand\\onedrive\\\u00E1rea de trabalho\\dashprincipal\\paineladmin\\paineladmin\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -178,64 +194,67 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\wwwroot\\css\\painel\\site.css",
+              "RelativeDocumentMoniker": "PainelAdmin\\wwwroot\\css\\painel\\site.css",
+              "ToolTip": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\wwwroot\\css\\painel\\site.css",
+              "RelativeToolTip": "PainelAdmin\\wwwroot\\css\\painel\\site.css",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAgwDgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-13T15:16:04.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "style-index.css",
+              "DocumentMoniker": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\wwwroot\\css\\painel\\style-index.css",
+              "RelativeDocumentMoniker": "PainelAdmin\\wwwroot\\css\\painel\\style-index.css",
+              "ToolTip": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\wwwroot\\css\\painel\\style-index.css",
+              "RelativeToolTip": "PainelAdmin\\wwwroot\\css\\painel\\style-index.css",
+              "ViewState": "AgIAAFEBAAAAAAAAAAAgwGgBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-13T15:12:12.164Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "NoticiasAtuais.cshtml",
-              "DocumentMoniker": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Views\\Noticias\\NoticiasAtuais.cshtml",
-              "RelativeDocumentMoniker": "PainelAdmin\\Views\\Noticias\\NoticiasAtuais.cshtml",
-              "ToolTip": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Views\\Noticias\\NoticiasAtuais.cshtml",
-              "RelativeToolTip": "PainelAdmin\\Views\\Noticias\\NoticiasAtuais.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-18T23:46:17.659Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Views\\Noticias\\Edit.cshtml",
-              "RelativeDocumentMoniker": "PainelAdmin\\Views\\Noticias\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Views\\Noticias\\Edit.cshtml",
-              "RelativeToolTip": "PainelAdmin\\Views\\Noticias\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAKAAAAAAAAAA==",
+              "Title": "CreateAdmin.cshtml",
+              "DocumentMoniker": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Views\\User\\CreateAdmin.cshtml",
+              "RelativeDocumentMoniker": "PainelAdmin\\Views\\User\\CreateAdmin.cshtml",
+              "ToolTip": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Views\\User\\CreateAdmin.cshtml*",
+              "RelativeToolTip": "PainelAdmin\\Views\\User\\CreateAdmin.cshtml*",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAEMAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-18T23:46:08.241Z",
+              "WhenOpened": "2025-06-13T15:04:45.96Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "EditarNoticiaViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Models\\ViewModels\\EditarNoticiaViewModel.cs",
-              "RelativeDocumentMoniker": "PainelAdmin\\Models\\ViewModels\\EditarNoticiaViewModel.cs",
-              "ToolTip": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Models\\ViewModels\\EditarNoticiaViewModel.cs",
-              "RelativeToolTip": "PainelAdmin\\Models\\ViewModels\\EditarNoticiaViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T23:44:15.485Z"
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Views\\Painel\\Index.cshtml",
+              "RelativeDocumentMoniker": "PainelAdmin\\Views\\Painel\\Index.cshtml",
+              "ToolTip": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Views\\Painel\\Index.cshtml",
+              "RelativeToolTip": "PainelAdmin\\Views\\Painel\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-13T15:01:49.509Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "PainelAdmin\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Controllers\\UserController.cs",
-              "RelativeToolTip": "PainelAdmin\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAN0AAAAAAAAAAAAiwPEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T23:42:54.483Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "style-index.css",
               "DocumentMoniker": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\wwwroot\\css\\style-index.css",
               "RelativeDocumentMoniker": "PainelAdmin\\wwwroot\\css\\style-index.css",
@@ -253,9 +272,10 @@
               "RelativeDocumentMoniker": "PainelAdmin\\Views\\Pets\\Index.cshtml",
               "ToolTip": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Views\\Pets\\Index.cshtml",
               "RelativeToolTip": "PainelAdmin\\Views\\Pets\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-18T23:46:33.426Z"
+              "WhenOpened": "2025-05-18T23:46:33.426Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -265,13 +285,14 @@
               "RelativeDocumentMoniker": "PainelAdmin\\Views\\User\\Index.cshtml",
               "ToolTip": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Views\\User\\Index.cshtml",
               "RelativeToolTip": "PainelAdmin\\Views\\User\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-18T23:49:57.846Z"
+              "WhenOpened": "2025-05-18T23:49:57.846Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 10,
               "Title": "NoticiasAntigas.cshtml",
               "DocumentMoniker": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Views\\Noticias\\NoticiasAntigas.cshtml",
               "RelativeDocumentMoniker": "PainelAdmin\\Views\\Noticias\\NoticiasAntigas.cshtml",
@@ -283,7 +304,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "NoticiasController.cs",
               "DocumentMoniker": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Controllers\\NoticiasController.cs",
               "RelativeDocumentMoniker": "PainelAdmin\\Controllers\\NoticiasController.cs",
@@ -295,7 +316,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "PainelAdmin\\Views\\Shared\\_Layout.cshtml",
@@ -303,11 +324,85 @@
               "RelativeToolTip": "PainelAdmin\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-18T23:45:20.727Z"
+              "WhenOpened": "2025-05-18T23:45:20.727Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 8,
+              "Title": "Pet.cs",
+              "DocumentMoniker": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Models\\Pet.cs",
+              "RelativeDocumentMoniker": "PainelAdmin\\Models\\Pet.cs",
+              "ToolTip": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Models\\Pet.cs",
+              "RelativeToolTip": "PainelAdmin\\Models\\Pet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T23:45:03.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EditarNoticiaViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Models\\ViewModels\\EditarNoticiaViewModel.cs",
+              "RelativeDocumentMoniker": "PainelAdmin\\Models\\ViewModels\\EditarNoticiaViewModel.cs",
+              "ToolTip": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Models\\ViewModels\\EditarNoticiaViewModel.cs",
+              "RelativeToolTip": "PainelAdmin\\Models\\ViewModels\\EditarNoticiaViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T23:44:15.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Views\\Noticias\\Edit.cshtml",
+              "RelativeDocumentMoniker": "PainelAdmin\\Views\\Noticias\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Views\\Noticias\\Edit.cshtml",
+              "RelativeToolTip": "PainelAdmin\\Views\\Noticias\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-18T23:46:08.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Views\\User\\Create.cshtml",
+              "RelativeDocumentMoniker": "PainelAdmin\\Views\\User\\Create.cshtml",
+              "ToolTip": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Views\\User\\Create.cshtml",
+              "RelativeToolTip": "PainelAdmin\\Views\\User\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-18T23:49:38.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "PainelAdmin\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Controllers\\UserController.cs",
+              "RelativeToolTip": "PainelAdmin\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAN0AAAAAAAAAAAAiwPEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T23:42:54.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "NoticiasAtuais.cshtml",
+              "DocumentMoniker": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Views\\Noticias\\NoticiasAtuais.cshtml",
+              "RelativeDocumentMoniker": "PainelAdmin\\Views\\Noticias\\NoticiasAtuais.cshtml",
+              "ToolTip": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Views\\Noticias\\NoticiasAtuais.cshtml",
+              "RelativeToolTip": "PainelAdmin\\Views\\Noticias\\NoticiasAtuais.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-18T23:46:17.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "site.js",
               "DocumentMoniker": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "PainelAdmin\\wwwroot\\js\\site.js",
@@ -319,7 +414,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 17,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Program.cs",
               "RelativeDocumentMoniker": "PainelAdmin\\Program.cs",
@@ -331,7 +426,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
               "Title": "Noticia.cs",
               "DocumentMoniker": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Models\\Noticia.cs",
               "RelativeDocumentMoniker": "PainelAdmin\\Models\\Noticia.cs",
@@ -343,7 +438,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 19,
               "Title": "EditarUsuarioViewModel.cs",
               "DocumentMoniker": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Models\\ViewModels\\EditarUsuarioViewModel.cs",
               "RelativeDocumentMoniker": "PainelAdmin\\Models\\ViewModels\\EditarUsuarioViewModel.cs",
@@ -355,7 +450,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 21,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "PainelAdmin\\Views\\Home\\Index.cshtml",
@@ -367,7 +462,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 22,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Views\\Noticias\\Details.cshtml",
               "RelativeDocumentMoniker": "PainelAdmin\\Views\\Noticias\\Details.cshtml",
@@ -379,7 +474,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 20,
               "Title": "style-header.css",
               "DocumentMoniker": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\wwwroot\\css\\style-header.css",
               "RelativeDocumentMoniker": "PainelAdmin\\wwwroot\\css\\style-header.css",
@@ -391,7 +486,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 23,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Models\\Usuario.cs",
               "RelativeDocumentMoniker": "PainelAdmin\\Models\\Usuario.cs",
@@ -403,7 +498,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 25,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Views\\Noticias\\Delete.cshtml",
               "RelativeDocumentMoniker": "PainelAdmin\\Views\\Noticias\\Delete.cshtml",
@@ -415,7 +510,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 26,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Views\\Pets\\Create.cshtml",
               "RelativeDocumentMoniker": "PainelAdmin\\Views\\Pets\\Create.cshtml",
@@ -427,7 +522,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 24,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Views\\Noticias\\Create.cshtml",
               "RelativeDocumentMoniker": "PainelAdmin\\Views\\Noticias\\Create.cshtml",
@@ -439,7 +534,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 27,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Views\\Pets\\Edit.cshtml",
               "RelativeDocumentMoniker": "PainelAdmin\\Views\\Pets\\Edit.cshtml",
@@ -451,19 +546,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Views\\User\\Create.cshtml",
-              "RelativeDocumentMoniker": "PainelAdmin\\Views\\User\\Create.cshtml",
-              "ToolTip": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Views\\User\\Create.cshtml",
-              "RelativeToolTip": "PainelAdmin\\Views\\User\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-18T23:49:38.351Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 28,
               "Title": "Editar.cshtml",
               "DocumentMoniker": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Views\\User\\Editar.cshtml",
               "RelativeDocumentMoniker": "PainelAdmin\\Views\\User\\Editar.cshtml",
@@ -475,7 +558,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 29,
               "Title": "CreateRole.cshtml",
               "DocumentMoniker": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Views\\User\\CreateRole.cshtml",
               "RelativeDocumentMoniker": "PainelAdmin\\Views\\User\\CreateRole.cshtml",
@@ -487,7 +570,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 30,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "PainelAdmin\\Views\\_ViewImports.cshtml",
@@ -499,7 +582,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 33,
               "Title": "CriarNoticiaViewModel.cs",
               "DocumentMoniker": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Models\\ViewModels\\CriarNoticiaViewModel.cs",
               "RelativeDocumentMoniker": "PainelAdmin\\Models\\ViewModels\\CriarNoticiaViewModel.cs",
@@ -511,7 +594,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 31,
               "Title": "UsuarioCadastroViewModel.cs",
               "DocumentMoniker": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Models\\ViewModels\\UsuarioCadastroViewModel.cs",
               "RelativeDocumentMoniker": "PainelAdmin\\Models\\ViewModels\\UsuarioCadastroViewModel.cs",
@@ -523,7 +606,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 32,
               "Title": "PetComDonoViewModel.cs",
               "DocumentMoniker": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Models\\ViewModels\\PetComDonoViewModel.cs",
               "RelativeDocumentMoniker": "PainelAdmin\\Models\\ViewModels\\PetComDonoViewModel.cs",
@@ -535,7 +618,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 37,
               "Title": "serviceDependencies.json",
               "DocumentMoniker": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Properties\\serviceDependencies.json",
               "RelativeDocumentMoniker": "PainelAdmin\\Properties\\serviceDependencies.json",
@@ -547,7 +630,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 38,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\appsettings.json",
               "RelativeDocumentMoniker": "PainelAdmin\\appsettings.json",
@@ -559,7 +642,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 36,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "PainelAdmin\\Controllers\\AccountController.cs",
@@ -571,7 +654,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 35,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "PainelAdmin\\Controllers\\HomeController.cs",
@@ -583,7 +666,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 34,
               "Title": "PainelAdminContext.cs",
               "DocumentMoniker": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Data\\PainelAdminContext.cs",
               "RelativeDocumentMoniker": "PainelAdmin\\Data\\PainelAdminContext.cs",
@@ -595,19 +678,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "Pet.cs",
-              "DocumentMoniker": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Models\\Pet.cs",
-              "RelativeDocumentMoniker": "PainelAdmin\\Models\\Pet.cs",
-              "ToolTip": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Models\\Pet.cs",
-              "RelativeToolTip": "PainelAdmin\\Models\\Pet.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T23:45:03.6Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 39,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "PainelAdmin\\Models\\ErrorViewModel.cs",
@@ -619,7 +690,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 40,
               "Title": "Endereco.cs",
               "DocumentMoniker": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Models\\Endereco.cs",
               "RelativeDocumentMoniker": "PainelAdmin\\Models\\Endereco.cs",
@@ -631,7 +702,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 42,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Models\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "PainelAdmin\\Models\\ApplicationUser.cs",
@@ -643,7 +714,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 43,
               "Title": "ApplicationRole.cs",
               "DocumentMoniker": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Models\\ApplicationRole.cs",
               "RelativeDocumentMoniker": "PainelAdmin\\Models\\ApplicationRole.cs",
@@ -655,7 +726,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 41,
               "Title": "ContextMongodb.cs",
               "DocumentMoniker": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Models\\ContextMongodb.cs",
               "RelativeDocumentMoniker": "PainelAdmin\\Models\\ContextMongodb.cs",
@@ -667,7 +738,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 44,
               "Title": "PetsController.cs",
               "DocumentMoniker": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\Controllers\\PetsController.cs",
               "RelativeDocumentMoniker": "PainelAdmin\\Controllers\\PetsController.cs",
@@ -679,7 +750,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 45,
               "Title": "PainelAdmin.csproj",
               "DocumentMoniker": "C:\\Users\\leand\\OneDrive\\\u00C1rea de Trabalho\\DashPrincipal\\PainelAdmin\\PainelAdmin\\PainelAdmin.csproj",
               "RelativeDocumentMoniker": "PainelAdmin\\PainelAdmin.csproj",

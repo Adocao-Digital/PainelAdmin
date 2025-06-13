@@ -20,9 +20,18 @@ namespace PainelAdmin.Models.ViewModels
         public string? CPF { get; set; }
 
         [Required]
+        public string? Sexo { get; set; }
+
+        [Required]
         [DataType(DataType.Password)]
         [StringLength(100, MinimumLength = 6)]
         public string? Senha { get; set; }
+
+        [Required]
+        [DataType(DataType.Password)]
+        [Display(Name = "Confirmar Senha")]
+        [Compare("Senha", ErrorMessage = "As senhas não coincidem.")]
+        public string? ConfirmarSenha { get; set; }
 
         [Required]
         [Phone]

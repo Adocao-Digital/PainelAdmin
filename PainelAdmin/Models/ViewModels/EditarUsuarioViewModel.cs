@@ -4,7 +4,7 @@ namespace PainelAdmin.Models.ViewModels
 {
     public class EditarUsuarioViewModel
     {
-        public string Id { get; set; }
+        public string Id { get; set; } = string.Empty;
 
         [Required]
         [Display(Name = "Nome Completo")]
@@ -29,7 +29,6 @@ namespace PainelAdmin.Models.ViewModels
 
         public string? Foto { get; set; }
 
-        [Required]
         public bool Ativo { get; set; }
 
         // Endereço
@@ -44,8 +43,9 @@ namespace PainelAdmin.Models.ViewModels
 
         // Role
         [Required(ErrorMessage = "A role é obrigatória")]
-        public string NovaRole { get; set; }
+        public string NovaRole { get; set; } = string.Empty;
 
         public List<string> RolesDisponiveis { get; set; } = new List<string>();
+        public IFormFile? NovaFoto { get; set; }
     }
 }

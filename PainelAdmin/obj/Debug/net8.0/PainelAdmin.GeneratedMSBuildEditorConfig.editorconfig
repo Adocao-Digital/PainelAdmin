@@ -32,6 +32,10 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/leand/OneDrive/Área de Trabalho/DashPrincipal/PainelAdmin/PainelAdmin/Views/Home/FaleConosco.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGYWxlQ29ub3Njby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/leand/OneDrive/Área de Trabalho/DashPrincipal/PainelAdmin/PainelAdmin/Views/Home/header.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxoZWFkZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -40,8 +44,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/leand/OneDrive/Área de Trabalho/DashPrincipal/PainelAdmin/PainelAdmin/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[C:/Users/leand/OneDrive/Área de Trabalho/DashPrincipal/PainelAdmin/PainelAdmin/Views/Home/QueroAdotar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxRdWVyb0Fkb3Rhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/leand/OneDrive/Área de Trabalho/DashPrincipal/PainelAdmin/PainelAdmin/Views/Home/Sobre.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTb2JyZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/leand/OneDrive/Área de Trabalho/DashPrincipal/PainelAdmin/PainelAdmin/Views/Home/_CardsAnimais.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfQ2FyZHNBbmltYWlzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/leand/OneDrive/Área de Trabalho/DashPrincipal/PainelAdmin/PainelAdmin/Views/Noticias/Create.cshtml]
@@ -60,6 +72,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWNpYXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/leand/OneDrive/Área de Trabalho/DashPrincipal/PainelAdmin/PainelAdmin/Views/Noticias/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWNpYXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/leand/OneDrive/Área de Trabalho/DashPrincipal/PainelAdmin/PainelAdmin/Views/Noticias/NoticiasAntigas.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWNpYXNcTm90aWNpYXNBbnRpZ2FzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -68,8 +84,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWNpYXNcTm90aWNpYXNBdHVhaXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/leand/OneDrive/Área de Trabalho/DashPrincipal/PainelAdmin/PainelAdmin/Views/Painel/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFpbmVsXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/leand/OneDrive/Área de Trabalho/DashPrincipal/PainelAdmin/PainelAdmin/Views/Pets/CadastroPet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGV0c1xDYWRhc3Ryb1BldC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/leand/OneDrive/Área de Trabalho/DashPrincipal/PainelAdmin/PainelAdmin/Views/Pets/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGV0c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/leand/OneDrive/Área de Trabalho/DashPrincipal/PainelAdmin/PainelAdmin/Views/Pets/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGV0c1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/leand/OneDrive/Área de Trabalho/DashPrincipal/PainelAdmin/PainelAdmin/Views/Pets/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGV0c1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/leand/OneDrive/Área de Trabalho/DashPrincipal/PainelAdmin/PainelAdmin/Views/Pets/Edit.cshtml]
@@ -80,16 +112,32 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGV0c1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/leand/OneDrive/Área de Trabalho/DashPrincipal/PainelAdmin/PainelAdmin/Views/Pets/MeusPets.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGV0c1xNZXVzUGV0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/leand/OneDrive/Área de Trabalho/DashPrincipal/PainelAdmin/PainelAdmin/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/leand/OneDrive/Área de Trabalho/DashPrincipal/PainelAdmin/PainelAdmin/Views/Shared/_Footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Gb290ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/leand/OneDrive/Área de Trabalho/DashPrincipal/PainelAdmin/PainelAdmin/Views/Shared/_LoginLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpbkxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/leand/OneDrive/Área de Trabalho/DashPrincipal/PainelAdmin/PainelAdmin/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/leand/OneDrive/Área de Trabalho/DashPrincipal/PainelAdmin/PainelAdmin/Views/User/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDcmVhdGUuY3NodG1s
+[C:/Users/leand/OneDrive/Área de Trabalho/DashPrincipal/PainelAdmin/PainelAdmin/Views/User/Cadastro.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDYWRhc3Ryby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/leand/OneDrive/Área de Trabalho/DashPrincipal/PainelAdmin/PainelAdmin/Views/User/CreateAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDcmVhdGVBZG1pbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/leand/OneDrive/Área de Trabalho/DashPrincipal/PainelAdmin/PainelAdmin/Views/User/CreateRole.cshtml]
@@ -115,3 +163,7 @@ build_metadata.AdditionalFiles.CssScope =
 [C:/Users/leand/OneDrive/Área de Trabalho/DashPrincipal/PainelAdmin/PainelAdmin/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-jgvksdizya
+
+[C:/Users/leand/OneDrive/Área de Trabalho/DashPrincipal/PainelAdmin/PainelAdmin/Views/Shared/_Painel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QYWluZWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-pjlnmiybgj

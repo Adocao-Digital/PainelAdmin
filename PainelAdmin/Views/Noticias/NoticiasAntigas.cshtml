@@ -2,6 +2,7 @@
 
 @{
     ViewData["Title"] = "Index";
+    Layout = "_Painel";
 }
 
 <h1>Notícias</h1>
@@ -9,6 +10,7 @@
 <p>
     <a class="btn btn-success" asp-action="Create">Nova Notícia</a>
 </p>
+
 <table class="table table-bordered">
     <thead>
         <tr>
@@ -41,7 +43,7 @@
                     @Html.DisplayFor(modelItem => item.Conteudo)
                 </td>
                 <td>
-                    <img src="@Html.DisplayFor(modelItem => item.Foto)" style="max-width: 120px" />
+                    <img src="~/@item.Foto" style="max-width: 120px" />
                 </td>
                 <td>
                     @Html.DisplayFor(modelItem => item.DataPublicacao)

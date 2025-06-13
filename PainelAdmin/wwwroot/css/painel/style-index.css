@@ -1,0 +1,359 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 5vh;
+}
+
+/* ===================== TABELAS ===================== */
+th, td {
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+th {
+    border: none;
+}
+
+td {
+    background-color: #fff;
+}
+
+    td a img,
+    button img {
+        width: 30px;
+        height: 30px;
+    }
+
+    td a, th a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        vertical-align: middle;
+    }
+
+.col-acoes {
+    width: 18%;
+    text-align: center;
+}
+
+/* ===================== PERFIL ===================== */
+.ft-perfil {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    align-items: center;
+}
+
+li img {
+    width: 8%;
+}
+
+li {
+    text-align: center;
+    align-content: center;
+}
+
+/* ===================== INFO DO USUÁRIO ===================== */
+.userInfo {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+    .userInfo a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .userInfo img {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        margin-top: 8px;
+    }
+
+@media (max-width: 600px) {
+    .userInfo {
+        flex-direction: row;
+        justify-content: flex-end;
+        padding-right: 10px;
+        text-align: right;
+    }
+
+        .userInfo img {
+            margin: 0;
+        }
+    .logo {
+        width: 120px; /* tamanho reduzido para mobile */
+    }
+      
+}
+
+/* ===================== SIDEBAR ===================== */
+.sidebar {
+    position: fixed;
+    top: 13vh;
+    left: 0;
+    width: 34vh;
+    height: calc(100vh - 10vh);
+    padding-top: 10vh;
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    border-right: 2px solid #ccc;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    transition: transform 0.3s ease;
+}
+
+    .sidebar::-webkit-scrollbar {
+        display: none;
+    }
+
+    .sidebar .nav-link {
+        padding: 25px 20px;
+        text-align: left;
+        color: #333;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+        .sidebar .nav-link:hover {
+            background-color: #e9ecef;
+            width: 100%;
+        }
+
+.sidebar-bottom {
+    margin-bottom: 30px;
+}
+
+/* Sidebar responsiva */
+@media (max-width: 900px) {
+    .sidebar {
+        width: 180px;
+    }
+
+    .content {
+        margin-left: 0;
+    }
+}
+
+
+
+
+/* ===================== CONTEÚDO ===================== */
+.content {
+    margin-left: 36vh;
+    padding: 20px;
+    padding-top: 100px;
+}
+
+/* ===================== MODAL ===================== */
+.modal {
+    top: 15vh;
+}
+
+.modal-header {
+    background-color: #91c041;
+    color: #fff;
+    font-size: 1.5em;
+}
+
+.modal-content {
+    border-radius: 3%;
+    border: 10px solid #91c041;
+}
+
+/* ===================== FORMULÁRIOS ===================== */
+.form-control {
+    background-color: #f1f0f6;
+}
+
+.btn-success {
+    border-radius: 30px;
+}
+
+/* ===================== LINKS E BARRA ===================== */
+.sair {
+    padding: 0 25px;
+}
+
+thead {
+    background-color: #efefef;
+    border: 1px solid #cacaca;
+    border-collapse: collapse;
+}
+
+/* Remove hover de "Olá" */
+.no-hover .nav-link:hover {
+    background-color: inherit;
+    cursor: default;
+}
+
+/* ===================== NAV ITEM COM ICONE EXTERNO ===================== */
+.nav-item {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    text-decoration: none;
+    color: #000;
+}
+
+    .nav-link img.notift {
+        margin-right: 8px;
+        width: 20px;
+        height: 20px;
+    }
+
+/* botão flutuando sobre a li */
+.transition {
+    transition: transform 0.3s ease;
+}
+
+.rotate-180 {
+    transform: rotate(180deg);
+}
+
+.menu-toggle {
+    position: fixed;
+    top: 30px;
+    left: 15px;
+    z-index: 1050;
+    background-color: #fff;
+    border: none;
+    font-size: 24px;
+    border-radius: 4px;
+}
+
+/* Sidebar padrão para desktop */
+.sidebar {
+    transition: transform 0.3s ease;
+}
+
+/* Oculta sidebar no mobile por padrão */
+@media (max-width: 768px) {
+    .sidebar {
+        transform: translateX(-100%);
+        width: 240px;
+        z-index: 1;
+        position: fixed;
+        top: 14vh;
+        height: calc(100% - 60px);
+        background-color: #f8f9fa;
+        border-right: 2px solid #ccc;
+        padding-top: 20px;
+    }
+
+        .sidebar.show {
+            transform: translateX(0);
+        }
+
+    .content {
+        margin-left: 0 !important;
+        padding-top: 100px;
+    }
+}
+.modal .btn:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.modal-content {
+    border: none !important;
+    box-shadow: none !important;
+}
+.ModUsu {
+    width: 90vh;
+    max-width: 90vh;
+    margin: auto;
+    transform: translateX(-10%);
+}
+.custom-control {
+    background-color: #28a745; /* verde Bootstrap */
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+
+    .custom-control:hover {
+        background-color: #218838; /* verde mais escuro */
+    }
+
+    .custom-control .custom-arrow {
+        color: #fff;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+.carousel-control-prev {
+    left: 18%;
+}
+
+.carousel-control-next {
+    right: 15px;
+}
+
+.fixed-control {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.col-acoes img {
+    width: 30px;
+    height: 30px;
+}
+.cadastro-container {
+    max-width: 450px;
+    margin: 50px auto;
+    padding: 30px 25px;
+    background-color: #ffffff;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+    .cadastro-container .titulo {
+        text-align: center;
+        margin-bottom: 25px;
+        color: #333;
+    }
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+    .form-group label {
+        font-weight: 600;
+        display: block;
+        margin-bottom: 5px;
+    }
+
+.form-control {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}

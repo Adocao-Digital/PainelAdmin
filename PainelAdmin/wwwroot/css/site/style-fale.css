@@ -1,0 +1,135 @@
+body {
+    background-color: white;
+    height: 100vh;
+}
+   
+  body::-webkit-scrollbar {
+    width: 12px;              
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #f1f0f6;     
+   }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #91c041;   
+    border-radius: 20px;       
+    border: 3px solid #f1f0f6; 
+  }
+
+.display {
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.card-fale {
+    border-radius: 35px;
+    background-color: #f1f0f6;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.35);
+}
+
+.c-w{
+    width: 500px;
+}
+
+.text {
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+}
+
+
+.c-fale {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.img-fale {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.card-img-top {
+    max-width: 90px;
+    max-height: 90px;
+    margin-top: 10px;
+}
+
+.change {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-top: 10px;
+}
+
+.c-bottom {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-social {
+    width: 250px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.image-fale {
+    max-width: 90px;
+    max-height: 90px;
+}
+
+.figure-fale {
+    margin-top: 50px;
+    width: 500px;
+}
+
+.parag-fale {
+    font-size: larger;
+}
+
+.add-fale {
+    font-size: large;
+}
+
+@media (max-width: 460px){
+    .text{
+        font-size: small;
+    }
+}
+
+@media (max-width: 768px){
+    .c-fale {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .img-fale{
+        margin: 20px;
+    }
+}
+
+
+@media (max-width: 540px){
+    .figure-fale {
+        width: 300px;
+    }
+}
+
+.home1:hover, .home2:hover, .home3:hover, .ajudar:hover, .botao:hover {
+    background-color: #91C041;
+    border-radius: 10px;
+}
+
+.entrar:hover {
+  background-color: #F9B15D;
+} 

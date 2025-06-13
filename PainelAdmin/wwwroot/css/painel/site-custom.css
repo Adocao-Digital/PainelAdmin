@@ -1,0 +1,101 @@
+﻿body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    color: #000;
+}
+
+form {
+    max-width: 1000px;
+    margin-top: 5px; /* Adicionando 50px de margem no topo */
+    padding: 20px;
+}
+
+h2 {
+    font-size: 2.5rem; 
+    font-weight: bold;
+    color: black;
+    margin-bottom: 30px;
+    margin-left: 25px;
+    margin-top: 60px;
+}
+
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+input.form-control {
+    border-radius: 20px;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+}
+
+select.form-control {
+    border-radius: 20px;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+}
+
+label {
+    font-weight: 500;
+}
+
+button.btn-primary {
+    background-color: #0a8020;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 25px;
+    font-weight: bold;
+}
+
+    button.btn-primary:hover {
+        background-color: #066219;
+    }
+
+.form-row {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.form-col {
+    flex: 1;
+    min-width: 200px;
+}
+
+/* Estilo para o link "Voltar" */
+.voltar {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #0a8020;
+}
+
+/* Ajuste do tamanho dos campos do formulário */
+.campo-tamanho {
+    width: 100%; /* Ocupa toda a largura disponível */
+    max-width: 500px; /* Largura máxima */
+}
+
+/* Estilo personalizado para os rótulos dos campos */
+.label-custom {
+    font-weight: bold;
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Estilo para o título "Endereço" */
+.titulo-endereco {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 30px;
+    color: #333;
+}
+/* Estilo específico para o campo "Número" */
+.campo-numero {
+    width: 150px; /* Define a largura do campo "Número" como 150px */
+    max-width: 200px; /* Define a largura máxima como 200px */
+}
+
+.d-md-none {
+    margin-top: 2vh;
+}

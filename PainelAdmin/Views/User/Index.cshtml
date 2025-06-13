@@ -2,10 +2,28 @@
 
 @{
     ViewData["Title"] = "Lista de Usuários";
+    Layout = "_Painel";
+}
+
+@if (TempData["MensagemErro"] != null)
+{
+    <div class="alert alert-danger" role="alert">
+        @TempData["MensagemErro"]
+    </div>
+}
+
+@if (TempData["MensagemSucesso"] != null)
+{
+    <div class="alert alert-success" role="alert">
+        @TempData["MensagemSucesso"]
+    </div>
 }
 
 <h2>Usuários</h2>
 
+<p class="text-end mb-3">
+<a asp-controller="User" asp-action="CreateAdmin" class="btn btn-success">Criar Funcionário</a>
+</p>
 <table class="table table-bordered">
     <thead>
         <tr>
@@ -81,7 +99,14 @@
                                     <div class="col-6 mb-2">
                                         <div class="d-flex align-items-center">
                                             <dt class="me-2 mb-0">Endereço:</dt>
-                                            <dd class="mb-0">@usuario.Endereco</dd>
+                                            @if (!string.IsNullOrEmpty(usuario.Endereco.Rua))
+                                            {
+                                                <dd class="mb-0">@usuario.Endereco.Rua @usuario.Endereco.Numero</dd>
+                                            }
+                                            else
+                                            {
+                                                <dd class="mb-0">Endereço não cadastrado.</dd>
+                                            }
                                         </div>
                                     </div>
                                     <div class="col-12 mb-2">
@@ -94,7 +119,7 @@
                                                 }
                                                 else
                                                 {
-                                                    <p>Sem foto</p>
+                                                    <dd class="mb-0">Sem foto</dd>
                                                 }
 
                                             </dd>
