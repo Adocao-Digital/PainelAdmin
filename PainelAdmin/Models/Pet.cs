@@ -9,7 +9,7 @@ namespace PainelAdmin.Models
         [Required]
         public string? Nome { get; set; }
         [Required]
-        public string? Idade { get; set; }
+        public int? Idade { get; set; }
         [Required]
         [Display(Name = "Espécie")]
         public string? Especie { get; set; }

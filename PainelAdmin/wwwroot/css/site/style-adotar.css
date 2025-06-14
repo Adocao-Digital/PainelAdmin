@@ -50,7 +50,6 @@
     position: sticky;
     top: 10px;
     height: max-content;
-    overflow: scroll;
 }
 
 
@@ -59,6 +58,7 @@
     padding-bottom: 30px;
     padding-left: 20px;
     font-size: large;
+    width: 300px;
 }
 
 /*animais*/
@@ -91,6 +91,9 @@
 }
 
 .card-animais {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     max-height: 300px;
 }
 
@@ -99,6 +102,19 @@
     margin-top: 30px;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 20px;
     border-radius: 20px;
+}
+
+.card-cc img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.card-animais .btn {
+    margin-top: auto;
 }
 
 @media (max-width: 1205px){

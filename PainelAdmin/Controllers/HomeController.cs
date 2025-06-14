@@ -61,26 +61,41 @@ namespace PainelAdmin.Controllers
         }
 
         [HttpPost]
-        public IActionResult Filtrar([FromBody] FiltroPetModel filtros)
+        public async Task<IActionResult> Filtrar([FromBody] FiltroPetModel filtros)
         {
-            var pets = _context.Pet.AsQueryable().Where(p => p.Situacao == "Adocao");
+            var filtroBuilder = Builders<Pet>.Filter;
+            var filtroFinal = filtroBuilder.Empty;
 
-            if (filtros.Especie?.Any() == true)
-                pets = pets.Where(p => filtros.Especie.Contains(p.Especie.ToLower()));
+            if (filtros.Especie != null && filtros.Especie.Any())
+            {
+                filtroFinal &= filtroBuilder.In(p => p.Especie, filtros.Especie);
+            }
 
-            if (filtros.Idade?.Any() == true)
-                pets = pets.Where(p => filtros.Idade.Contains(p.Idade.ToLower()));
+            if (filtros.Porte != null && filtros.Porte.Any())
+            {
+                filtroFinal &= filtroBuilder.In(p => p.Porte, filtros.Porte);
+            }
 
-            if (filtros.Porte?.Any() == true)
-                pets = pets.Where(p => filtros.Porte.Contains(p.Porte.ToLower()));
+            if (filtros.Sexo != null && filtros.Sexo.Any())
+            {
+                filtroFinal &= filtroBuilder.In(p => p.Sexo, filtros.Sexo);
+            }
 
-            if (filtros.Sexo?.Any() == true)
-                pets = pets.Where(p => filtros.Sexo.Contains(p.Sexo.ToLower()));
+            if (filtros.Idade != null && filtros.Idade.Any())
+            {
+                // Se Idade é int?, pode ser bom garantir que p.Idade != null
+                var faixa1 = filtroBuilder.Lte(p => p.Idade, 2); // até 2 anos
+                var faixa2 = filtroBuilder.And(
+                    filtroBuilder.Gte(p => p.Idade, 3),
+                    filtroBuilder.Lte(p => p.Idade, 6)
+                );
 
-            var resultado = pets.ToList();
+                var filtroFaixas = filtroBuilder.Or(faixa1, faixa2);
+            }
 
-            return PartialView("_CardsAnimais", resultado);
+            var petsFiltrados = await _context.Pet.Find(filtroFinal).ToListAsync();
+
+            return PartialView("_CardsAnimais", petsFiltrados);
         }
-
     }
 }
