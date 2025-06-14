@@ -148,13 +148,17 @@ namespace PainelAdmin.Controllers
             if (pet == null)
                 return NotFound();
             var dono = await _userManager.FindByIdAsync(pet.IdPessoa);
-            if (User.IsInRole("USER") && pet.IdPessoa != dono.Id)
+            if (User.IsInRole("USER"))
             {
-                return Unauthorized();
+                if (dono == null || pet.IdPessoa != dono.Id)
+                {
+                    return Unauthorized();
+                }
+                return View("UserPet", pet);
             }
             if(User.IsInRole("ADM"))
                 return View(pet);
-            return View("UserPet");
+            return Forbid();
         }
 
         [HttpPost]

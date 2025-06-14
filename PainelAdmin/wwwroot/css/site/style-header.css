@@ -5,6 +5,10 @@
     font-optical-sizing: auto;
 }
 
+.object-fit-cover {
+    object-fit: cover;
+}
+
 header {
     background-color: #91c041;
     height: 30px;
