@@ -1,5 +1,70 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
+﻿@{
+	ViewData["Title"] = "Fale Conosco";
 }
+
+@section Styles {
+	<link rel="stylesheet" href="~/css/site/style-fale.css" asp-append-version="true" />
+}
+
+<div class="container display">
+    <div class="card card-fale c-w">
+        <div class="card-body text">
+            Seja Bem-vindo(a) ao Fale Conosco
+        </div>
+    </div>
+</div>
+<div class="container c-fale">
+    <div class="card img-fale" style="width: 18rem;">
+        <img src="~/img/duvidas2.png" class="card-img-top" alt="formulario">
+        <div class="card-body change">
+            <h5 class="card-title">Dúvidas</h5>
+            <p class="card-text">Tire suas dúvidas através de um formulário (google forms).</p>
+            <a href="#" class="btn btn-success">Clique aqui</a>
+        </div>
+    </div>
+    <div class="card img-fale" style="width: 18rem;">
+        <img src="./img/lampada.png" class="card-img-top" alt="formulario">
+        <div class="card-body change">
+            <h5 class="card-title">Sugestões</h5>
+            <p class="card-text">Envie sugestões para o CCZ através de um formulário (google forms).</p>
+            <a href="#" class="btn btn-success">Clique aqui</a>
+        </div>
+    </div>
+    <div class="card img-fale" style="width: 18rem;">
+        <img src="./img/denuncia.png" class="card-img-top" alt="formulario">
+        <div class="card-body change">
+            <h5 class="card-title">Denúncias</h5>
+            <p class="card-text">Para denunciar alguma ocorrência envie por fomulário (google forms).</p>
+            <a href="#" class="btn btn-success">Clique aqui</a>
+        </div>
+    </div>
+</div>
+<div class="container c-bottom">
+    <div class="container display">
+        <div class="card card-fale">
+            <div class="card-body text">
+                Redes Sociais
+            </div>
+        </div>
+    </div>
+    <div class="img-social">
+        <a href="#"><img src="./img/instagram.png" class="img-fluid image-fale" alt="instagram"></a>
+        <a href="#"><img src="./img/facebook.png" class="img-fluid image-fale" alt="facebook"></a>
+    </div>
+    <figure class="text-center figure-fale">
+        <blockquote class="blockquote">
+            <p class="parag-fale">"Olá! Estamos aqui para garantir a saúde e o bem-estar dos animais e da comunidade. Como podemos ajudar hoje?"</p>
+        </blockquote>
+    </figure>
+    <figure class="text-center figure-fale">
+        <blockquote class="blockquote">
+            <p class="parag-fale">Endereço</p>
+        </blockquote>
+        <figcaption class="blockquote-footer">
+            <address class="add-fale">
+                Endereço: BRB 246 - Jardim Bela Vista (Antigo Sítio Escola) – Município de Barra Bonita
+                Telefones: (14)3641-0003 e (14)99662 0512
+            </address>
+        </figcaption>
+    </figure>
+</div>
