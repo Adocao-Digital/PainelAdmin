@@ -1,0 +1,39 @@
+﻿@model PainelAdmin.Models.ViewModels.AlterarSenhaViewModel
+
+@{
+    ViewData["Title"] = "Alterar Senha";
+    Layout = "_Layout";
+}
+
+<h2 class="mt-4 mb-3">Alterar Senha</h2>
+
+<form asp-action="AlterarSenha" method="post">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+    <div class="mb-3">
+        <label asp-for="SenhaAtual" class="form-label"></label>
+        <input asp-for="SenhaAtual" type="password" class="form-control" />
+        <span asp-validation-for="SenhaAtual" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="NovaSenha" class="form-label"></label>
+        <input asp-for="NovaSenha" type="password" class="form-control" />
+        <span asp-validation-for="NovaSenha" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="ConfirmacaoSenha" class="form-label"></label>
+        <input asp-for="ConfirmacaoSenha" type="password" class="form-control" />
+        <span asp-validation-for="ConfirmacaoSenha" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-success">Alterar Senha</button>
+    <a asp-action="Perfil" class="btn btn-secondary">Cancelar</a>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
