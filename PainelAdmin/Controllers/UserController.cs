@@ -1,9 +1,10 @@
-﻿using PainelAdmin.Models;
-using PainelAdmin.Models.ViewModels;
+﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using MongoDB.Driver;
-using Microsoft.AspNetCore.Authorization;
+using PainelAdmin.Models;
+using PainelAdmin.Models.ViewModels;
 
 namespace PainelAdmin.Controllers
 {
@@ -341,8 +342,20 @@ namespace PainelAdmin.Controllers
         [Route("painel/[controller]/[action]")]
         public async Task<IActionResult> Index()
         {
-            var usuarios = await _context.Usuarios.Find(u => u.Ativo).ToListAsync();
-            return View(usuarios);
+            var usuarios = _userManager.Users.Include(u => u.Endereco).ToList();
+            var listaUsuarios = new List<UsuarioComRoleViewModel>();
+
+            foreach (var user in usuarios)
+            {
+                var roles = await _userManager.GetRolesAsync(user);
+                listaUsuarios.Add(new UsuarioComRoleViewModel
+                {
+                    Usuario = user,
+                    Roles = roles.ToList()
+                });
+            }
+
+            return View(listaUsuarios);
         }
 
         [Route("painel/[controller]/[action]")]

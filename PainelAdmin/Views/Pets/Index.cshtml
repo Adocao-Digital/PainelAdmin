@@ -22,7 +22,8 @@
         <tr>
             <th>Nome</th>
             <th>Espécie</th>
-            <th>Dono</th>
+            <th>Dono/Responsável</th>
+            <th>Situação</th>
             <th>Imagem</th>
             <th class="col-acoes">Ações</th>
         </tr>
@@ -34,6 +35,14 @@
                 <td>@item.Pet.Nome</td>
                 <td>@item.Pet.Especie</td>
                 <td>@item.NomeDono</td>
+                @if (item.Pet.Situacao == "Adocao")
+                {
+                    <td>Para adoção</td>
+                }
+                @if (item.Pet.Situacao == "ComTutor")
+                {
+                <td>Com tutos</td>                    
+                }
                 <td>
                     @if (!string.IsNullOrEmpty(item.Pet.Foto))
                     {
