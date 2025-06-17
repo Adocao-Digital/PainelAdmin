@@ -1,8 +1,11 @@
-using PainelAdmin.Models;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Options;
 using PainelAdmin.Data;
-using Microsoft.AspNetCore.Identity;
+using PainelAdmin.Entities;
+using PainelAdmin.Models;
+using PainelAdmin.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<PainelAdminContext>(options =>
@@ -17,7 +20,12 @@ ContextMongodb.IsSSL = Convert.ToBoolean(builder.Configuration.GetSection("Mongo
 
 builder.Services.AddIdentity<ApplicationUser, ApplicationRole>()
     .AddMongoDbStores<ApplicationUser, ApplicationRole, string>(
-    ContextMongodb.ConnectionString, ContextMongodb.Database);
+        ContextMongodb.ConnectionString, ContextMongodb.Database)
+    .AddDefaultTokenProviders();
+builder.Services.Configure<EmailConfig>(builder.Configuration.GetSection("EmailConfig"));
+builder.Services.AddSingleton(resolver => resolver.GetRequiredService<IOptions<EmailConfig>>().Value);
+builder.Services.AddTransient<IEmailSender, EmailService>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -32,6 +40,8 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+app.UseStaticFiles();
+
 
 app.UseAuthorization();
 

@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace PainelAdmin.Models
 {
-    public class Usuario
+    public class Usuario : IdentityUser
     {
         [Required]
         [Display(Name = "Nome Completo")]

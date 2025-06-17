@@ -1,0 +1,62 @@
+﻿@model PainelAdmin.Models.ApplicationUser
+
+@{
+    ViewData["Title"] = "Meu Perfil";
+    Layout = "_Layout";
+}
+
+<h2 class="mt-4 mb-3">Meu Perfil</h2>
+
+<div class="row">
+    <div class="col-md-4 text-center">
+        <img src="@Model.Foto" alt="Foto de perfil" class="img-fluid rounded-circle" style="width: 200px; height: 200px; object-fit: cover;" />
+    </div>
+
+    <div class="col-md-8">
+        <table class="table table-striped">
+            <tbody>
+                <tr>
+                    <th>Nome Completo:</th>
+                    <td>@Model.Nome</td>
+                </tr>
+                <tr>
+                    <th>Email:</th>
+                    <td>@Model.Email</td>
+                </tr>
+                <tr>
+                    <th>CPF:</th>
+                    <td>@Model.CPF</td>
+                </tr>
+                <tr>
+                    <th>Sexo:</th>
+                    <td>@Model.Sexo</td>
+                </tr>
+                <tr>
+                    <th>Data de Nascimento:</th>
+                    <td>@Model.DataNascimento.ToString("dd/MM/yyyy")</td>
+                </tr>
+                <tr>
+                    <th>Status:</th>
+                    <td>@(Model.Ativo ? "Ativo" : "Inativo")</td>
+                </tr>
+                @if (Model.Endereco != null)
+                {
+                    <tr>
+                        <th>Endereço:</th>
+                        <td>@Model.Endereco.Rua, @Model.Endereco.Numero - @Model.Endereco.Bairro</td>
+                    </tr>
+                    <tr>
+                        <th>Cidade/Estado:</th>
+                        <td>@Model.Endereco.Cidade / @Model.Endereco.Estado</td>
+                    </tr>
+                    <tr>
+                        <th>CEP:</th>
+                        <td>@Model.Endereco.CEP</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+        <a asp-action="EditarPerfil" asp-controller="Account" class="btn btn-primary">Editar Perfil</a>
+    </div>
+</div>

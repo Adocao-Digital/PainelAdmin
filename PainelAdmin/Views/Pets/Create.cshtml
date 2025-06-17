@@ -2,6 +2,7 @@
 
 @{
     ViewData["Title"] = "Cadastrar Pet";
+    Layout = "_Painel";
 }
 
 <h1>Cadastrar Pet</h1>
@@ -26,7 +27,11 @@
 
             <div class="form-group">
                 <label asp-for="Especie" class="control-label"></label>
-                <input asp-for="Especie" class="form-control" />
+                <select asp-for="Especie" class="form-control">
+                    <option value="">Selecione</option>
+                    <option>Cachorro</option>
+                    <option>Gato</option>
+                </select>
                 <span asp-validation-for="Especie" class="text-danger"></span>
             </div>
 
@@ -63,7 +68,7 @@
                 <span asp-validation-for="Sexo" class="text-danger"></span>
             </div>
 
-            <input type="hidden" asp-for="Situacao" value="@Model.Situacao" />
+            <input type="hidden" asp-for="Situacao" />
 
             <div class="form-group">
                 <label class="control-label fw-bold fs-6">Imagem do Pet</label>

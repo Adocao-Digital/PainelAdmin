@@ -2,6 +2,7 @@
 
 @{
     ViewData["Title"] = "Editar Pet";
+    Layout = "_Painel";
 }
 
 <h1>Editar Pet</h1>
@@ -37,9 +38,9 @@
                 <label asp-for="Porte" class="control-label"></label>
                 <select asp-for="Porte" class="form-control">
                     <option value="">Selecione</option>
-                    <option selected="@Model.Porte == " Pequeno"">Pequeno</option>
-                    <option selected="@Model.Porte == " Médio"">Médio</option>
-                    <option selected="@Model.Porte == " Grande"">Grande</option>
+                    <option>Pequeno</option>
+                    <option>Médio</option>
+                    <option>Grande</option>
                 </select>
                 <span asp-validation-for="Porte" class="text-danger"></span>
             </div>
@@ -60,8 +61,8 @@
                 <label asp-for="Sexo" class="control-label"></label>
                 <select asp-for="Sexo" class="form-control">
                     <option value="">Selecione</option>
-                    <option selected="@Model.Sexo == " Macho"">Macho</option>
-                    <option selected="@Model.Sexo == " Fêmea"">Fêmea</option>
+                    <option>Macho</option>
+                    <option>Fêmea</option>
                 </select>
                 <span asp-validation-for="Sexo" class="text-danger"></span>
             </div>
