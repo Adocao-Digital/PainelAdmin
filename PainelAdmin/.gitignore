@@ -1,0 +1,58 @@
+## Ignore arquivos de build ##
+bin/
+obj/
+[Bb]uild/
+[Bb]uild[Ll]og.*
+
+## Ignorar arquivos temporários do VS ##
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Ignorar arquivos de publicação ##
+*.Publish.xml
+
+## Arquivos do Rider/ReSharper ##
+.idea/
+*.sln.iml
+_ReSharper*/
+*.DotSettings.user
+
+## Arquivos de log e temporários ##
+*.log
+*.tmp
+
+## Ignorar pacotes NuGet baixados ##
+packages/
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## Ignorar arquivos gerados por dependências ##
+node_modules/
+bower_components/
+
+## Ignorar arquivos de configuração locais ##
+appsettings.Development.json
+PainelAdmin/appsettings.json
+secrets.json
+
+## Ignorar diretórios comuns ##
+TestResults/
+*.dbmdl
+*.bak
+*.backup
+*.mdf
+*.ldf
+
+# Arquivos do sistema #
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Git pessoal #
+*.orig

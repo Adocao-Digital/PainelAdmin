@@ -1,0 +1,60 @@
+﻿@model IEnumerable<PainelAdmin.Models.Noticia>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "_Painel";
+}
+
+<h1>Notícias</h1>
+
+<p>
+    <a class="btn btn-success" asp-action="Create">Nova Notícia</a>
+</p>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Titulo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Conteudo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Foto)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DataPublicacao)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NomeAutor)
+            </th>
+            <th class="col-acoes">Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Titulo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Conteudo)
+            </td>
+            <td>
+                <img src="@Html.DisplayFor(modelItem => item.Foto)" style="max-width: 120px"/>
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DataPublicacao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NomeAutor)
+            </td>
+                <td class="col-acoes">
+                    <a class="btn btn-outline-secondary" asp-action="Edit" asp-route-id="@item.Id"><img src="~/img/editar-arquivo.png" /></a> |
+                    <a class="btn btn-outline-secondary" asp-action="Details" asp-route-id="@item.Id"><img src="~/img/olho.png" /></a> |
+                    <a class="btn btn-outline-secondary" asp-action="Delete" asp-route-id="@item.Id"><img src="~/img/lixeira-xmark.png" /></a>
+                </td>
+        </tr>
+}
+    </tbody>
+</table>

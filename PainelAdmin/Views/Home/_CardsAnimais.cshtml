@@ -1,0 +1,12 @@
+﻿@model IEnumerable<PainelAdmin.Models.Pet>
+
+@foreach (var animal in Model)
+{
+    <div class="card card-cc" style="width: 18rem;">
+        <img src="~/@animal.Foto" class="card-img-top" alt="Foto do pet" />
+        <div class="card-body card-animais">
+            <h5 class="card-title">@animal.Nome</h5>
+            <a href="#" class="btn btn-success">Adotar</a>
+        </div>
+    </div>
+}

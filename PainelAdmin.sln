@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35806.99 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PainelAdmin", "PainelAdmin\PainelAdmin.csproj", "{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ECB64A61-6A54-4518-BC3B-375794A64A94}
+	EndGlobalSection
+EndGlobal

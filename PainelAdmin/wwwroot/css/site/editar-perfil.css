@@ -1,0 +1,57 @@
+﻿.editar-perfil-container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+.perfil-card {
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.titulo-form {
+    color: #ff7f00;
+    font-weight: 600;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.subtitulo {
+    margin-top: 25px;
+    color: #28a745;
+    font-weight: 600;
+}
+
+.campo {
+    margin-bottom: 16px;
+}
+
+    .campo label {
+        font-weight: 500;
+        margin-bottom: 6px;
+        display: block;
+    }
+
+.foto-atual {
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+    .foto-atual img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 4px solid #ff7f00;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+
+@media screen and (max-width: 768px) {
+    .botoes {
+        flex-direction: column;
+        align-items: stretch;
+    }
+}
