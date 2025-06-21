@@ -38,6 +38,7 @@ bower_components/
 ## Ignorar arquivos de configuração locais ##
 appsettings.Development.json
 PainelAdmin/appsettings.json
+appsettings.json
 secrets.json
 
 ## Ignorar diretórios comuns ##
