@@ -1,4 +1,4 @@
-﻿@model List<PainelAdmin.Models.ViewModels.UsuarioComRoleViewModel>
+﻿@model List<PainelAdmin.Models.ApplicationUser>
 
 @{
     ViewData["Title"] = "Lista de Usuários";
@@ -21,30 +21,27 @@
 
 <h2>Usuários</h2>
 
-<a asp-controller="User" asp-action="CreateAdmin" class="btn btn-primary">Criar Funcionário</a>
-
-<table class="table table-bordered mt-3">
+<p class="text-end mb-3">
+<a asp-controller="User" asp-action="CreateAdmin" class="btn btn-success">Criar Funcionário</a>
+</p>
+<table class="table table-bordered">
     <thead>
         <tr>
             <th>Nome</th>
             <th>CPF</th>
             <th>Email</th>
             <th>Telefone</th>
-            <th>Função</th>
             <th>Ações</th>
         </tr>
     </thead>
     <tbody>
-        @foreach (var item in Model)
+        @foreach (var usuario in Model)
         {
-            var usuario = item.Usuario;
-            var roles = item.Roles;
             <tr>
                 <td>@usuario.Nome</td>
                 <td>@usuario.CPF</td>
                 <td>@usuario.Email</td>
-                <td>@usuario.PhoneNumber</td>                
-                <td>@string.Join(", ", roles)</td>
+                <td>@usuario.PhoneNumber</td>
                 <td class="col-acoes">
                     <a asp-action="Editar" asp-route-id="@usuario.Id" class="btn btn-outline-secondary">
                         <img src="~/img/editar-arquivo.png" />

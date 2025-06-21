@@ -5,6 +5,7 @@ using Microsoft.Identity.Client;
 using System.ComponentModel.DataAnnotations;
 using Microsoft.AspNetCore.Authorization;
 using PainelAdmin.Models.ViewModels;
+using PainelAdmin.Services;
 
 namespace PainelAdmin.Controllers
 {
@@ -192,6 +193,81 @@ namespace PainelAdmin.Controllers
         {
             await _signInManager.SignOutAsync();
             return RedirectToAction("Index", "Home");
+        }
+
+        public IActionResult Esqueci(Esqueci model)
+        {
+            return View(model);
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Esqueci(Esqueci model, [FromServices] IEmailSender emailSender)
+        {
+            if (!ModelState.IsValid)
+                return View(model);
+
+            var user = await _userManager.FindByEmailAsync(model.Email);
+            if (user == null)
+            {
+
+                TempData["MensagemSucesso"] = "Se o e-mail estiver cadastrado, você receberá as instruções.";
+                return RedirectToAction("Login");
+            }
+
+            // Gerar token de redefinição de senha
+            var token = await _userManager.GeneratePasswordResetTokenAsync(user);
+
+            // Montar link de redefinição
+            var callbackUrl = Url.Action("RedefinirSenha", "Account", new { userId = user.Id, token = token }, protocol: Request.Scheme);
+
+            // Enviar e-mail
+            var assunto = "Redefinição de senha";
+            var mensagem = $"Clique no link para redefinir sua senha: <a href='{callbackUrl}'>Redefinir senha</a>";
+
+            await emailSender.SendEmailAsync(model.Email, assunto, "Clique no link para redefinir sua senha.", mensagem);
+
+            TempData["MensagemSucesso"] = "Se o e-mail estiver cadastrado, você receberá as instruções.";
+            return RedirectToAction("Login");
+        }
+        [HttpGet]
+        public IActionResult RedefinirSenha(string userId, string token)
+        {
+            if (string.IsNullOrEmpty(userId) || string.IsNullOrEmpty(token))
+            {
+                TempData["MensagemErro"] = "Link de redefinição inválido.";
+                return RedirectToAction("Login");
+            }
+
+            var model = new RedefinirSenhaViewModel { UserId = userId, Token = token };
+            return View(model);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> RedefinirSenha(RedefinirSenhaViewModel model)
+        {
+            if (!ModelState.IsValid)
+                return View(model);
+
+            var user = await _userManager.FindByIdAsync(model.UserId);
+            if (user == null)
+            {
+                TempData["MensagemErro"] = "Usuário não encontrado.";
+                return RedirectToAction("Login");
+            }
+
+            var result = await _userManager.ResetPasswordAsync(user, model.Token, model.NovaSenha);
+            if (result.Succeeded)
+            {
+                TempData["MensagemSucesso"] = "Senha redefinida com sucesso!";
+                return RedirectToAction("Login");
+            }
+
+            foreach (var error in result.Errors)
+            {
+                ModelState.AddModelError(string.Empty, error.Description);
+            }
+            return View(model);
         }
     }
 }

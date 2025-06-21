@@ -1,0 +1,29 @@
+﻿@model PainelAdmin.Models.ViewModels.RedefinirSenhaViewModel
+
+@{
+    ViewData["Title"] = "Redefinir Senha";
+    Layout = "_Layout";
+}
+
+<h2 class="mt-4 mb-3">Redefinir Senha</h2>
+
+<form asp-action="RedefinirSenha" method="post">
+    @Html.AntiForgeryToken()
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+    @* Campos ocultos para UserId e Token *@
+    <input type="hidden" asp-for="UserId" />
+    <input type="hidden" asp-for="Token" />
+
+    <div class="mb-3">
+        <label asp-for="NovaSenha" class="form-label"></label>
+        <input asp-for="NovaSenha" type="password" class="form-control" />
+        <span asp-validation-for="NovaSenha" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="ConfirmacaoSenha" class="form-label"></label>
+        <input asp-for="ConfirmacaoSenha" type="password" class="form-control" />
+        <span asp-validation-for="ConfirmacaoSenha" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-success">Redefinir Senha</button>
+</form>

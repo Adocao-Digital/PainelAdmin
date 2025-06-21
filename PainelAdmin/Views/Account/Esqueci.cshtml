@@ -1,0 +1,20 @@
+﻿@model PainelAdmin.Models.ViewModels.Esqueci
+
+@{
+    ViewData["Title"] = "Esqueci minha senha";
+}
+
+<h2 class="mt-4 mb-3">Insira seu email</h2>
+<form asp-action="Esqueci" method="post">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <label asp-for="Email" class="form-label"></label>
+    <input asp-for="Email" type="email" class="form-control" placeholder="Digite seu e-mail..." required />
+    <span asp-validation-for="Email" class="text-danger"></span>
+    <button type="submit" class="btn btn-primary mt-3">Enviar</button>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

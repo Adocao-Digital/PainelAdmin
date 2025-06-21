@@ -4,6 +4,7 @@ obj/
 [Bb]uild/
 [Bb]uild[Ll]og.*
 
+
 ## Ignorar arquivos temporários do VS ##
 .vs/
 *.user
@@ -24,12 +25,6 @@ _ReSharper*/
 *.log
 *.tmp
 
-## Ignorar pacotes NuGet baixados ##
-packages/
-*.nupkg
-project.lock.json
-project.fragment.lock.json
-artifacts/
 
 ## Ignorar arquivos gerados por dependências ##
 node_modules/
@@ -37,6 +32,8 @@ bower_components/
 
 ## Ignorar arquivos de configuração locais ##
 secrets.json
+appsettings.Development.json
+appsettings.json
 
 ## Ignorar diretórios comuns ##
 TestResults/

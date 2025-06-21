@@ -1,70 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body {
-    background-color: white;
-}
-
-body::-webkit-scrollbar {
-    width: 12px;              
-}
-
-body::-webkit-scrollbar-track {
-    background: #f1f0f6;     
-}
-
-body::-webkit-scrollbar-thumb {
-    background-color: #91c041;   
-    border-radius: 20px;       
-    border: 3px solid #f1f0f6; 
-}
-
-
-/* Carousel Imagens */
-.carousel {
-    max-width: 1000px;
-    margin: 0 auto; /* Centraliza o carousel no main */
-    border-radius: 10px;
+    background-color: #f8f9fa;
+    font-family: 'Roboto', sans-serif;
 }
 
 .carousel-image {
-    height: 450px; /* Altura padrão */
-    width: 100%; /* Ajusta largura automaticamente */
-    object-fit: cover; /* Garante que a imagem preencha a área sem distorcer */
-    border-radius: 10px; /* Bordas arredondadas */
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 10px;
 }
 
-.mt-5 {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 50px;
+.carousel-caption {
+    backdrop-filter: blur(5px);
 }
 
-.mt-5 a {
-    text-decoration: none;
-    color: black;
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #28a745;
+    border-radius: 50%;
+    padding: 20px;
 }
-
 
 .card {
-    background-color: #f1f0f6!important;
-    height: 240px; 
-    max-width: 200px; 
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 20px; 
+    border: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+    border-radius: 1rem;
+    height: 100%;
 }
 
+    .card:hover {
+        transform: scale(1.05);
+    }
 
-.card img {
-    width: 100px; 
-    height: 100px; 
-    object-fit: contain; 
+    .card img {
+        margin-top:2vh;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+        height: 180px;
+        object-fit: cover;
+    }
+
+.card-body {
+    background-color: white;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    padding: 1rem;
 }
 
+    .card-text,
+    .card-body p {
+        font-weight: 600;
+        color: #343a40;
+        margin: 0;
+    }
 
-.card p {
-    font-size: 16px; 
-    margin-top: 12px; 
-    text-align: center; 
+.stretched-link {
+    text-decoration: none;
 }

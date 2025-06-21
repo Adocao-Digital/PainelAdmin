@@ -1,150 +1,78 @@
 ﻿@model IEnumerable<PainelAdmin.Models.Pet>
 
 @{
-	ViewData["Title"] = "Meus Pets";
+    ViewData["Title"] = "Meus Pets";
 }
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
 @section Styles {
-    <link rel="stylesheet" href="~/css/site/tabelas.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/site/meuspets.css" asp-append-version="true" />
 }
 
-<h1>Meus Pets</h1>
-@if (TempData["MensagemSucesso"] != null) {
-    <p class="alert alert-success">@TempData["MensagemSucesso"];</p>
-}
-<a asp-action="CadastroPet" class="btn btn-success">Cadastrar Pet</a>
-@if(TempData["MensagemErro"] != null)
-{
-    <p class="alert alert-danger">@TempData["MensagemErro"];</p>
-} else 
-{
-    <table class="table table-bordered">
-        <thead>
-            <tr>
-                <th>Nome</th>
-                <th>Espécie</th>
-                <th>Imagem</th>
-                <th class="col-acoes">Ações</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var item in Model)
-            {
-                <tr>
-                    <td>@item.Nome</td>
-                    <td>@item.Especie</td>
-                    <td>
-                        @if (!string.IsNullOrEmpty(item.Foto))
-                        {
-                            <img src="~/@item.Foto" style="width: 60px; height: 60px; object-fit: cover;" />
-                        }
-                    </td>
-                    <td class="col-acoes">
-                        <a class="btn btn-outline-secondary" asp-action="Edit" asp-route-id="@item.Id">
-                            <img src="~/img/editar-arquivo.png" />
-                        </a> |
-                        <button class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#modal-@item.Id">
-                            <img src="~/img/olho.png" />
+<h1 class="mb-4 titulo-meus-pets text-center">Meus Pets</h1>
+
+
+<p class="text-end mb-3">
+    <a class="btn btn-success" asp-action="CadastroPet">Adicionar Pet</a>
+</p>
+
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <div class="col-md-4">
+            <div class="card-pet">
+                @if (!string.IsNullOrEmpty(item.Foto))
+                {
+                    <img src="~/@item.Foto" alt="@item.Nome" class="pet-img mb-3" />
+                }
+                <h5>@item.Nome</h5>
+                <p><strong>Espécie:</strong> @item.Especie</p>
+                <div class="d-flex justify-content-between align-items-center mt-3">
+                    <a class="btn btn-outline-secondary btn-icon" asp-action="Edit" asp-route-id="@item.Id" title="Editar">
+                        <img src="~/img/editar-arquivo.png" alt="Editar" />
+                    </a>
+                    <button class="btn btn-outline-secondary btn-icon" data-bs-toggle="modal" data-bs-target="#modal-@item.Id" title="Visualizar">
+                        <img src="~/img/olho.png" alt="Visualizar" />
+                    </button>
+                    <form asp-action="Delete" asp-route-id="@item.Id" method="post" class="d-inline">
+                        <button type="submit" class="btn btn-outline-danger btn-icon" title="Excluir" onclick="return confirm('Tem certeza que deseja excluir o pet @item.Nome?')">
+                            <img src="~/img/lixeira-xmark.png" alt="Excluir" />
                         </button>
-                        |
-                        <button class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#deleteModal-@item.Id">
-                            <img src="~/img/lixeira-xmark.png" />
-                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
 
-
-
-
-                        <!-- Modal de Confirmação de Exclusão -->
-                        <div class="modal fade" id="deleteModal-@item.Id" tabindex="-1" aria-labelledby="deleteModalLabel-@item.Id" aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header bg-danger text-white">
-                                        <h5 class="modal-title" id="deleteModalLabel-@item.Id">Confirmar Exclusão</h5>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        Tem certeza que deseja excluir o pet <strong>@item.Nome</strong>?
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                                        <form asp-action="Delete" asp-route-id="@item.Id" method="post" class="d-inline">
-                                            <button type="submit" class="btn btn-danger">Excluir</button>
-                                        </form>
-                                    </div>
-                                </div>
+        <!-- Modal de Visualização -->
+        <div class="modal fade" id="modal-@item.Id" tabindex="-1" aria-labelledby="modalLabel-@item.Id" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalLabel-@item.Id">Visualizar Animal</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p><strong>Nome:</strong> @item.Nome</p>
+                                <p><strong>Idade:</strong> @item.Idade</p>
+                                <p><strong>Espécie:</strong> @item.Especie</p>
+                                <p><strong>Porte:</strong> @item.Porte</p>
+                                <p><strong>Raça:</strong> @item.Raca</p>
+                                <p><strong>Cor:</strong> @item.Cor</p>
+                                <p><strong>Sexo:</strong> @item.Sexo</p>
+                                <p><strong>Situação:</strong> @item.Situacao</p>
+                            </div>
+                            <div class="col-md-6 text-center">
+                                @if (!string.IsNullOrEmpty(item.Foto))
+                                {
+                                    <img src="~/@item.Foto" style="width: 200px; height: 200px; object-fit: cover;" class="rounded" />
+                                }
                             </div>
                         </div>
-                        <!-- Modal -->
-                        <div class="modal fade" id="modal-@item.Id" tabindex="-1" aria-labelledby="modalLabel-@item.Id" aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h1 class="modal-title fs-5" id="modalLabel-@item.Id">Visualizar animal</h1>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <div class="container-fluid">
-                                            <div class="row">
-                                                <div class="col-6 mb-2">
-                                                    <div class="d-flex align-items-center">
-                                                        <dt class="me-2 mb-0">Nome:</dt>
-                                                        <dd class="mb-0">@item.Nome</dd>
-                                                    </div>
-                                                </div>
-                                                <div class="col-6 mb-2">
-                                                    <div class="d-flex align-items-center">
-                                                        <dt class="me-2 mb-0">Idade:</dt>
-                                                        <dd class="mb-0">@item.Idade</dd>
-                                                    </div>
-                                                </div>
-                                                <div class="col-6 mb-2">
-                                                    <div class="d-flex align-items-center">
-                                                        <dt class="me-2 mb-0">Espécie:</dt>
-                                                        <dd class="mb-0">@item.Especie</dd>
-                                                    </div>
-                                                </div>
-                                                <div class="col-6 mb-2">
-                                                    <div class="d-flex align-items-center">
-                                                        <dt class="me-2 mb-0">Porte:</dt>
-                                                        <dd class="mb-0">@item.Porte</dd>
-                                                    </div>
-                                                </div>
-                                                <div class="col-6 mb-2">
-                                                    <div class="d-flex align-items-center">
-                                                        <dt class="me-2 mb-0">Raça:</dt>
-                                                        <dd class="mb-0">@item.Raca</dd>
-                                                    </div>
-                                                </div>
-                                                <div class="col-6 mb-2">
-                                                    <div class="d-flex align-items-center">
-                                                        <dt class="me-2 mb-0">Cor:</dt>
-                                                        <dd class="mb-0">@item.Cor</dd>
-                                                    </div>
-                                                </div>
-                                                <div class="col-6 mb-2">
-                                                    <div class="d-flex align-items-center">
-                                                        <dt class="me-2 mb-0">Sexo:</dt>
-                                                        <dd class="mb-0">@item.Sexo</dd>
-                                                    </div>
-                                                </div>
-                                                <div class="col-6 mb-2">
-                                                    <div class="d-flex align-items-center justify-content-center text-center">
-                                                        <dt class="me-2 mb-0">Foto:</dt>
-                                                        <dd class="mb-0">
-                                                            @if (!string.IsNullOrEmpty(item.Foto))
-                                                            {
-                                                                <img src="~/@item.Foto" style="width: 150px; height: 150px; object-fit: cover;" />
-                                                            }
-                                                        </dd>
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                    </td>
-                </tr>
-            }
-        </tbody>
-    </table>
-}
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>

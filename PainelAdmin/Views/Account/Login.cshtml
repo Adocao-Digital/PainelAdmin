@@ -16,7 +16,7 @@
 
 @if (TempData["MensagemSucesso"] != null)
 {
-    <div class="alert alert-success " role="alert">
+    <div class="alert alert-success" role="alert">
         @TempData["MensagemSucesso"]
     </div>
 }
@@ -53,7 +53,7 @@
             <button class="controle-login bxlogin" type="submit">Login</button>
         </form>
 
-        <a href="#" class="parag">Esqueci minha senha</a>
+        <a asp-controller="Account" asp-action="Esqueci" class="parag">Esqueci minha senha</a>
         <a asp-controller="User" asp-action="Cadastro" class="registro-link">Registrar</a>
     </div>
 </div>
