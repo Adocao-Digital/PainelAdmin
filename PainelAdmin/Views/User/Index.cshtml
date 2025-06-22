@@ -22,7 +22,7 @@
 <h2>Usuários</h2>
 
 <p class="text-end mb-3">
-<a asp-controller="User" asp-action="CreateAdmin" class="btn btn-success">Criar Funcionário</a>
+    <a asp-controller="User" asp-action="CreateAdmin" class="btn btn-success">Criar Funcionário</a>
 </p>
 <table class="table table-bordered">
     <thead>
@@ -42,7 +42,17 @@
                 <td>@usuario.Usuario.Nome</td>
                 <td>@usuario.Usuario.CPF</td>
                 <td>@usuario.Usuario.Email</td>
-                <td>@usuario.Usuario.Roles</td>
+                <td>
+                    @* Corrected section for displaying roles *@
+                    @if (usuario.Usuario.Roles != null && usuario.Usuario.Roles.Any())
+                    {
+                        @String.Join(", ", usuario.Roles)
+                    }
+                    else
+                    {
+                        <span>Nenhuma função atribuída</span>
+                    }
+                </td>
                 <td>@usuario.Usuario.PhoneNumber</td>
                 <td class="col-acoes">
                     <a asp-action="Editar" asp-route-id="@usuario.Usuario.Id" class="btn btn-outline-secondary">
