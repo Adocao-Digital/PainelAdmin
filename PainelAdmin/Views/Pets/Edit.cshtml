@@ -67,12 +67,10 @@
                 <span asp-validation-for="Sexo" class="text-danger"></span>
             </div>
 
-            <input type="hidden" asp-for="Situacao" />
             <div class="form-group">
                 <label for="Situacao">Situação</label>
                 <select id="Situacao" name="Situacao" class="form-control" onchange="mostrarTutor()">
                     <option value="">Selecione</option>
-
                     @if (Model.Situacao == "Adocao")
                     {
                         <option value="Adocao" selected="selected">Adoção</option>
@@ -111,8 +109,6 @@
                 </select>
             </div>
 
-            <input type="hidden" asp-for="IdPessoa" />
-
             <div class="form-group">
                 <label class="fw-bold">Nova imagem (opcional)</label>
                 <input type="file" name="Imagem" class="form-control" accept="image/*" onchange="previewImage(event)" />
@@ -133,13 +129,11 @@
     <a asp-action="Index">Voltar para a lista</a>
 </div>
 
-<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
-<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
-
 @section Scripts {
     @{
         await Html.RenderPartialAsync("_ValidationScriptsPartial");
     }
+
     <script>
         function previewImage(event) {
             var reader = new FileReader();
@@ -150,23 +144,43 @@
             };
             reader.readAsDataURL(event.target.files[0]);
         }
-            $(document).ready(function () {
-            $('#IdPessoa').select2({
-                placeholder: "Digite nome ou CPF...",
-                allowClear: true,
-                width: '100%'
-            });
-        });
 
         function mostrarTutor() {
             var situacao = document.getElementById('Situacao').value;
             var divTutor = document.getElementById('divTutor');
+
             if (situacao === 'ComTutor') {
                 divTutor.style.display = 'block';
             } else {
                 divTutor.style.display = 'none';
-                document.getElementById('IdPessoa').value = '';
+                // Limpa o valor do Select2 quando ele for escondido
+                // Só tenta limpar se o Select2 estiver de fato inicializado
+                if ($('#IdPessoa').data('select2')) {
+                    $('#IdPessoa').val(null).trigger('change');
+                }
             }
         }
+
+        $(document).ready(function () {
+            // Verificações adicionais (úteis para depuração) - você pode remover depois que tudo funcionar
+            if (typeof jQuery == 'undefined') {
+                console.error('ERRO: jQuery não foi carregado. Verifique a ordem dos scripts no _Layout.cshtml.');
+                return; // Impede a execução se jQuery não estiver pronto
+            }
+            if (typeof $.fn.select2 == 'undefined') {
+                console.error('ERRO: Select2 não foi carregado. Verifique a ordem dos scripts no _Layout.cshtml e o caminho.');
+                return; // Impede a execução se Select2 não estiver pronto
+            }
+
+            // Inicializa o Select2 para o #IdPessoa
+            $('#IdPessoa').select2({
+                placeholder: "Digite nome ou CPF...",
+                allowClear: true,
+                width: 'resolve', // Garante que o Select2 se ajuste à largura do elemento pai
+                minimumInputLength: 0 // Permite buscar sem digitar nada (se quiser exigir digitação, mude para 1 ou mais)
+            });
+            mostrarTutor();
+            $('#Situacao').on('change', mostrarTutor);
+        });
     </script>
 }

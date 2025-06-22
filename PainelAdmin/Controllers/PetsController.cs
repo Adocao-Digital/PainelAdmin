@@ -148,7 +148,7 @@ namespace PainelAdmin.Controllers
             if (pet == null)
                 return NotFound();
 
-            var usuarios = await _userManager.Users.ToListAsync();
+            var usuarios = _userManager.Users.ToList();
 
             ViewBag.Usuarios = usuarios.Select(u => new SelectListItem
             {
