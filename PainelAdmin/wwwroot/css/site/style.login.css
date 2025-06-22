@@ -19,6 +19,26 @@ main {
     text-align: center;
 }
 
+.container-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+/*    margin-top: 40px;*/
+}
+
+.login {
+    width: 250px;
+}
+
+.mensagem-topo {
+    width: 250px; /* Mesma largura máxima do .login */
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    margin-top: -150px;
+}
+
 /* Estilo do formulário */
 .login h1 {
     font-size: 1.8rem;

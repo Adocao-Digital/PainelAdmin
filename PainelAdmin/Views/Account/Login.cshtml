@@ -8,53 +8,56 @@
     <link rel="stylesheet" href="~/css/site/style.login.css" />
 }
 
-<div class="conteudo-login">
-    <div class="login">
-        @if (TempData["MensagemErro"] != null)
-        {
-            <div class="alert alert-danger" role="alert">
-                @TempData["MensagemErro"]
-            </div>
-        }
+<div class="container-login">
+    @if (TempData["MensagemErro"] != null)
+    {
+        <div class="alert alert-danger" role="alert">
+            @TempData["MensagemErro"]
+        </div>
+    }
 
-        @if (TempData["MensagemSucesso"] != null)
-        {
-            <div class="alert alert-success" role="alert">
-                @TempData["MensagemSucesso"]
-            </div>
-        }
-        <h1>Fazer Login</h1>
+    @if (TempData["MensagemSucesso"] != null)
+    {
+        <div class="alert alert-success mensagem-topo text-center">
+            @TempData["MensagemSucesso"]
+        </div>
+    }
 
-        @if (TempData["ErroLogin"] != null)
-        {
-            <div class="alert alert-danger">@TempData["ErroLogin"]</div>
-        }
 
-        <form method="post" asp-action="Login" class="formulario">
-            <div class="controle">
-                <label for="email">
-                    <img class="img-person" src="~/img/usuario.png" alt="Ícone de usuário" />
-                </label>
-                <input class="bx" asp-for="Email" placeholder="Digite seu e-mail..." class="form-control" />
-            </div>
-            <span asp-validation-for="Email" class="text-danger" style="font-size:10px;"></span>
+    <div class="conteudo-login">
+        <div class="login">
+            <h1>Fazer Login</h1>
 
-            <div class="controle">
-                <label for="senha">
-                    <img class="img-lock" src="~/img/senha.png" alt="Ícone de senha" />
-                </label>
-                <input class="bx" asp-for="Senha" placeholder="Digite sua senha..." class="form-control" />
-                <button type="button" class="mostrar-senha" onclick="toggleSenha()">
-                    <img src="~/img/closed-eye.png" alt="Mostrar/Esconder senha" id="imgSenha" />
-                </button>
-            </div>
-            <span asp-validation-for="Senha" class="text-danger" style="font-size:10px;"></span>
+            @if (TempData["ErroLogin"] != null)
+            {
+                <div class="alert alert-danger">@TempData["ErroLogin"]</div>
+            }
+            <form method="post" asp-action="Login" class="formulario">
+                <div class="controle">
+                    <label for="email">
+                        <img class="img-person" src="~/img/usuario.png" alt="Ícone de usuário" />
+                    </label>
+                    <input class="bx" asp-for="Email" placeholder="Digite seu e-mail..." class="form-control" />
+                </div>
+                <span asp-validation-for="Email" class="text-danger" style="font-size:10px;"></span>
 
-            <button class="controle-login bxlogin" type="submit">Login</button>
-        </form>
+                <div class="controle">
+                    <label for="senha">
+                        <img class="img-lock" src="~/img/senha.png" alt="Ícone de senha" />
+                    </label>
+                    <input class="bx" asp-for="Senha" placeholder="Digite sua senha..." class="form-control" />
+                    <button type="button" class="mostrar-senha" onclick="toggleSenha()">
+                        <img src="~/img/closed-eye.png" alt="Mostrar/Esconder senha" id="imgSenha" />
+                    </button>
+                </div>
+                <span asp-validation-for="Senha" class="text-danger" style="font-size:10px;"></span>
 
-        <a asp-controller="Account" asp-action="Esqueci" class="parag">Esqueci minha senha</a>
-        <a asp-controller="User" asp-action="Cadastro" class="registro-link">Registrar</a>
+                <button class="controle-login bxlogin" type="submit">Login</button>
+            </form>
+
+            <a asp-controller="Account" asp-action="Esqueci" class="parag">Esqueci minha senha</a>
+            <a asp-controller="User" asp-action="Cadastro" class="registro-link">Registrar</a>
+        </div>
     </div>
 </div>
 

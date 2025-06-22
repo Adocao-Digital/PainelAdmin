@@ -147,18 +147,26 @@ namespace PainelAdmin.Controllers
             var pet = await _context.Pet.Find(m => m.Id == id).FirstOrDefaultAsync();
             if (pet == null)
                 return NotFound();
-            var dono = await _userManager.FindByIdAsync(pet.IdPessoa);
+
+            var usuarios = await _userManager.Users.ToListAsync();
+
+            ViewBag.Usuarios = usuarios.Select(u => new SelectListItem
+            {
+                Value = u.Id,
+                Text = $"{u.Nome} ({u.CPF})"
+            }).ToList();
+
             if (User.IsInRole("USER"))
             {
+                var dono = await _userManager.FindByIdAsync(pet.IdPessoa);
                 if (dono == null || pet.IdPessoa != dono.Id)
                 {
                     return Unauthorized();
                 }
                 return View("UserPet", pet);
             }
-            if(User.IsInRole("ADM"))
-                return View(pet);
-            return Forbid();
+
+            return View(pet);
         }
 
         [HttpPost]
@@ -168,8 +176,8 @@ namespace PainelAdmin.Controllers
             if (id != pet.Id)
                 return NotFound();
 
-            if(User.IsInRole("ADM")) {
-
+            if (User.IsInRole("ADM"))
+            {
                 if (ModelState.IsValid)
                 {
                     if (Imagem != null && Imagem.Length > 0)
@@ -183,7 +191,6 @@ namespace PainelAdmin.Controllers
                         using var stream = new FileStream(caminho, FileMode.Create);
                         await Imagem.CopyToAsync(stream);
 
-                        // Deleta antiga
                         if (!string.IsNullOrEmpty(imagemAtual))
                         {
                             var antigo = Path.Combine("wwwroot", imagemAtual);
@@ -197,18 +204,16 @@ namespace PainelAdmin.Controllers
                     {
                         pet.Foto = imagemAtual;
                     }
-                }
-                else
-                {
-                    var dono = await _userManager.FindByIdAsync(pet.IdPessoa);
-                    if (pet.IdPessoa != dono.Id)
-                    {
-                        return Unauthorized();
-                    }
-                }
 
-                await _context.Pet.ReplaceOneAsync(m => m.Id == pet.Id, pet);
-                return RedirectToAction(nameof(Index));
+                    // Atualiza o tutor só se a situação for "ComTutor"
+                    if (pet.Situacao != "ComTutor")
+                    {
+                        pet.IdPessoa = string.Empty;
+                    }
+
+                    await _context.Pet.ReplaceOneAsync(m => m.Id == pet.Id, pet);
+                    return RedirectToAction(nameof(Index));
+                }
             }
             return View(pet);
         }
