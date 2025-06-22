@@ -22,7 +22,7 @@
 }
 
 .head2 img {
-        position:fixed;
-        left: 10vh;
-        width: fit-content;        
+    margin-left: 10vh;
+    width: 100%;
+    max-width: 300px;
 }
