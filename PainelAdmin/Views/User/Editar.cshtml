@@ -1,10 +1,11 @@
 ﻿@model PainelAdmin.Models.ViewModels.EditarUsuarioViewModel
 @{
     ViewData["Title"] = "Editar Usuário";
+    Layout = "_Painel";
 }
 
 <head>
-    <link rel="stylesheet" href="~/css/modal-confirmacao.css" />
+    <link rel="stylesheet" href="~/css/painel/modal-confirmacao.css" />
 </head>
 
 <h2 class="titulo-usuario">@ViewData["Title"]</h2>
@@ -54,12 +55,17 @@
         <input asp-for="DataNascimento" type="date" class="form-control campo-tamanho" />
         <span asp-validation-for="DataNascimento" class="text-danger"></span>
     </div>
+    <div class="col-md-4">
+        <label asp-for="NovaRole" class="form-label">Função</label>
+        <select asp-for="NovaRole" asp-items="@(new SelectList(Model.RolesDisponiveis))" class="form-select"></select>
+        <span asp-validation-for="NovaRole" class="text-danger small"></span>
+    </div>
 
     @if (!string.IsNullOrEmpty(Model.Foto))
     {
         <div class="form-group form-col">
             <label class="label-custom">Foto Atual:</label><br />
-            <img src="~/@Model.Foto" alt="Foto do usuário" style="width: 120px; border-radius: 8px; border: 1px solid #ccc;" />
+            <img src="@Model.Foto" alt="Foto do usuário" style="width: 120px; border-radius: 8px; border: 1px solid #ccc;" />
         </div>
     }
 

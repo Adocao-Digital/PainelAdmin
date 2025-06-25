@@ -3,17 +3,53 @@
 @{
     ViewData["Title"] = "Esqueci minha senha";
 }
+<head>
+    <link rel="stylesheet" href="~/css/site/esqueci.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
 
-<h2 class="mt-4 mb-3">Insira seu email</h2>
-<form asp-action="Esqueci" method="post">
-    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-    <label asp-for="Email" class="form-label"></label>
-    <input asp-for="Email" type="email" class="form-control" placeholder="Digite seu e-mail..." required />
-    <span asp-validation-for="Email" class="text-danger"></span>
-    <button type="submit" class="btn btn-primary mt-3">Enviar</button>
-</form>
+<div class="fundo-gradiente">
+    <div class="esqueci-container">
+        <div class="icon-container">
+            <i class="fa-solid fa-envelope icon-envelope"></i>
+        </div>
+
+        <h2 class="esqueci-titulo">Esqueci minha senha</h2>
+        <p class="esqueci-subtitulo">Informe seu e-mail abaixo e enviaremos instruções para redefinir sua senha.</p>
+
+        <form asp-action="Esqueci" method="post" class="esqueci-form">
+            <div asp-validation-summary="ModelOnly" class="text-danger mb-2"></div>
+
+            <label asp-for="Email" class="form-label label-esqueci">E-mail</label>
+            <input asp-for="Email" type="email" class="form-control input-esqueci" placeholder="Digite seu e-mail..." required />
+            <span asp-validation-for="Email" class="text-danger small"></span>
+
+            <button type="submit" class="btn btn-enviar mt-4">Enviar</button>
+        </form>
+
+        <!-- Alerta de sucesso -->
+        <div id="success-alert" class="alert-sucesso">
+            <i class="fa-solid fa-circle-check icon-success"></i>
+            <p>Caso possua um e-mail cadastrado, será enviado um link para redefinir sua senha.</p>
+        </div>
+    </div>
+</div>
 
 @section Scripts {
+    <script>
+        document.querySelector("form").addEventListener("submit", function (e) {
+            e.preventDefault(); // Impede o envio real para fins de demonstração
+            const alert = document.getElementById("success-alert");
+            alert.style.display = "flex";
+
+            setTimeout(() => {
+                alert.style.opacity = "1";
+                alert.style.transform = "translateY(0)";
+            }, 100);
+        });
+    </script>
+
     @{
         await Html.RenderPartialAsync("_ValidationScriptsPartial");
     }

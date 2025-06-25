@@ -1,0 +1,126 @@
+﻿/* Container geral */
+.row {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.col-md-6 {
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 30px 40px;
+    max-width: 600px;
+    width: 100%;
+}
+
+/* Título */
+h1 {
+    text-align: center;
+    font-size: 28px;
+    color: #2c3e50;
+    font-weight: bold;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+    h1::after {
+        content: '';
+        display: block;
+        width: 60px;
+        height: 4px;
+        background-color: #4CAF50;
+        margin: 10px auto 0;
+        border-radius: 2px;
+    }
+
+/* Labels */
+.control-label {
+    font-weight: 600;
+    color: #444;
+    margin-bottom: 5px;
+    display: block;
+}
+
+/* Inputs */
+.form-control {
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    padding: 10px 14px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+    .form-control:focus {
+        border-color: #4CAF50;
+        box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.2);
+    }
+
+/* Select */
+select.form-control {
+    appearance: none;
+    background-image: url("data:image/svg+xml;utf8,<svg fill='%234CAF50' height='24' viewBox='0 0 24 24' width='24'><path d='M7 10l5 5 5-5z'/></svg>");
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    background-size: 16px;
+    padding-right: 40px;
+}
+
+/* Erros de validação */
+.text-danger {
+    font-size: 13px;
+    color: #e53935;
+}
+
+/* Botão salvar */
+.btn-primary {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 12px;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    width: 100%;
+    margin-top: 15px;
+    box-shadow: 0 4px 10px rgba(76, 175, 80, 0.2);
+}
+
+    .btn-primary:hover {
+        background-color: #43a047;
+        transform: translateY(-2px);
+    }
+
+/* Preview da imagem */
+#imagePreview {
+    border-radius: 12px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+}
+
+    #imagePreview:hover {
+        transform: scale(1.05);
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+    }
+
+
+
+/* Responsivo */
+@media (max-width: 768px) {
+    .col-md-6 {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    #imagePreview {
+        width: 100px;
+        height: 100px;
+    }
+}
