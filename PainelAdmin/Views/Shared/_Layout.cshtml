@@ -58,7 +58,7 @@
 
                 <div class="d-flex align-items-center gap-2">
                     <a asp-controller="Home" asp-action="QueroAdotar" class="btn btn-success">Quero Adotar</a>
-                    <a href="/ajudar" class="btn btn-success">Ajudar</a>
+                    <a asp-controller="Home" asp-action="Ajudar" class="btn btn-success">Ajudar</a>
 
                     @if (!string.IsNullOrEmpty(usuarioEmail))
                     {
