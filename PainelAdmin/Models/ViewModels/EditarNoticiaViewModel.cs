@@ -13,6 +13,7 @@ namespace PainelAdmin.Models.ViewModels
         public string? Conteudo { get; set; }
 
         public string? Foto { get; set; }
+        public IFormFile? FotoUpload { get; set; }
         [Display(Name = "Editado em:")]
         public DateTime? DataEdicao { get; set; } = DateTime.UtcNow;
         public string? IdEditor { get; set; }

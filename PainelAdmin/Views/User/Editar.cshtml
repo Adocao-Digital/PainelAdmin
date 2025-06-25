@@ -41,6 +41,12 @@
             <input asp-for="Telefone" class="form-control campo-tamanho" />
             <span asp-validation-for="Telefone" class="text-danger"></span>
         </div>
+
+        <div class="form-group form-col">
+            <label asp-for="Celular" class="label-custom"></label>
+            <input asp-for="Celular" class="form-control campo-tamanho" />
+            <span asp-validation-for="Celular" class="text-danger"></span>
+        </div>
     </div>
 
     <div class="form-group form-col">
@@ -57,38 +63,26 @@
         </div>
     }
 
-    <div class="form-group form-col">
-        <label class="label-custom">Nova Foto</label>
-        <input type="file" name="NovaFoto" class="form-control campo-tamanho" />
-    </div>
-
     <h4 class="titulo-endereco">Endereço</h4>
 
     <div class="form-row">
+        <div class="form-group form-col">
+            <label asp-for="CEP" class="label-custom"></label>
+            <input asp-for="CEP" class="form-control campo-tamanho" />
+        </div>
+
         <div class="form-group form-col">
             <label asp-for="Rua" class="label-custom"></label>
             <input asp-for="Rua" class="form-control campo-tamanho" />
         </div>
 
         <div class="form-group form-col">
-            <label asp-for="Numero" class="label-custom"></label>
-            <input asp-for="Numero" class="form-control campo-numero" />
-        </div>
-    </div>
-
-    <div class="form-row">
-        <div class="form-group form-col" style="flex: 1 1 100%;">
-            <label asp-for="Complemento" class="label-custom"></label>
-            <input asp-for="Complemento" class="form-control campo-tamanho" />
-        </div>
-    </div>
-
-    <div class="form-row">
-        <div class="form-group form-col">
             <label asp-for="Bairro" class="label-custom"></label>
             <input asp-for="Bairro" class="form-control campo-tamanho" />
         </div>
+    </div>
 
+    <div class="form-row">
         <div class="form-group form-col">
             <label asp-for="Cidade" class="label-custom"></label>
             <input asp-for="Cidade" class="form-control campo-tamanho" />
@@ -100,20 +94,9 @@
         </div>
 
         <div class="form-group form-col">
-            <label asp-for="CEP" class="label-custom"></label>
-            <input asp-for="CEP" class="form-control campo-tamanho" />
+            <label asp-for="Numero" class="label-custom"></label>
+            <input asp-for="Numero" class="form-control campo-numero" />
         </div>
-    </div>
-
-    <div class="form-group form-col">
-        <label asp-for="NovaRole" class="label-custom">Perfil</label>
-        <select asp-for="NovaRole" asp-items="@(new SelectList(Model.RolesDisponiveis))" class="form-control campo-tamanho"></select>
-        <span asp-validation-for="NovaRole" class="text-danger"></span>
-    </div>
-
-    <div class="form-check mt-2 mb-3">
-        <input asp-for="Ativo" class="form-check-input" />
-        <label asp-for="Ativo" class="form-check-label label-custom"></label>
     </div>
 
     <button type="button" class="btn btn-primary" onclick="abrirModal()">Salvar</button>
@@ -130,13 +113,33 @@
     </div>
 </div>
 
+<!-- Estilo do botão de upload -->
+<style>
+    .custom-file-input {
+        display: none;
+    }
 
+    .custom-file-label {
+        display: inline-block;
+        background-color: #d3d3d3;
+        color: #000;
+        padding: 8px 20px;
+        border-radius: 8px;
+        cursor: pointer;
+        font-weight: 500;
+        transition: background-color 0.3s ease;
+    }
+
+        .custom-file-label:hover {
+            background-color: #b0b0b0;
+        }
+</style>
 
 @section Scripts {
     @Html.Partial("_ValidationScriptsPartial")
 
     <script>
-               function abrirModal() {
+        function abrirModal() {
             document.getElementById("modalConfirmacao").style.display = "flex";
         }
 
@@ -150,6 +153,5 @@
             confirmarBtn.textContent = 'Salvando...';
             document.getElementById("form-editar").submit();
         }
-
     </script>
 }

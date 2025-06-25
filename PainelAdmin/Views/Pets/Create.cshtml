@@ -66,9 +66,16 @@
         </div>
 
         <div class="form-group form-col">
-            <label class="label-custom">Tutor</label>
-            <input class="form-control campo-tamanho"/>
+            <label asp-for="Foto" class="label-custom">Foto do Animal</label>
+            <input asp-for="Foto" type="file" class="form-control campo-tamanho" accept="image/*" onchange="previewImage(event)" />
+            <span asp-validation-for="Foto" class="text-danger"></span>
         </div>
+
+
+    </div>
+
+    <div class="form-group">
+        <img id="imagePreview" src="#" alt="Pré-visualização da imagem" style="max-width: 200px; display: none; margin-top: 10px;" />
     </div>
 
     <button type="submit" class="btn btn-primary">Salvar</button>
@@ -76,4 +83,15 @@
 
 @section Scripts {
     @Html.Partial("_ValidationScriptsPartial")
+    <script>
+        function previewImage(event) {
+            var reader = new FileReader();
+            reader.onload = function () {
+                var img = document.getElementById('imagePreview');
+                img.src = reader.result;
+                img.style.display = 'block';
+            };
+            reader.readAsDataURL(event.target.files[0]);
+        }
+    </script>
 }

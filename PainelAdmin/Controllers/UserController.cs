@@ -1,11 +1,14 @@
-﻿using PainelAdmin.Models;
-using PainelAdmin.Models.ViewModels;
+﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using MongoDB.Driver;
+using PainelAdmin.Models;
+using PainelAdmin.Models.ViewModels;
 
 namespace PainelAdmin.Controllers
 {
+    [Authorize]
     public class UserController : Controller
     {
         ContextMongodb _context = new ContextMongodb();
@@ -18,14 +21,87 @@ namespace PainelAdmin.Controllers
             this._roleManager = roleManager;
         }
 
-
-
-        public IActionResult Create()
+        [Authorize(Roles = "ADM")]
+        [Route("painel/[controller]/[action]")]
+        public IActionResult CreateAdmin()
         {
             return View();
         }
+        [Authorize(Roles = "ADM")]
+        [Route("painel/[controller]/[action]")]
         [HttpPost]
-        public async Task<IActionResult> Create(UsuarioCadastroViewModel model)
+        public async Task<IActionResult> CreateAdmin(UsuarioCadastroViewModel model)
+        {
+            if (!await _roleManager.RoleExistsAsync("ADM"))
+            {
+                await _roleManager.CreateAsync(new ApplicationRole { Name = "ADM" });
+            }
+
+            if (ModelState.IsValid)
+            {
+                string? nomeArquivoFoto = null;
+
+                if (model.FotoUpload != null && model.FotoUpload.Length > 0)
+                {
+                    var folder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "img", "perfil");
+                    Directory.CreateDirectory(folder);
+
+                    nomeArquivoFoto = Guid.NewGuid() + Path.GetExtension(model.FotoUpload.FileName);
+                    var caminho = Path.Combine(folder, nomeArquivoFoto);
+
+                    using var stream = new FileStream(caminho, FileMode.Create);
+                    await model.FotoUpload.CopyToAsync(stream);
+                }
+
+                var endereco = new Endereco
+                {
+                    Rua = model.Rua,
+                    Numero = model.Numero,
+                    Complemento = model.Complemento,
+                    Bairro = model.Bairro,
+                    Cidade = model.Cidade,
+                    Estado = model.Estado,
+                    CEP = model.CEP
+                };
+
+                var appUser = new ApplicationUser
+                {
+                    UserName = model.Email,
+                    Email = model.Email,
+                    PhoneNumber = model.Telefone,
+                    DataNascimento = model.DataNascimento,
+                    Ativo = true,
+                    Nome = model.Nome,
+                    Sexo = model.Sexo,
+                    Endereco = endereco,
+                    CPF = model.CPF,
+                    Foto = nomeArquivoFoto != null ? $"/img/perfil/{nomeArquivoFoto}" : null
+                };
+
+                var result = await _userManager.CreateAsync(appUser, model.Senha);
+                if (result.Succeeded)
+                {
+                    await _userManager.AddToRoleAsync(appUser, "ADM");
+                    TempData["MensagemSucesso"] = "Cadastro realizado com sucesso!";
+                    return RedirectToAction("Index", "User");
+                }
+
+                foreach (var error in result.Errors)
+                {
+                    ModelState.AddModelError("", error.Description);
+                }
+            }
+
+            return View(model);
+        }
+        [AllowAnonymous]
+        public IActionResult Cadastro()
+        {
+            return View();
+        }
+        [AllowAnonymous]
+        [HttpPost]
+        public async Task<IActionResult> Cadastro(UsuarioCadastroViewModel model)
         {
             if (!await _roleManager.RoleExistsAsync("USER"))
             {
@@ -67,9 +143,10 @@ namespace PainelAdmin.Controllers
                     DataNascimento = model.DataNascimento,
                     Ativo = true,
                     Nome = model.Nome,
+                    Sexo = model.Sexo,
                     Endereco = endereco,
                     CPF = model.CPF,
-                    Foto = nomeArquivoFoto != null ? Path.Combine("img", "perfil", nomeArquivoFoto) : null
+                    Foto = nomeArquivoFoto != null ? $"/img/perfil/{nomeArquivoFoto}" : null
                 };
 
                 var result = await _userManager.CreateAsync(appUser, model.Senha);
@@ -89,11 +166,15 @@ namespace PainelAdmin.Controllers
             return View(model);
         }
 
+        [Authorize(Roles = "ADM")]
+        [Route("painel/[controller]/[action]")]
         public IActionResult CreateRole()
         {
             return View();
         }
 
+        [Authorize(Roles = "ADM")]
+        [Route("painel/[controller]/[action]")]
         [HttpPost]
         public async Task<IActionResult> CreateRole(ApplicationRole model)
         {
@@ -113,8 +194,8 @@ namespace PainelAdmin.Controllers
             if (result.Succeeded)
             {
                 ViewBag.Message = "Role cadastrada com sucesso!";
-                ModelState.Clear(); // Limpa o form
-                return View(); // retorna a view com campos vazios
+                ModelState.Clear();
+                return View();
             }
 
             foreach (var error in result.Errors)
@@ -166,9 +247,9 @@ namespace PainelAdmin.Controllers
             return View(viewModel);
         }
 
-
         [HttpPost]
-        public async Task<IActionResult> Editar(EditarUsuarioViewModel model, IFormFile NovaFoto)
+
+        public async Task<IActionResult> Editar(EditarUsuarioViewModel model)
         {
             var usuario = await _userManager.FindByIdAsync(model.Id);
             if (usuario == null)
@@ -181,9 +262,14 @@ namespace PainelAdmin.Controllers
             }
 
             // Se uma nova foto foi enviada
-            if (NovaFoto != null && NovaFoto.Length > 0)
+            if (model.NovaFoto == null || model.NovaFoto.Length == 0)
             {
-                var nomeArquivo = $"{Guid.NewGuid()}{Path.GetExtension(NovaFoto.FileName)}";
+                Console.WriteLine("Nenhuma nova foto enviada.");
+                usuario.Foto = usuario.Foto;
+            }
+            else
+            {
+                var nomeArquivo = $"{Guid.NewGuid()}{Path.GetExtension(model.NovaFoto.FileName)}";
                 var caminhoPasta = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "img", "perfil");
 
                 // Cria a pasta se ela não existir
@@ -193,16 +279,10 @@ namespace PainelAdmin.Controllers
                 var caminhoDestino = Path.Combine(caminhoPasta, nomeArquivo);
                 using (var stream = new FileStream(caminhoDestino, FileMode.Create))
                 {
-                    await NovaFoto.CopyToAsync(stream);
+                    await model.NovaFoto.CopyToAsync(stream);
                 }
 
                 usuario.Foto = $"/img/perfil/{nomeArquivo}";
-            }
-
-            // Se não for enviada nova foto, mantém a antiga
-            if (NovaFoto == null || NovaFoto.Length == 0)
-            {
-                usuario.Foto = usuario.Foto ?? "/img/perfil/default.png"; // ou mantenha o que já estava
             }
 
             // Atualiza dados do usuário
@@ -237,12 +317,51 @@ namespace PainelAdmin.Controllers
             return RedirectToAction("Index");
         }
 
+        [Authorize(Roles = "ADM")]
+        [Route("painel/[controller]/[action]")]
+        [HttpPost]
+        public async Task<IActionResult> Excluir(string id)
+        {
+            var usuario = await _userManager.FindByIdAsync(id);
+            if (usuario == null)
+            {
+                TempData["MensagemErro"] = "Usuário não encontrado.";
+                return RedirectToAction("Index");
+            }
 
+            // Soft delete
+            usuario.Ativo = false;
 
+            var filter = Builders<ApplicationUser>.Filter.Eq(u => u.Id, usuario.Id);
+            await _context.Usuarios.ReplaceOneAsync(filter, usuario);
 
+            TempData["MensagemSucesso"] = "Usuário excluido com sucesso!";
+            return RedirectToAction("Index");
+        }
+
+        [Route("painel/[controller]/[action]")]
         public async Task<IActionResult> Index()
         {
-            var usuarios = await _context.Usuarios.Find(_ => true).ToListAsync();
+            var usuarios = _userManager.Users.Include(u => u.Endereco).ToList();
+            var listaUsuarios = new List<UsuarioComRoleViewModel>();
+
+            foreach (var user in usuarios)
+            {
+                var roles = await _userManager.GetRolesAsync(user);
+                listaUsuarios.Add(new UsuarioComRoleViewModel
+                {
+                    Usuario = user,
+                    Roles = roles.ToList()
+                });
+            }
+
+            return View(listaUsuarios);
+        }
+
+        [Route("painel/[controller]/[action]")]
+        public async Task<IActionResult> Desativados()
+        {
+            var usuarios = await _context.Usuarios.Find(u => u.Ativo == false).ToListAsync();
             return View(usuarios);
         }
     }
