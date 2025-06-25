@@ -25,6 +25,12 @@
     justify-content: space-between;
 }
 
+.col-md-4 select {
+    border-radius: 20px;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+}
+
 /* Texto da modal */
 .texto-modal {
     font-size: 15px;
