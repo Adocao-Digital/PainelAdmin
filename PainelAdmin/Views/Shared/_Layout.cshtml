@@ -21,7 +21,6 @@
     <link rel="stylesheet" href="~/css/site/style-footer.css" asp-append-version="true" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     <link rel="icon" type="image/x-icon" href="~/img/dogo-argentino.png">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
     @RenderSection("Styles", required: false)
 </head>
@@ -38,7 +37,7 @@
             </a>
 
             <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
+                <img src="~/img/menu-hamburguer.png" width="30" height="30px"/>
             </button>
 
             <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
@@ -57,19 +56,19 @@
                     }
                 </ul>
 
-                <div class="d-flex align-items-center gap-2">
+                <div class="d-flex align-items-center gap-2 justify-content-center">
                     <a asp-controller="Home" asp-action="QueroAdotar" class="btn btn-success">Quero Adotar</a>
-                    <a href="/ajudar" class="btn btn-success">Ajudar</a>
+                    <a asp-controller="Home" asp-action="Ajudar" class="btn btn-success">Ajudar</a>
 
                     @if (!string.IsNullOrEmpty(usuarioEmail))
                     {
                         var user = await UserManager.GetUserAsync(User);
 
-                        <div class="dropdown">
+                        <div class="dropdown align-items-center">
                             <a href="#" class="d-flex align-items-center text-decoration-none dropdown-toggle" data-bs-toggle="dropdown">
-                                <img src="@user.Foto" class="rounded-circle" width="40" height="40" style="object-fit: cover;" />
+                                <img src="@user.Foto" class="rounded-circle" width="80" height="80" style="object-fit: cover;" />
                             </a>
-                            <ul class="dropdown-menu dropdown-menu-end shadow border-0">
+                            <ul class="dropdown-menu dropdown-menu-end shadow border-0 align-items-center">
                                 <li class="dropdown-header text-center">@user.Nome</li>
                                 <li><a class="dropdown-item" asp-controller="Account" asp-action="Perfil"><i class="fa fa-user me-2"></i> Meu Perfil</a></li>
                                 <li><a class="dropdown-item" asp-controller="Account" asp-action="AlterarSenha"><i class="fa fa-lock me-2"></i> Alterar Senha</a></li>
@@ -134,9 +133,11 @@
             </div>
         </section>
     </footer>
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/lib/bootst0rap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
