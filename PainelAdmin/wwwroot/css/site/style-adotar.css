@@ -149,3 +149,34 @@
         height: max-content;
     }
 }
+.card-pet {
+    width: 100%;
+    min-width: 250px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border-radius: 12px;
+    background-color: #fff;
+}
+
+
+    .card-pet:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    }
+
+.card-img-top {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.card-body h5 {
+    font-weight: 600;
+}
+
+.fotos .card {
+    background-color: #fdfdfd;
+}
+
+.card-body .btn-success {
+    font-weight: 500;
+    border-radius: 8px;
+}

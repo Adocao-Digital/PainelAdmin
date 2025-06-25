@@ -23,6 +23,8 @@ namespace PainelAdmin.Models.ViewModels
         [Phone(ErrorMessage = "Telefone inválido")]
         public string? Telefone { get; set; }
 
+        public string? Sexo { get; set; }
+
         [Required]
         [Phone(ErrorMessage = "Telefone inválido")]
         public string? Celular { get; set; }

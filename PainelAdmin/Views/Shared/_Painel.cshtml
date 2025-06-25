@@ -92,13 +92,13 @@
                 <div id="noticiasCollapse" class="collapse @(isNoticiasAtiva ? "show" : "")">
                     <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
                         <li>
-                            <a class="nav-link" asp-area="" asp-controller="Noticias" asp-action="NoticiasAntigas">
-                                <img src="~/img/jornal.png" alt="Notícias Antigas" class="notift" /> Notícias Antigas
+                            <a class="nav-link" asp-area="" asp-controller="Noticias" asp-action="NoticiasAtuais">
+                                <img src="~/img/jornal.png" alt="Notícias Atuais" class="notift" /> Notícias Atuais
                             </a>
                         </li>
                         <li>
-                            <a class="nav-link" asp-area="" asp-controller="Noticias" asp-action="NoticiasAtuais">
-                                <img src="~/img/jornal.png" alt="Notícias Atuais" class="notift" /> Notícias Atuais
+                            <a class="nav-link" asp-area="" asp-controller="Noticias" asp-action="NoticiasAntigas">
+                                <img src="~/img/jornal.png" alt="Notícias Antigas" class="notift" /> Notícias Antigas
                             </a>
                         </li>
                     </ul>
@@ -129,5 +129,17 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
     @await RenderSectionAsync("Scripts", required: false)
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const noticiasCollapse = document.getElementById("noticiasCollapse");
+            const setaNoticias = document.getElementById("setaNoticias");
+            noticiasCollapse.addEventListener("show.bs.collapse", function () {
+                setaNoticias.classList.add("rotate-180");
+            });
+            noticiasCollapse.addEventListener("hide.bs.collapse", function () {
+                setaNoticias.classList.remove("rotate-180");
+            });
+        });
+    </script>
 </body>
 </html>
