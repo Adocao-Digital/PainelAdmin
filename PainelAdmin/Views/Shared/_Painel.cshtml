@@ -90,6 +90,7 @@
                 </a>
 
                 <div id="noticiasCollapse" class="collapse @(isNoticiasAtiva ? "show" : "")">
+
                     <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
                         <li>
                             <a class="nav-link" asp-area="" asp-controller="Noticias" asp-action="NoticiasAntigas">
@@ -124,10 +125,21 @@
     </div>
 
     <!-- Scripts -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const noticiasCollapse = document.getElementById("noticiasCollapse");
+            const setaNoticias = document.getElementById("setaNoticias");
+            noticiasCollapse.addEventListener("show.bs.collapse", function () {
+                setaNoticias.classList.add("rotate-180");
+            });
+            noticiasCollapse.addEventListener("hide.bs.collapse", function () {
+                setaNoticias.classList.remove("rotate-180");
+            });
+        });
+    </script>
+
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
