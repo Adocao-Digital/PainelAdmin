@@ -195,10 +195,9 @@ namespace PainelAdmin.Controllers
             return RedirectToAction("Index", "Home");
         }
 
-        [HttpGet]
-        public IActionResult Esqueci()
+        public IActionResult Esqueci(Esqueci esqueci)
         {
-            return View();
+            return View(esqueci);
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
