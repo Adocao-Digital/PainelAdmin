@@ -5,7 +5,7 @@ using Microsoft.Identity.Client;
 using System.ComponentModel.DataAnnotations;
 using Microsoft.AspNetCore.Authorization;
 using PainelAdmin.Models.ViewModels;
-
+using PainelAdmin.Services;
 
 namespace PainelAdmin.Controllers
 {
@@ -195,9 +195,10 @@ namespace PainelAdmin.Controllers
             return RedirectToAction("Index", "Home");
         }
 
-        public IActionResult Esqueci(Esqueci model)
+        [HttpGet]
+        public IActionResult Esqueci()
         {
-            return View(model);
+            return View();
         }
         [HttpPost]
         [ValidateAntiForgeryToken]

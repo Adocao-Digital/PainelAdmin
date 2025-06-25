@@ -33,9 +33,12 @@ namespace PainelAdmin.Models.ViewModels
         [Compare("Senha", ErrorMessage = "As senhas não coincidem.")]
         public string? ConfirmarSenha { get; set; }
 
-        [Required]
         [Phone]
         public string? Telefone { get; set; }
+
+        [Required]
+        [Phone]
+        public string? Celular { get; set; }
 
         [Required]
         [DataType(DataType.Date)]

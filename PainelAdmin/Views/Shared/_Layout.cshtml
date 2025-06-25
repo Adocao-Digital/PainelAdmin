@@ -1,96 +1,143 @@
-﻿@using PainelAdmin.Models
-@using Microsoft.AspNetCore.Identity
-@inject UserManager<ApplicationUser> UserManager
+﻿@using MongoDB.Bson;
+@using PainelAdmin.Models;
+@using Microsoft.AspNetCore.Identity;
+@inject UserManager<ApplicationUser> UserManager;
+@inject SignInManager<ApplicationUser> SignInManager;
 
+@{
+    var usuarioEmail = User.Identity?.IsAuthenticated == true ? User.Identity.Name : null;
+    var usuarioRole = User.IsInRole("ADM") ? "ADM" : null;
+}
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - PainelAdmin</title>
+    <title>@ViewData["Title"] - CCZ</title>
+
+    <!-- CSS -->
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-	<link rel="stylesheet" href="~/css/style-header.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/css/style-index.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/css/site-custom.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/site/style-header.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/site/style-footer.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="icon" type="image/x-icon" href="~/img/dogo-argentino.png">
 
-
-    <link rel="icon" type="image/x-icon" href="img/dogo-argentino.png">
+    @RenderSection("Styles", required: false)
 </head>
 <body>
     <header>
-        <div class="head1">
-        </div>
-        <div class="head2">
-            <img src="~/img/logo.png" alt="Logo" class="logo">
-        </div>
+        
     </header>
 
+    <nav class="navbar navbar-expand-xl shadow-sm sticky-top nav-animada">
+        <div class="container-fluid py-2">
+            <a class="navbar-brand d-flex align-items-center" href="/">
+                <img src="~/img/logo.png" alt="Logo" width="50" height="50" class="me-2" />
+                <span class="fw-bold text-success fs-5">CCZ</span>
+            </a>
 
-    <div class="sidebar">
-       
-        <ul class="navbar-nav">
-            @if (User?.Identity?.IsAuthenticated ?? false)
-            {
-                var user = await UserManager.GetUserAsync(User);
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <img src="~/img/menu-hamburguer.png" width="30" height="30px"/>
+            </button>
 
-                <li class="nav-item no-hover userInfo">
-                    <img src="@user.Foto" alt="Foto do usuário" />
-                    <div class="username">Olá, @user.Nome</div>
-                </li>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+                <ul class="navbar-nav align-items-center gap-3">
+                    <li class="nav-item"><a class="nav-link custom-link" asp-controller="Home" asp-action="Sobre">Sobre nós</a></li>
+                    <li class="nav-item"><a class="nav-link custom-link" asp-controller="Home" asp-action="FaleConosco">Fale conosco</a></li>
 
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <li class="nav-item"><a class="nav-link custom-link" asp-controller="Pets" asp-action="MeusPets">Meus Pets</a></li>
+                    }
 
- 
-            }
-            else
-            {
-                <li class="nav-item mt-4">
-                    <a class="nav-link" asp-area="" asp-controller="User" asp-action="Create" asp-route-role="user">Criar Conta</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" asp-area="" asp-controller="Account" asp-action="Login">Entrar</a>
-                </li>
-            }
-            <li class="nav-item">
+                    @if (User.IsInRole("ADM"))
+                    {
+                        <li class="nav-item"><a class="nav-link custom-link" asp-controller="Painel" asp-action="Index" target="_blank">Painel de Controle</a></li>
+                    }
+                </ul>
 
-                <a class="nav-link Home" asp-area="" asp-controller="Home" asp-action="Index"><img src="~/img/casa.png" alt="Logo" class="casaft">  Página Inicial</a>
-			</li>
-            <li class="nav-item">
-                <a class="nav-link" asp-area="" asp-controller="Pets" asp-action="Index"><img src="~/img/coracao-de-pata.png" alt="Logo" class="petft">  Pets</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" asp-area="" asp-controller="Noticias" asp-action="NoticiasAtuais"><img src="~/img/jornal.png" alt="Logo" class="notift">  Ver notícias</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" asp-area="" asp-controller="User" asp-action="Index"><img src="~/img/do-utilizador.png" alt="Logo" class="usuft">  Usuários</a>
-            </li>
-            @if (User.IsInRole("ADM"))
-            {
-                <li class="nav-item">
-                    <a class="nav-link" asp-area="" asp-controller="Noticias" asp-action="Create">Publique uma notícia</a>
-                </li>
-            }
-               @if (User?.Identity?.IsAuthenticated ?? false)
-            {
+                <div class="d-flex align-items-center gap-2 justify-content-center">
+                    <a asp-controller="Home" asp-action="QueroAdotar" class="btn btn-success">Quero Adotar</a>
+                    <a asp-controller="Home" asp-action="Ajudar" class="btn btn-success">Ajudar</a>
 
-                <div class="sidebar-bottom">
-                    <a class="nav-link text-danger" asp-area="" asp-controller="Account" asp-action="Logout">Sair</a>
+                    @if (!string.IsNullOrEmpty(usuarioEmail))
+                    {
+                        var user = await UserManager.GetUserAsync(User);
+
+                        <div class="dropdown align-items-center">
+                            <a href="#" class="d-flex align-items-center text-decoration-none dropdown-toggle" data-bs-toggle="dropdown">
+                                <img src="@user.Foto" class="rounded-circle" width="80" height="80" style="object-fit: cover;" />
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-end shadow border-0 align-items-center">
+                                <li class="dropdown-header text-center">@user.Nome</li>
+                                <li><a class="dropdown-item" asp-controller="Account" asp-action="Perfil"><i class="fa fa-user me-2"></i> Meu Perfil</a></li>
+                                <li><a class="dropdown-item" asp-controller="Account" asp-action="AlterarSenha"><i class="fa fa-lock me-2"></i> Alterar Senha</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item text-danger" asp-controller="Account" asp-action="Logout"><i class="fa fa-sign-out-alt me-2"></i> Sair</a></li>
+                            </ul>
+                        </div>
+                    }
+                    else
+                    {
+                        <a asp-controller="Account" asp-action="Login" class="btn btn-success">Entrar</a>
+                    }
                 </div>
-
-            }
-         
-        </ul>
-    </div>
+            </div>
+        </div>
+    </nav>
 
     <div class="content">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
+    <footer class="footer">
+        <section class="bg-green py-4 py-md-5 py-xl-8 border-top border-light">
+            <div class="container overflow-hidden">
+                <div class="row gy-4 gy-lg-0 justify-content-xl-between">
+                    <div class="col-12 col-md-4 col-lg-3 col-xl-2">
+                        <div class="widget">
+                            <a href="#">
+                                <img src="~/img/brasão-barra.png" alt="Brasão" width="175" height="175" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-3 col-xl-2">
+                        <div class="widget">
+                            <h4 class="widget-title mb-4">Centro de Controle de Zoonoses</h4>
+                            <address class="mb-4">BRB-246, Barra Bonita - SP, 17340-000, Brasil</address>
+                            <p class="mb-1"><a class="link-light text-decoration-none" href="tel:+5514996620512">(14)99662-0512</a></p>
+                            <p class="mb-0"><a class="link-light text-decoration-none" href="mailto:demo@yourdomain.com">demo@yourdomain.com</a></p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-3 col-xl-2">
+                        <div class="widget">
+                            <h4 class="widget-title mb-4">Saiba mais</h4>
+                            <ul class="list-unstyled">
+                                <li class="mb-2"><a href="/sobre" class="link-light text-decoration-none">Sobre nós</a></li>
+                                <li class="mb-2"><a href="/fale" class="link-light text-decoration-none">Fale Conosco</a></li>
+                                <li class="mb-2"><a href="/ajudar" class="link-light text-decoration-none">Como ajudar</a></li>
+                                <li class="mb-2"><a href="#" class="link-light text-decoration-none">Termos de uso</a></li>
+                                <li class="mb-0"><a href="#" class="link-light text-decoration-none">Política de privacidade</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3 col-xl-4">
+                        <div class="widget">
+                            <h4 class="widget-title mb-4">Desenvolvedores</h4>
+                            <p class="mb-4">Saiba mais sobre os desenvolvedores web que projetaram este site. Acesse a organização do github</p>
+                            <a href="https://github.com/Adocao-Digital/projeto" class="btn btn-success" target="_blank">Clique aqui</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/lib/bootst0rap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

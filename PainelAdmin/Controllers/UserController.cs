@@ -94,6 +94,7 @@ namespace PainelAdmin.Controllers
 
             return View(model);
         }
+        [HttpGet]
         [AllowAnonymous]
         public IActionResult Cadastro()
         {
@@ -107,6 +108,8 @@ namespace PainelAdmin.Controllers
             {
                 await _roleManager.CreateAsync(new ApplicationRole { Name = "USER" });
             }
+
+            
 
             if (ModelState.IsValid)
             {
@@ -257,6 +260,20 @@ namespace PainelAdmin.Controllers
 
             if (!ModelState.IsValid)
             {
+                if (!ModelState.IsValid)
+                {
+                    foreach (var state in ModelState)
+                    {
+                        var key = state.Key;
+                        var errors = state.Value.Errors;
+
+                        foreach (var error in errors)
+                        {
+                            Console.WriteLine($"Campo: {key} - Erro: {error.ErrorMessage}");
+                        }
+                    }
+
+                }
                 model.RolesDisponiveis = _roleManager.Roles.Select(r => r.Name).ToList();
                 return View(model);
             }

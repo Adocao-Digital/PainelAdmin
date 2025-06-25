@@ -1,0 +1,37 @@
+﻿.table{
+    padding: 120px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+th {
+    border: none;
+}
+
+td {
+    background-color: #fff;
+}
+
+    td a img,
+    button img {
+        width: 30px;
+        height: 30px;
+    }
+
+    td a, th a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        vertical-align: middle;
+    }
+
+.col-acoes {
+    width: 18%;
+    text-align: center;
+}

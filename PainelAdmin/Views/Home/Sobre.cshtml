@@ -1,0 +1,68 @@
+﻿@{
+    ViewData["Title"] = "Sobre";
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/site/style-sobre.css" asp-append-version="true" />
+}
+
+<div class="container mt-5">
+    <div class="row">
+        <!-- Sidebar -->
+        <aside class="col-md-3 mb-4">
+            <nav class="sidebar">
+                <div class="nav flex-column">
+                    <a class="nav-link" href="#1">Sobre nós</a>
+                    <a class="nav-link" href="#2">Trabalhos</a>
+                    <a class="nav-link" href="#3">Endereço</a>
+                </div>
+            </nav>
+        </aside>
+
+        <!-- Conteúdo principal -->
+        <main class="col-md-9">
+            <section id="1" class="mb-5">
+                <h1 class="section-title">Sobre o CCZ</h1>
+                <div class="text-center mb-4">
+                    <img src="~/img/canil.jpg" class="foto-canil" alt="Canil" />
+                </div>
+                <div class="section-content">
+                    <p>
+                        O Centro de Controle de Zoonoses é um órgão da prefeitura sem fins lucrativos responsável por cuidar do bem-estar dos animais de todo o município. Nós também cuidamos da parte de adoção e divulgação de animais, até mesmo em resgate de animais maltratados que precisam de ajuda.
+                    </p>
+                    <p>
+                        Fazemos uma média mensal de 80 a 100 animais castrados com atendimento gratuito e agendamento. Também possuímos uma clínica veterinária e oferecemos suporte contínuo, inclusive durante a pandemia.
+                    </p>
+                </div>
+            </section>
+
+            <section id="2" class="mb-5">
+                <h2 class="section-title">Trabalhos</h2>
+                <div class="section-content">
+                    <ul>
+                        <li>Castração gratuita</li>
+                        <li>Feiras de adoção de animais</li>
+                        <li>Resgate e cuidado de animais feridos</li>
+                        <li>Controle de pestes urbanas</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="3" class="mb-5">
+                <h2 class="section-title">Endereço</h2>
+                <div class="section-content">
+                    <p>
+                        Centro de Controle de Zoonoses - CCZ<br />
+                        BRB-246, Barra Bonita - SP, 17340-000
+                    </p>
+                </div>
+                <div class="mt-3">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3686.388097185679!2d-48.58671692575893!3d-22.489617623093118!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c74f4637626c97%3A0xa0f90c286161afd2!2sCentro%20de%20Controle%20de%20Zoonoses%20-%20CCZ!5e0!3m2!1spt-BR!2sbr!4v1718140629567!5m2!1spt-BR!2sbr" allowfullscreen></iframe>
+                </div>
+            </section>
+        </main>
+    </div>
+</div>
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+}

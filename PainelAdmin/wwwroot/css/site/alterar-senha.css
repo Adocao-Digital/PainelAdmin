@@ -1,0 +1,38 @@
+﻿.senha-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+.senha-card {
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.titulo-form {
+    color: #ff7f00;
+    font-weight: 600;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.campo {
+    margin-bottom: 18px;
+}
+
+    .campo label {
+        font-weight: 500;
+        margin-bottom: 6px;
+        display: block;
+    }
+
+
+
+@media screen and (max-width: 768px) {
+    .botoes {
+        flex-direction: column;
+        align-items: stretch;
+    }
+}

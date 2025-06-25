@@ -46,6 +46,11 @@ namespace PainelAdmin.Controllers
             return View();
         }
 
+        public IActionResult Ajudar()
+        {
+            return View();
+        }
+
         public async Task<IActionResult> QueroAdotar()
         {
             var pet = await _context.Pet
