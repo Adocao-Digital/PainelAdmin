@@ -94,6 +94,7 @@ namespace PainelAdmin.Controllers
 
             return View(model);
         }
+        [HttpGet]
         [AllowAnonymous]
         public IActionResult Cadastro()
         {
@@ -108,8 +109,24 @@ namespace PainelAdmin.Controllers
                 await _roleManager.CreateAsync(new ApplicationRole { Name = "USER" });
             }
 
+            if (!ModelState.IsValid)
+            {
+                foreach (var state in ModelState)
+                {
+                    var key = state.Key;
+                    var errors = state.Value.Errors;
+
+                    foreach (var error in errors)
+                    {
+                        Console.WriteLine($"Campo: {key} - Erro: {error.ErrorMessage}");
+                    }
+                }
+                
+            }
+
             if (ModelState.IsValid)
             {
+                Console.WriteLine("Fui para o POST");
                 string? nomeArquivoFoto = null;
 
                 if (model.FotoUpload != null && model.FotoUpload.Length > 0)

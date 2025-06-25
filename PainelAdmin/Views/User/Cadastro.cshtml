@@ -1,15 +1,19 @@
 ﻿@model PainelAdmin.Models.ViewModels.UsuarioCadastroViewModel
-
 @{
-    ViewData["Title"] = "Novo Usuário";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Novo Funcionário";
 }
+
+<head>
+    <link rel="stylesheet" href="~/css/site/modal-sucesso.css" />
+    <link rel="stylesheet" href="~/css/site/site-custom.css" />
+</head>
 
 <h2 class="titulo-usuario">@ViewData["Title"]</h2>
 
 <a asp-action="Index" class="text-success voltar" style="float: right; text-decoration: none;">← Voltar</a>
 
-<form asp-action="CreateAdmin" method="post" enctype="multipart/form-data">
-
+<form asp-action="Cadastro" method="post" enctype="multipart/form-data">
     <div class="form-row">
         <div class="form-group form-col">
             <label asp-for="Nome" class="label-custom"></label>
@@ -23,33 +27,11 @@
             <span asp-validation-for="Email" class="text-danger"></span>
         </div>
     </div>
-    <div class="form-group form-col">
-        <label asp-for="Senha" class="label-custom"></label>
-        <input asp-for="Senha" class="form-control campo-tamanho" />
-        <span asp-validation-for="Senha" class="text-danger"></span>
-    </div>
-    <div class="form-group form-col">
-        <label asp-for="ConfirmarSenha" class="label-custom"></label>
-        <input asp-for="ConfirmarSenha" class="form-control campo-tamanho" />
-        <span asp-validation-for="ConfirmarSenha" class="text-danger"></span>
-    </div>
-    <div class="form-group form-col">
-        <label asp-for="Sexo" class="label-custom"></label>
-        <select asp-for="Sexo" class="form-control campo-tamanho">
-            <option value="">Selecione</option>
-            <option>Masculino</option>
-            <option>Feminino</option>
-            <option>Não-binário</option>
-            <option value="private">Prefiro não informar</option>
-        </select>
-    </div>
-
-
 
     <div class="form-row">
         <div class="form-group form-col">
             <label asp-for="CPF" class="label-custom"></label>
-            <input asp-for="CPF" class="form-control campo-cpf" />
+            <input asp-for="CPF" class="form-control campo-tamanho" />
             <span asp-validation-for="CPF" class="text-danger"></span>
         </div>
 
@@ -57,6 +39,41 @@
             <label asp-for="Telefone" class="label-custom"></label>
             <input asp-for="Telefone" class="form-control campo-tamanho" />
             <span asp-validation-for="Telefone" class="text-danger"></span>
+        </div>
+
+        <div class="form-group form-col">
+            <label asp-for="Celular" class="label-custom"></label>
+            <input asp-for="Celular" class="form-control campo-tamanho" />
+            <span asp-validation-for="Celular" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="form-row">
+        <div class="form-group form-col">
+            <label asp-for="Senha" class="label-custom"></label>
+            <input asp-for="Senha" class="form-control campo-tamanho" />
+            <span asp-validation-for="Senha" class="text-danger"></span>
+        </div>
+        <div class="form-group form-col">
+            <label asp-for="ConfirmarSenha" class="label-custom"></label>
+            <input asp-for="ConfirmarSenha" class="form-control campo-tamanho" />
+            <span asp-validation-for="ConfirmarSenha" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Sexo"></label>
+            <select asp-for="Sexo" class="form-control">
+                <option value="">Selecione</option>
+                <option>Masculino</option>
+                <option>Feminino</option>
+                <option>Não-binário</option>
+                <option value="private">Prefiro não informar</option>
+            </select>
+        </div>
+
+        <div class="form-group form-col">
+            <label asp-for="DataNascimento" class="label-custom">Data de Nascimento</label>
+            <input asp-for="DataNascimento" type="date" class="form-control campo-tamanho" />
+            <span asp-validation-for="DataNascimento" class="text-danger"></span>
         </div>
     </div>
 
@@ -73,12 +90,6 @@
             <label asp-for="Rua" class="label-custom"></label>
             <input asp-for="Rua" class="form-control campo-tamanho" />
             <span asp-validation-for="Rua" class="text-danger"></span>
-        </div>
-
-        <div class="form-group form-col">
-            <label asp-for="Numero" class="label-custom"></label>
-            <input asp-for="Numero" class="form-control campo-numero" />
-            <span asp-validation-for="Numero" class="text-danger"></span>
         </div>
 
         <div class="form-group form-col">
@@ -101,23 +112,44 @@
             <span asp-validation-for="Estado" class="text-danger"></span>
         </div>
 
-
-    </div>
-
-    <div class="form-row">
         <div class="form-group form-col">
-            <label asp-for="FotoUpload" class="label-custom">Foto</label>
-            <input asp-for="FotoUpload" type="file" class="form-control campo-tamanho" />
-            <span asp-validation-for="FotoUpload" class="text-danger"></span>
+            <label asp-for="Numero" class="label-custom"></label>
+            <input asp-for="Numero" class="form-control campo-tamanho campo-numero" />
+            <span asp-validation-for="Numero" class="text-danger"></span>
         </div>
     </div>
-
     <br />
     <button type="submit" class="btn btn-primary">Salvar</button>
 </form>
 
+<!-- Modal de Sucesso -->
+<div id="modalSucesso" class="modal-sucesso">
+    <div class="modal-sucesso-content">
+        <p>Usuário criado com sucesso!</p>
+        <button onclick="fecharModal()">OK</button>
+    </div>
+</div>
+
 @section Scripts {
-    @{
-        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    @Html.Partial("_ValidationScriptsPartial")
+
+    @if (TempData["Sucesso"] != null)
+    {
+        <script>
+            window.onload = function () {
+                exibirModal();
+            };
+        </script>
     }
+
+    <script>
+        function exibirModal() {
+            document.getElementById("modalSucesso").style.display = "block";
+        }
+
+        function fecharModal() {
+            document.getElementById("modalSucesso").style.display = "none";
+            window.location.href = '/User/Index';
+        }
+    </script>
 }
