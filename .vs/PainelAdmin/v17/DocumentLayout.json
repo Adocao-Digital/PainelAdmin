@@ -1,0 +1,942 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\kiera\\onedrive\\\u00E1rea de trabalho\\nova pasta\\paineladmin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\kiera\\onedrive\\\u00E1rea de trabalho\\nova pasta\\paineladmin\\views\\user\\cadastro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\user\\cadastro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\kiera\\onedrive\\\u00E1rea de trabalho\\nova pasta\\paineladmin\\views\\account\\editarperfil.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\account\\editarperfil.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\kiera\\onedrive\\\u00E1rea de trabalho\\nova pasta\\paineladmin\\views\\user\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\user\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\kiera\\onedrive\\\u00E1rea de trabalho\\nova pasta\\paineladmin\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\kiera\\onedrive\\\u00E1rea de trabalho\\nova pasta\\paineladmin\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\kiera\\onedrive\\\u00E1rea de trabalho\\nova pasta\\paineladmin\\models\\viewmodels\\usuarioeditarviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\models\\viewmodels\\usuarioeditarviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\kiera\\onedrive\\\u00E1rea de trabalho\\nova pasta\\paineladmin\\views\\noticias\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\noticias\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\kiera\\onedrive\\\u00E1rea de trabalho\\nova pasta\\paineladmin\\views\\noticias\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\noticias\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\kiera\\onedrive\\\u00E1rea de trabalho\\nova pasta\\paineladmin\\controllers\\noticiascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\controllers\\noticiascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\kiera\\onedrive\\\u00E1rea de trabalho\\nova pasta\\paineladmin\\views\\user\\createadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\user\\createadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\kiera\\onedrive\\\u00E1rea de trabalho\\nova pasta\\paineladmin\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\kiera\\onedrive\\\u00E1rea de trabalho\\nova pasta\\paineladmin\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\kiera\\onedrive\\\u00E1rea de trabalho\\nova pasta\\paineladmin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\kiera\\onedrive\\\u00E1rea de trabalho\\nova pasta\\paineladmin\\models\\viewmodels\\editarusuarioviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\models\\viewmodels\\editarusuarioviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\kiera\\onedrive\\\u00E1rea de trabalho\\nova pasta\\paineladmin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\kiera\\onedrive\\\u00E1rea de trabalho\\nova pasta\\paineladmin\\views\\home\\_cardsanimais.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\home\\_cardsanimais.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\kiera\\onedrive\\\u00E1rea de trabalho\\nova pasta\\paineladmin\\views\\home\\queroadotar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\home\\queroadotar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\kiera\\onedrive\\\u00E1rea de trabalho\\nova pasta\\paineladmin\\wwwroot\\css\\painel\\style-header.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\wwwroot\\css\\painel\\style-header.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\kiera\\onedrive\\\u00E1rea de trabalho\\nova pasta\\paineladmin\\wwwroot\\css\\painel\\style-index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\wwwroot\\css\\painel\\style-index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\kiera\\onedrive\\\u00E1rea de trabalho\\nova pasta\\paineladmin\\wwwroot\\css\\painel\\site-custom.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\wwwroot\\css\\painel\\site-custom.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\kiera\\onedrive\\\u00E1rea de trabalho\\nova pasta\\paineladmin\\views\\shared\\_painel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\shared\\_painel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\kiera\\onedrive\\\u00E1rea de trabalho\\nova pasta\\paineladmin\\models\\viewmodels\\editarnoticiaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\models\\viewmodels\\editarnoticiaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\kiera\\onedrive\\\u00E1rea de trabalho\\nova pasta\\paineladmin\\controllers\\petscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\controllers\\petscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\kiera\\onedrive\\\u00E1rea de trabalho\\nova pasta\\paineladmin\\controllers\\painelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\controllers\\painelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\kiera\\onedrive\\\u00E1rea de trabalho\\nova pasta\\paineladmin\\views\\noticias\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\noticias\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\kiera\\onedrive\\\u00E1rea de trabalho\\nova pasta\\paineladmin\\views\\pets\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\pets\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\kiera\\onedrive\\\u00E1rea de trabalho\\nova pasta\\paineladmin\\views\\pets\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\pets\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\kiera\\onedrive\\\u00E1rea de trabalho\\nova pasta\\paineladmin\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\kiera\\onedrive\\\u00E1rea de trabalho\\nova pasta\\paineladmin\\views\\noticias\\noticiasatuais.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\noticias\\noticiasatuais.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\kiera\\onedrive\\\u00E1rea de trabalho\\nova pasta\\paineladmin\\models\\contextmongodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\models\\contextmongodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\kiera\\onedrive\\\u00E1rea de trabalho\\nova pasta\\paineladmin\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\kiera\\onedrive\\\u00E1rea de trabalho\\nova pasta\\paineladmin\\entities\\emailconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\entities\\emailconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\kiera\\onedrive\\\u00E1rea de trabalho\\nova pasta\\paineladmin\\.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\kiera\\onedrive\\\u00E1rea de trabalho\\nova pasta\\paineladmin\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\kiera\\onedrive\\\u00E1rea de trabalho\\nova pasta\\paineladmin\\views\\painel\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\painel\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\kiera\\onedrive\\\u00E1rea de trabalho\\nova pasta\\paineladmin\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\kiera\\onedrive\\\u00E1rea de trabalho\\nova pasta\\paineladmin\\views\\account\\redefinirsenha.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\account\\redefinirsenha.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\kiera\\onedrive\\\u00E1rea de trabalho\\nova pasta\\paineladmin\\appsettings-example.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\appsettings-example.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\kiera\\onedrive\\\u00E1rea de trabalho\\nova pasta\\paineladmin\\views\\home\\ajudar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\home\\ajudar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\kiera\\onedrive\\\u00E1rea de trabalho\\nova pasta\\paineladmin\\views\\home\\faleconosco.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\home\\faleconosco.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\kiera\\onedrive\\\u00E1rea de trabalho\\nova pasta\\paineladmin\\views\\account\\esqueci.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\account\\esqueci.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\kiera\\onedrive\\\u00E1rea de trabalho\\nova pasta\\paineladmin\\views\\pets\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\pets\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\kiera\\onedrive\\\u00E1rea de trabalho\\nova pasta\\paineladmin\\views\\pets\\userpet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\pets\\userpet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\kiera\\onedrive\\\u00E1rea de trabalho\\nova pasta\\paineladmin\\wwwroot\\css\\painel\\modal-confirmacao.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\wwwroot\\css\\painel\\modal-confirmacao.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\kiera\\onedrive\\\u00E1rea de trabalho\\nova pasta\\paineladmin\\wwwroot\\css\\site\\site-custom.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\wwwroot\\css\\site\\site-custom.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\kiera\\onedrive\\\u00E1rea de trabalho\\nova pasta\\paineladmin\\models\\viewmodels\\usuariocadastroviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\models\\viewmodels\\usuariocadastroviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\kiera\\onedrive\\\u00E1rea de trabalho\\nova pasta\\paineladmin\\wwwroot\\css\\site\\modal-sucesso.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\wwwroot\\css\\site\\modal-sucesso.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\kiera\\onedrive\\\u00E1rea de trabalho\\nova pasta\\paineladmin\\wwwroot\\css\\site\\style-header.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\wwwroot\\css\\site\\style-header.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\kiera\\onedrive\\\u00E1rea de trabalho\\nova pasta\\paineladmin\\wwwroot\\css\\painel\\header.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\wwwroot\\css\\painel\\header.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\kiera\\onedrive\\\u00E1rea de trabalho\\nova pasta\\paineladmin\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\kiera\\onedrive\\\u00E1rea de trabalho\\nova pasta\\paineladmin\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\kiera\\onedrive\\\u00E1rea de trabalho\\nova pasta\\paineladmin\\wwwroot\\css\\site\\style.login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\wwwroot\\css\\site\\style.login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\kiera\\onedrive\\\u00E1rea de trabalho\\nova pasta\\paineladmin\\views\\home\\sobre.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\home\\sobre.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\kiera\\onedrive\\\u00E1rea de trabalho\\nova pasta\\paineladmin\\wwwroot\\css\\site\\style-fale.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\wwwroot\\css\\site\\style-fale.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\kiera\\onedrive\\\u00E1rea de trabalho\\nova pasta\\paineladmin\\views\\noticias\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\noticias\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|c:\\users\\kiera\\onedrive\\\u00E1rea de trabalho\\nova pasta\\paineladmin\\views\\pets\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10369CAD-FE7C-45D0-9022-F937C8FEDAA9}|PainelAdmin\\PainelAdmin.csproj|solutionrelative:paineladmin\\views\\pets\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "PainelAdmin\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Controllers\\UserController.cs",
+              "RelativeToolTip": "PainelAdmin\\Controllers\\UserController.cs",
+              "ViewState": "AgIAADoAAACAAwAAAAAewE4AAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T00:48:52.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EditarPerfil.cshtml",
+              "DocumentMoniker": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Views\\Account\\EditarPerfil.cshtml",
+              "RelativeDocumentMoniker": "PainelAdmin\\Views\\Account\\EditarPerfil.cshtml",
+              "ToolTip": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Views\\Account\\EditarPerfil.cshtml",
+              "RelativeToolTip": "PainelAdmin\\Views\\Account\\EditarPerfil.cshtml",
+              "ViewState": "AgIAAEwAAAAA+/////8gwFoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T15:08:32.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "PainelAdmin\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "PainelAdmin\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAHkAAACA3TIzMzMVwIwAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T16:30:09.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Cadastro.cshtml",
+              "DocumentMoniker": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Views\\User\\Cadastro.cshtml",
+              "RelativeDocumentMoniker": "PainelAdmin\\Views\\User\\Cadastro.cshtml",
+              "ToolTip": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Views\\User\\Cadastro.cshtml",
+              "RelativeToolTip": "PainelAdmin\\Views\\User\\Cadastro.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHcAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T00:31:37.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Views\\User\\Editar.cshtml",
+              "RelativeDocumentMoniker": "PainelAdmin\\Views\\User\\Editar.cshtml",
+              "ToolTip": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Views\\User\\Editar.cshtml",
+              "RelativeToolTip": "PainelAdmin\\Views\\User\\Editar.cshtml",
+              "ViewState": "AgIAAC0AAABgZWZmZmYkwCgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T01:01:50.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "PainelAdmin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "PainelAdmin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAADsAAACAAAAAAAAjwEgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-07T16:52:13.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UsuarioEditarViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Models\\ViewModels\\UsuarioEditarViewModel.cs",
+              "RelativeDocumentMoniker": "PainelAdmin\\Models\\ViewModels\\UsuarioEditarViewModel.cs",
+              "ToolTip": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Models\\ViewModels\\UsuarioEditarViewModel.cs",
+              "RelativeToolTip": "PainelAdmin\\Models\\ViewModels\\UsuarioEditarViewModel.cs",
+              "ViewState": "AgIAAA8AAADo/P////8vwBsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T04:09:42.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Views\\Noticias\\Edit.cshtml",
+              "RelativeDocumentMoniker": "PainelAdmin\\Views\\Noticias\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Views\\Noticias\\Edit.cshtml",
+              "RelativeToolTip": "PainelAdmin\\Views\\Noticias\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T01:17:11.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Views\\Noticias\\Details.cshtml",
+              "RelativeDocumentMoniker": "PainelAdmin\\Views\\Noticias\\Details.cshtml",
+              "ToolTip": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Views\\Noticias\\Details.cshtml",
+              "RelativeToolTip": "PainelAdmin\\Views\\Noticias\\Details.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAgwBoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-08T21:25:48.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Program.cs",
+              "RelativeDocumentMoniker": "PainelAdmin\\Program.cs",
+              "ToolTip": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Program.cs",
+              "RelativeToolTip": "PainelAdmin\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T16:26:54.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NoticiasController.cs",
+              "DocumentMoniker": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Controllers\\NoticiasController.cs",
+              "RelativeDocumentMoniker": "PainelAdmin\\Controllers\\NoticiasController.cs",
+              "ToolTip": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Controllers\\NoticiasController.cs",
+              "RelativeToolTip": "PainelAdmin\\Controllers\\NoticiasController.cs",
+              "ViewState": "AgIAAFYBAAAA//////8hwJUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T00:29:27.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CreateAdmin.cshtml",
+              "DocumentMoniker": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Views\\User\\CreateAdmin.cshtml",
+              "RelativeDocumentMoniker": "PainelAdmin\\Views\\User\\CreateAdmin.cshtml",
+              "ToolTip": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Views\\User\\CreateAdmin.cshtml",
+              "RelativeToolTip": "PainelAdmin\\Views\\User\\CreateAdmin.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAC8AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T15:06:13.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "PainelAdmin\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\appsettings.Development.json",
+              "RelativeToolTip": "PainelAdmin\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-26T00:47:48.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\appsettings.json",
+              "RelativeDocumentMoniker": "PainelAdmin\\appsettings.json",
+              "ToolTip": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\appsettings.json",
+              "RelativeToolTip": "PainelAdmin\\appsettings.json",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-21T16:22:05.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EditarUsuarioViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Models\\ViewModels\\EditarUsuarioViewModel.cs",
+              "RelativeDocumentMoniker": "PainelAdmin\\Models\\ViewModels\\EditarUsuarioViewModel.cs",
+              "ToolTip": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Models\\ViewModels\\EditarUsuarioViewModel.cs",
+              "RelativeToolTip": "PainelAdmin\\Models\\ViewModels\\EditarUsuarioViewModel.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAmwCYAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T23:55:15.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "PainelAdmin\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "PainelAdmin\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T16:39:20.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "QueroAdotar.cshtml",
+              "DocumentMoniker": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Views\\Home\\QueroAdotar.cshtml",
+              "RelativeDocumentMoniker": "PainelAdmin\\Views\\Home\\QueroAdotar.cshtml",
+              "ToolTip": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Views\\Home\\QueroAdotar.cshtml",
+              "RelativeToolTip": "PainelAdmin\\Views\\Home\\QueroAdotar.cshtml",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAUwJMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-07T17:03:52.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "style-header.css",
+              "DocumentMoniker": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\css\\painel\\style-header.css",
+              "RelativeDocumentMoniker": "PainelAdmin\\wwwroot\\css\\painel\\style-header.css",
+              "ToolTip": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\css\\painel\\style-header.css",
+              "RelativeToolTip": "PainelAdmin\\wwwroot\\css\\painel\\style-header.css",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-09T01:53:31.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "site-custom.css",
+              "DocumentMoniker": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\css\\painel\\site-custom.css",
+              "RelativeDocumentMoniker": "PainelAdmin\\wwwroot\\css\\painel\\site-custom.css",
+              "ToolTip": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\css\\painel\\site-custom.css",
+              "RelativeToolTip": "PainelAdmin\\wwwroot\\css\\painel\\site-custom.css",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAYwGIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-09T01:54:48.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "_Painel.cshtml",
+              "DocumentMoniker": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Views\\Shared\\_Painel.cshtml",
+              "RelativeDocumentMoniker": "PainelAdmin\\Views\\Shared\\_Painel.cshtml",
+              "ToolTip": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Views\\Shared\\_Painel.cshtml",
+              "RelativeToolTip": "PainelAdmin\\Views\\Shared\\_Painel.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAMwBcAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-22T19:01:05.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "style-index.css",
+              "DocumentMoniker": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\css\\painel\\style-index.css",
+              "RelativeDocumentMoniker": "PainelAdmin\\wwwroot\\css\\painel\\style-index.css",
+              "ToolTip": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\css\\painel\\style-index.css",
+              "RelativeToolTip": "PainelAdmin\\wwwroot\\css\\painel\\style-index.css",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAFEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-26T03:30:02.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_CardsAnimais.cshtml",
+              "DocumentMoniker": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Views\\Home\\_CardsAnimais.cshtml",
+              "RelativeDocumentMoniker": "PainelAdmin\\Views\\Home\\_CardsAnimais.cshtml",
+              "ToolTip": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Views\\Home\\_CardsAnimais.cshtml",
+              "RelativeToolTip": "PainelAdmin\\Views\\Home\\_CardsAnimais.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-26T03:51:09.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "PetsController.cs",
+              "DocumentMoniker": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Controllers\\PetsController.cs",
+              "RelativeDocumentMoniker": "PainelAdmin\\Controllers\\PetsController.cs",
+              "ToolTip": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Controllers\\PetsController.cs",
+              "RelativeToolTip": "PainelAdmin\\Controllers\\PetsController.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAmwFIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T23:06:52.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "PainelController.cs",
+              "DocumentMoniker": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Controllers\\PainelController.cs",
+              "RelativeDocumentMoniker": "PainelAdmin\\Controllers\\PainelController.cs",
+              "ToolTip": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Controllers\\PainelController.cs",
+              "RelativeToolTip": "PainelAdmin\\Controllers\\PainelController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T16:39:57.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Views\\Noticias\\Create.cshtml",
+              "RelativeDocumentMoniker": "PainelAdmin\\Views\\Noticias\\Create.cshtml",
+              "ToolTip": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Views\\Noticias\\Create.cshtml",
+              "RelativeToolTip": "PainelAdmin\\Views\\Noticias\\Create.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-08T21:25:34.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Views\\Pets\\Delete.cshtml",
+              "RelativeDocumentMoniker": "PainelAdmin\\Views\\Pets\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Views\\Pets\\Delete.cshtml",
+              "RelativeToolTip": "PainelAdmin\\Views\\Pets\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-08T21:25:15.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "EditarNoticiaViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Models\\ViewModels\\EditarNoticiaViewModel.cs",
+              "RelativeDocumentMoniker": "PainelAdmin\\Models\\ViewModels\\EditarNoticiaViewModel.cs",
+              "ToolTip": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Models\\ViewModels\\EditarNoticiaViewModel.cs",
+              "RelativeToolTip": "PainelAdmin\\Models\\ViewModels\\EditarNoticiaViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T03:16:39.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Views\\Pets\\Create.cshtml",
+              "RelativeDocumentMoniker": "PainelAdmin\\Views\\Pets\\Create.cshtml",
+              "ToolTip": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Views\\Pets\\Create.cshtml",
+              "RelativeToolTip": "PainelAdmin\\Views\\Pets\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T00:18:53.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "NoticiasAtuais.cshtml",
+              "DocumentMoniker": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Views\\Noticias\\NoticiasAtuais.cshtml",
+              "RelativeDocumentMoniker": "PainelAdmin\\Views\\Noticias\\NoticiasAtuais.cshtml",
+              "ToolTip": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Views\\Noticias\\NoticiasAtuais.cshtml",
+              "RelativeToolTip": "PainelAdmin\\Views\\Noticias\\NoticiasAtuais.cshtml",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAwEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-08T21:26:14.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Views\\User\\Create.cshtml",
+              "RelativeDocumentMoniker": "PainelAdmin\\Views\\User\\Create.cshtml",
+              "ToolTip": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Views\\User\\Create.cshtml",
+              "RelativeToolTip": "PainelAdmin\\Views\\User\\Create.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T00:27:14.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "PainelAdmin\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "PainelAdmin\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T02:38:45.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ContextMongodb.cs",
+              "DocumentMoniker": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Models\\ContextMongodb.cs",
+              "RelativeDocumentMoniker": "PainelAdmin\\Models\\ContextMongodb.cs",
+              "ToolTip": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Models\\ContextMongodb.cs",
+              "RelativeToolTip": "PainelAdmin\\Models\\ContextMongodb.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAADwv2cAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T18:43:08.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "EmailConfig.cs",
+              "DocumentMoniker": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Entities\\EmailConfig.cs",
+              "RelativeDocumentMoniker": "PainelAdmin\\Entities\\EmailConfig.cs",
+              "ToolTip": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Entities\\EmailConfig.cs",
+              "RelativeToolTip": "PainelAdmin\\Entities\\EmailConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T16:26:04.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "PainelAdmin\\Services\\EmailService.cs",
+              "ToolTip": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Services\\EmailService.cs",
+              "RelativeToolTip": "PainelAdmin\\Services\\EmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T16:25:41.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "FaleConosco.cshtml",
+              "DocumentMoniker": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Views\\Home\\FaleConosco.cshtml",
+              "RelativeDocumentMoniker": "PainelAdmin\\Views\\Home\\FaleConosco.cshtml",
+              "ToolTip": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Views\\Home\\FaleConosco.cshtml",
+              "RelativeToolTip": "PainelAdmin\\Views\\Home\\FaleConosco.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-21T17:03:09.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Views\\Pets\\Edit.cshtml",
+              "RelativeDocumentMoniker": "PainelAdmin\\Views\\Pets\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Views\\Pets\\Edit.cshtml",
+              "RelativeToolTip": "PainelAdmin\\Views\\Pets\\Edit.cshtml",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAQwKYAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-22T17:13:39.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "RedefinirSenha.cshtml",
+              "DocumentMoniker": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Views\\Account\\RedefinirSenha.cshtml",
+              "RelativeDocumentMoniker": "PainelAdmin\\Views\\Account\\RedefinirSenha.cshtml",
+              "ToolTip": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Views\\Account\\RedefinirSenha.cshtml",
+              "RelativeToolTip": "PainelAdmin\\Views\\Account\\RedefinirSenha.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAwBwAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T15:00:45.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Dockerfile",
+              "RelativeDocumentMoniker": "PainelAdmin\\Dockerfile",
+              "ToolTip": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Dockerfile",
+              "RelativeToolTip": "PainelAdmin\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-26T00:14:37.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": ".dockerignore",
+              "DocumentMoniker": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\.dockerignore",
+              "RelativeDocumentMoniker": "PainelAdmin\\.dockerignore",
+              "ToolTip": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\.dockerignore",
+              "RelativeToolTip": "PainelAdmin\\.dockerignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-26T00:44:50.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Views\\Painel\\Index.cshtml",
+              "RelativeDocumentMoniker": "PainelAdmin\\Views\\Painel\\Index.cshtml",
+              "ToolTip": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Views\\Painel\\Index.cshtml",
+              "RelativeToolTip": "PainelAdmin\\Views\\Painel\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-07T16:36:41.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "appsettings-example.json",
+              "DocumentMoniker": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\appsettings-example.json",
+              "RelativeDocumentMoniker": "PainelAdmin\\appsettings-example.json",
+              "ToolTip": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\appsettings-example.json",
+              "RelativeToolTip": "PainelAdmin\\appsettings-example.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-21T16:46:02.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Ajudar.cshtml",
+              "DocumentMoniker": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Views\\Home\\Ajudar.cshtml",
+              "RelativeDocumentMoniker": "PainelAdmin\\Views\\Home\\Ajudar.cshtml",
+              "ToolTip": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Views\\Home\\Ajudar.cshtml",
+              "RelativeToolTip": "PainelAdmin\\Views\\Home\\Ajudar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T02:05:37.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "modal-sucesso.css",
+              "DocumentMoniker": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\css\\site\\modal-sucesso.css",
+              "RelativeDocumentMoniker": "PainelAdmin\\wwwroot\\css\\site\\modal-sucesso.css",
+              "ToolTip": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\css\\site\\modal-sucesso.css",
+              "RelativeToolTip": "PainelAdmin\\wwwroot\\css\\site\\modal-sucesso.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-25T00:45:11.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "site-custom.css",
+              "DocumentMoniker": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\css\\site\\site-custom.css",
+              "RelativeDocumentMoniker": "PainelAdmin\\wwwroot\\css\\site\\site-custom.css",
+              "ToolTip": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\css\\site\\site-custom.css",
+              "RelativeToolTip": "PainelAdmin\\wwwroot\\css\\site\\site-custom.css",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-25T00:59:16.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Esqueci.cshtml",
+              "DocumentMoniker": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Views\\Account\\Esqueci.cshtml",
+              "RelativeDocumentMoniker": "PainelAdmin\\Views\\Account\\Esqueci.cshtml",
+              "ToolTip": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Views\\Account\\Esqueci.cshtml",
+              "RelativeToolTip": "PainelAdmin\\Views\\Account\\Esqueci.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T01:33:04.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "UserPet.cshtml",
+              "DocumentMoniker": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Views\\Pets\\UserPet.cshtml",
+              "RelativeDocumentMoniker": "PainelAdmin\\Views\\Pets\\UserPet.cshtml",
+              "ToolTip": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Views\\Pets\\UserPet.cshtml",
+              "RelativeToolTip": "PainelAdmin\\Views\\Pets\\UserPet.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T01:31:04.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "modal-confirmacao.css",
+              "DocumentMoniker": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\css\\painel\\modal-confirmacao.css",
+              "RelativeDocumentMoniker": "PainelAdmin\\wwwroot\\css\\painel\\modal-confirmacao.css",
+              "ToolTip": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\css\\painel\\modal-confirmacao.css",
+              "RelativeToolTip": "PainelAdmin\\wwwroot\\css\\painel\\modal-confirmacao.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-25T01:09:28.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "UsuarioCadastroViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Models\\ViewModels\\UsuarioCadastroViewModel.cs",
+              "RelativeDocumentMoniker": "PainelAdmin\\Models\\ViewModels\\UsuarioCadastroViewModel.cs",
+              "ToolTip": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Models\\ViewModels\\UsuarioCadastroViewModel.cs",
+              "RelativeToolTip": "PainelAdmin\\Models\\ViewModels\\UsuarioCadastroViewModel.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAADwvyYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T00:28:23.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Views\\User\\Index.cshtml",
+              "RelativeDocumentMoniker": "PainelAdmin\\Views\\User\\Index.cshtml",
+              "ToolTip": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Views\\User\\Index.cshtml",
+              "RelativeToolTip": "PainelAdmin\\Views\\User\\Index.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAcwDQAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-08T21:23:14.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "style-header.css",
+              "DocumentMoniker": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\css\\site\\style-header.css",
+              "RelativeDocumentMoniker": "PainelAdmin\\wwwroot\\css\\site\\style-header.css",
+              "ToolTip": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\css\\site\\style-header.css",
+              "RelativeToolTip": "PainelAdmin\\wwwroot\\css\\site\\style-header.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-11T23:29:42.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "header.css",
+              "DocumentMoniker": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\css\\painel\\header.css",
+              "RelativeDocumentMoniker": "PainelAdmin\\wwwroot\\css\\painel\\header.css",
+              "ToolTip": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\css\\painel\\header.css",
+              "RelativeToolTip": "PainelAdmin\\wwwroot\\css\\painel\\header.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-22T19:32:38.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "PainelAdmin\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "PainelAdmin\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-21T16:33:52.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Sobre.cshtml",
+              "DocumentMoniker": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Views\\Home\\Sobre.cshtml",
+              "RelativeDocumentMoniker": "PainelAdmin\\Views\\Home\\Sobre.cshtml",
+              "ToolTip": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Views\\Home\\Sobre.cshtml",
+              "RelativeToolTip": "PainelAdmin\\Views\\Home\\Sobre.cshtml",
+              "ViewState": "AgIAACkAAAAAAAAAAIBJwEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-21T17:03:19.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "style.login.css",
+              "DocumentMoniker": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\css\\site\\style.login.css",
+              "RelativeDocumentMoniker": "PainelAdmin\\wwwroot\\css\\site\\style.login.css",
+              "ToolTip": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\css\\site\\style.login.css",
+              "RelativeToolTip": "PainelAdmin\\wwwroot\\css\\site\\style.login.css",
+              "ViewState": "AgIAAAwAAAAAAAAAAIBJwCEAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-21T17:13:31.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "style-fale.css",
+              "DocumentMoniker": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\css\\site\\style-fale.css",
+              "RelativeDocumentMoniker": "PainelAdmin\\wwwroot\\css\\site\\style-fale.css",
+              "ToolTip": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\css\\site\\style-fale.css",
+              "RelativeToolTip": "PainelAdmin\\wwwroot\\css\\site\\style-fale.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-11T23:35:46.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Views\\Noticias\\Delete.cshtml",
+              "RelativeDocumentMoniker": "PainelAdmin\\Views\\Noticias\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Views\\Noticias\\Delete.cshtml",
+              "RelativeToolTip": "PainelAdmin\\Views\\Noticias\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-08T21:25:37.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Views\\Pets\\Details.cshtml",
+              "RelativeDocumentMoniker": "PainelAdmin\\Views\\Pets\\Details.cshtml",
+              "ToolTip": "C:\\Users\\kiera\\OneDrive\\\u00C1rea de Trabalho\\Nova pasta\\PainelAdmin\\Views\\Pets\\Details.cshtml",
+              "RelativeToolTip": "PainelAdmin\\Views\\Pets\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-08T21:25:19.068Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

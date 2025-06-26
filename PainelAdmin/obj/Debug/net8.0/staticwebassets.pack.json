@@ -1,0 +1,1221 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\kiera\\.nuget\\packages\\bootstrap\\5.3.6\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\.nuget\\packages\\bootstrap\\5.3.6\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\.nuget\\packages\\bootstrap\\5.3.6\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\.nuget\\packages\\bootstrap\\5.3.6\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\.nuget\\packages\\bootstrap\\5.3.6\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\.nuget\\packages\\bootstrap\\5.3.6\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\.nuget\\packages\\bootstrap\\5.3.6\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\.nuget\\packages\\bootstrap\\5.3.6\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\.nuget\\packages\\bootstrap\\5.3.6\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\.nuget\\packages\\bootstrap\\5.3.6\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\.nuget\\packages\\bootstrap\\5.3.6\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\.nuget\\packages\\bootstrap\\5.3.6\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\.nuget\\packages\\bootstrap\\5.3.6\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\.nuget\\packages\\bootstrap\\5.3.6\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\.nuget\\packages\\bootstrap\\5.3.6\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\.nuget\\packages\\bootstrap\\5.3.6\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\.nuget\\packages\\bootstrap\\5.3.6\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\.nuget\\packages\\bootstrap\\5.3.6\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\.nuget\\packages\\bootstrap\\5.3.6\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\.nuget\\packages\\bootstrap\\5.3.6\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\.nuget\\packages\\bootstrap\\5.3.6\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\.nuget\\packages\\bootstrap\\5.3.6\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\.nuget\\packages\\bootstrap\\5.3.6\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\.nuget\\packages\\bootstrap\\5.3.6\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\.nuget\\packages\\bootstrap\\5.3.6\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\.nuget\\packages\\bootstrap\\5.3.6\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\.nuget\\packages\\bootstrap\\5.3.6\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\.nuget\\packages\\bootstrap\\5.3.6\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\.nuget\\packages\\bootstrap\\5.3.6\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\.nuget\\packages\\bootstrap\\5.3.6\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\.nuget\\packages\\bootstrap\\5.3.6\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\.nuget\\packages\\bootstrap\\5.3.6\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\.nuget\\packages\\bootstrap\\5.3.6\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\.nuget\\packages\\bootstrap\\5.3.6\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\.nuget\\packages\\bootstrap\\5.3.6\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\.nuget\\packages\\bootstrap\\5.3.6\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\.nuget\\packages\\bootstrap\\5.3.6\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\.nuget\\packages\\bootstrap\\5.3.6\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\.nuget\\packages\\bootstrap\\5.3.6\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\.nuget\\packages\\bootstrap\\5.3.6\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\.nuget\\packages\\bootstrap\\5.3.6\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\.nuget\\packages\\bootstrap\\5.3.6\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\.nuget\\packages\\bootstrap\\5.3.6\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\.nuget\\packages\\bootstrap\\5.3.6\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PainelAdmin.bundle.scp.css",
+      "PackagePath": "staticwebassets\\PainelAdmin.haxiojl6o5.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\css\\painel\\header.css",
+      "PackagePath": "staticwebassets\\css\\painel\\header.css"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\css\\painel\\modal-confirmacao.css",
+      "PackagePath": "staticwebassets\\css\\painel\\modal-confirmacao.css"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\css\\painel\\noticia.css",
+      "PackagePath": "staticwebassets\\css\\painel\\noticia.css"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\css\\painel\\site-custom.css",
+      "PackagePath": "staticwebassets\\css\\painel\\site-custom.css"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\css\\painel\\site.css",
+      "PackagePath": "staticwebassets\\css\\painel\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\css\\painel\\style-header.css",
+      "PackagePath": "staticwebassets\\css\\painel\\style-header.css"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\css\\painel\\style-index.css",
+      "PackagePath": "staticwebassets\\css\\painel\\style-index.css"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\css\\site-custom.css",
+      "PackagePath": "staticwebassets\\css\\site-custom.css"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\css\\site\\alterar-senha.css",
+      "PackagePath": "staticwebassets\\css\\site\\alterar-senha.css"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\css\\site\\editar-perfil.css",
+      "PackagePath": "staticwebassets\\css\\site\\editar-perfil.css"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\css\\site\\editar-pet.css",
+      "PackagePath": "staticwebassets\\css\\site\\editar-pet.css"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\css\\site\\esqueci.css",
+      "PackagePath": "staticwebassets\\css\\site\\esqueci.css"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\css\\site\\meuspets.css",
+      "PackagePath": "staticwebassets\\css\\site\\meuspets.css"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\css\\site\\modal-sucesso.css",
+      "PackagePath": "staticwebassets\\css\\site\\modal-sucesso.css"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\css\\site\\perfil.css",
+      "PackagePath": "staticwebassets\\css\\site\\perfil.css"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\css\\site\\site-custom.css",
+      "PackagePath": "staticwebassets\\css\\site\\site-custom.css"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\css\\site\\style-adotar.css",
+      "PackagePath": "staticwebassets\\css\\site\\style-adotar.css"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\css\\site\\style-ajudar.css",
+      "PackagePath": "staticwebassets\\css\\site\\style-ajudar.css"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\css\\site\\style-fale.css",
+      "PackagePath": "staticwebassets\\css\\site\\style-fale.css"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\css\\site\\style-footer.css",
+      "PackagePath": "staticwebassets\\css\\site\\style-footer.css"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\css\\site\\style-header.css",
+      "PackagePath": "staticwebassets\\css\\site\\style-header.css"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\css\\site\\style-index.css",
+      "PackagePath": "staticwebassets\\css\\site\\style-index.css"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\css\\site\\style-login.css",
+      "PackagePath": "staticwebassets\\css\\site\\style-login.css"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\css\\site\\style-pet-1.css",
+      "PackagePath": "staticwebassets\\css\\site\\style-pet-1.css"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\css\\site\\style-redefinir-senha.css",
+      "PackagePath": "staticwebassets\\css\\site\\style-redefinir-senha.css"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\css\\site\\style-sobre.css",
+      "PackagePath": "staticwebassets\\css\\site\\style-sobre.css"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\css\\site\\style.login.css",
+      "PackagePath": "staticwebassets\\css\\site\\style.login.css"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\css\\site\\style_cadastro.css",
+      "PackagePath": "staticwebassets\\css\\site\\style_cadastro.css"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\css\\site\\tabelas.css",
+      "PackagePath": "staticwebassets\\css\\site\\tabelas.css"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\css\\style-header.css",
+      "PackagePath": "staticwebassets\\css\\style-header.css"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\css\\style-index.css",
+      "PackagePath": "staticwebassets\\css\\style-index.css"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\004f2a49-756a-4bb8-9c50-6ec78186e5bb.jpg",
+      "PackagePath": "staticwebassets\\img\\004f2a49-756a-4bb8-9c50-6ec78186e5bb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\0e6ccd35-fa3b-4938-95f2-edbd4cfad48e.jpg",
+      "PackagePath": "staticwebassets\\img\\0e6ccd35-fa3b-4938-95f2-edbd4cfad48e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\2916624c-1a7a-48f0-a282-ce4b933dde9f.png",
+      "PackagePath": "staticwebassets\\img\\2916624c-1a7a-48f0-a282-ce4b933dde9f.png"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\2e020be4-b8e5-439f-b2ed-ff1807559dc7.jpg",
+      "PackagePath": "staticwebassets\\img\\2e020be4-b8e5-439f-b2ed-ff1807559dc7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\2e07150c-d8f6-4be6-ad70-908960ebbaef.jfif",
+      "PackagePath": "staticwebassets\\img\\2e07150c-d8f6-4be6-ad70-908960ebbaef.jfif"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\31ffee4d-2c8f-4e4b-b5f4-167a1d5b6964.webp",
+      "PackagePath": "staticwebassets\\img\\31ffee4d-2c8f-4e4b-b5f4-167a1d5b6964.webp"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\3366ff67-518d-489c-8b5f-b5564695a730.webp",
+      "PackagePath": "staticwebassets\\img\\3366ff67-518d-489c-8b5f-b5564695a730.webp"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\35161d50-0a06-4292-8071-993d59b37d92.png",
+      "PackagePath": "staticwebassets\\img\\35161d50-0a06-4292-8071-993d59b37d92.png"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\3b914130-a83b-49ef-8b35-2e76e2489f15.jfif",
+      "PackagePath": "staticwebassets\\img\\3b914130-a83b-49ef-8b35-2e76e2489f15.jfif"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\4364ef1d-174a-4335-94ce-b163e8512d8a.jpeg",
+      "PackagePath": "staticwebassets\\img\\4364ef1d-174a-4335-94ce-b163e8512d8a.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\46a60c8c-65ba-4108-98de-b492761ab109.jpg",
+      "PackagePath": "staticwebassets\\img\\46a60c8c-65ba-4108-98de-b492761ab109.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\5118d32a-554d-4ca6-b908-c6e39600d281.webp",
+      "PackagePath": "staticwebassets\\img\\5118d32a-554d-4ca6-b908-c6e39600d281.webp"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\519b4a35-3836-454c-80cf-cfbfb37ae4fd.jpg",
+      "PackagePath": "staticwebassets\\img\\519b4a35-3836-454c-80cf-cfbfb37ae4fd.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\57058dcc-9275-45a3-b333-e73d58f46aa2.jfif",
+      "PackagePath": "staticwebassets\\img\\57058dcc-9275-45a3-b333-e73d58f46aa2.jfif"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\5cb29dd4-cbf5-4cab-a5df-6ee1f8035e40.webp",
+      "PackagePath": "staticwebassets\\img\\5cb29dd4-cbf5-4cab-a5df-6ee1f8035e40.webp"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\5cf88c27-1851-4840-a88b-e6d34a7bdd1f.jpg",
+      "PackagePath": "staticwebassets\\img\\5cf88c27-1851-4840-a88b-e6d34a7bdd1f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\5e308da2-3328-41b7-b31a-21d268db55e0.png",
+      "PackagePath": "staticwebassets\\img\\5e308da2-3328-41b7-b31a-21d268db55e0.png"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\608abc76-abc8-48e0-9f0d-61ec350be020.png",
+      "PackagePath": "staticwebassets\\img\\608abc76-abc8-48e0-9f0d-61ec350be020.png"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\6de22478-1ed3-43f7-ba6f-e9dc58c0c4b5.jfif",
+      "PackagePath": "staticwebassets\\img\\6de22478-1ed3-43f7-ba6f-e9dc58c0c4b5.jfif"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\70b86ef0-554d-44b8-b71f-3b1900ed82c2.png",
+      "PackagePath": "staticwebassets\\img\\70b86ef0-554d-44b8-b71f-3b1900ed82c2.png"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\72540697-af7c-4d2b-b093-d33de4afcef6.jpg",
+      "PackagePath": "staticwebassets\\img\\72540697-af7c-4d2b-b093-d33de4afcef6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\74054c1e-77b4-47f0-b528-11b2dd9da06c.png",
+      "PackagePath": "staticwebassets\\img\\74054c1e-77b4-47f0-b528-11b2dd9da06c.png"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\7b1c49ba-3bc7-422b-84db-11a79e8b8b08.png",
+      "PackagePath": "staticwebassets\\img\\7b1c49ba-3bc7-422b-84db-11a79e8b8b08.png"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\8074772f-ae48-4696-b8a3-b2b73298b73c.webp",
+      "PackagePath": "staticwebassets\\img\\8074772f-ae48-4696-b8a3-b2b73298b73c.webp"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\8e0e0339-eb90-427b-b2e2-6120e234c002.webp",
+      "PackagePath": "staticwebassets\\img\\8e0e0339-eb90-427b-b2e2-6120e234c002.webp"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\9447314d-115f-4491-9e04-7d661e2c4139.jfif",
+      "PackagePath": "staticwebassets\\img\\9447314d-115f-4491-9e04-7d661e2c4139.jfif"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\9548340f-d88c-4be2-b89f-8a4bc772b2d1.jfif",
+      "PackagePath": "staticwebassets\\img\\9548340f-d88c-4be2-b89f-8a4bc772b2d1.jfif"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\95de3ec8-0952-4c1b-91fe-4e596b5318f7.jpg",
+      "PackagePath": "staticwebassets\\img\\95de3ec8-0952-4c1b-91fe-4e596b5318f7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\9e15fb75-c7e0-4492-9a43-685bfaaae656.webp",
+      "PackagePath": "staticwebassets\\img\\9e15fb75-c7e0-4492-9a43-685bfaaae656.webp"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\9eb97b2f-1be0-4796-a327-af04242c9d04.jpg",
+      "PackagePath": "staticwebassets\\img\\9eb97b2f-1be0-4796-a327-af04242c9d04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\FuncioIcon.png",
+      "PackagePath": "staticwebassets\\img\\FuncioIcon.png"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\PessoaIcon.png",
+      "PackagePath": "staticwebassets\\img\\PessoaIcon.png"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\PetIcon (1).png",
+      "PackagePath": "staticwebassets\\img\\PetIcon (1).png"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\PetIcon (2).png",
+      "PackagePath": "staticwebassets\\img\\PetIcon (2).png"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\PetIcon1.png",
+      "PackagePath": "staticwebassets\\img\\PetIcon1.png"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\VetIcon.png",
+      "PackagePath": "staticwebassets\\img\\VetIcon.png"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\a2011b26-882c-4e57-ac0c-013d8f2f7f5b.avif",
+      "PackagePath": "staticwebassets\\img\\a2011b26-882c-4e57-ac0c-013d8f2f7f5b.avif"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\ab49308f-9a25-4290-be4a-25f58ebe48e5.jpg",
+      "PackagePath": "staticwebassets\\img\\ab49308f-9a25-4290-be4a-25f58ebe48e5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\angulo-pequeno-direito.png",
+      "PackagePath": "staticwebassets\\img\\angulo-pequeno-direito.png"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\angulo-pequeno-para-baixo (3).png",
+      "PackagePath": "staticwebassets\\img\\angulo-pequeno-para-baixo (3).png"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\animais1.avif",
+      "PackagePath": "staticwebassets\\img\\animais1.avif"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\animais5.avif",
+      "PackagePath": "staticwebassets\\img\\animais5.avif"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\animais5.webp",
+      "PackagePath": "staticwebassets\\img\\animais5.webp"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\animal1.avif",
+      "PackagePath": "staticwebassets\\img\\animal1.avif"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\animal1.jpg",
+      "PackagePath": "staticwebassets\\img\\animal1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\animal1.webp",
+      "PackagePath": "staticwebassets\\img\\animal1.webp"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\animal11.avif",
+      "PackagePath": "staticwebassets\\img\\animal11.avif"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\animal11.jpg",
+      "PackagePath": "staticwebassets\\img\\animal11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\animal2.webp",
+      "PackagePath": "staticwebassets\\img\\animal2.webp"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\animal3.avif",
+      "PackagePath": "staticwebassets\\img\\animal3.avif"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\animal3.jpg",
+      "PackagePath": "staticwebassets\\img\\animal3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\animal5.jpg",
+      "PackagePath": "staticwebassets\\img\\animal5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\b25f52ec-2ae4-4109-a434-4a20b8e2b7d0.webp",
+      "PackagePath": "staticwebassets\\img\\b25f52ec-2ae4-4109-a434-4a20b8e2b7d0.webp"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\b509c104-94ff-4227-8846-ac635dab14cb.avif",
+      "PackagePath": "staticwebassets\\img\\b509c104-94ff-4227-8846-ac635dab14cb.avif"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\brasão-barra.png",
+      "PackagePath": "staticwebassets\\img\\brasão-barra.png"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\c0e3b034-a683-48b7-80a0-a60824be5647.jpg",
+      "PackagePath": "staticwebassets\\img\\c0e3b034-a683-48b7-80a0-a60824be5647.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\c393c029-2ffe-4f6a-9da4-74a9a11d53ce.png",
+      "PackagePath": "staticwebassets\\img\\c393c029-2ffe-4f6a-9da4-74a9a11d53ce.png"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\cachorro1.webp",
+      "PackagePath": "staticwebassets\\img\\cachorro1.webp"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\cachorro2.webp",
+      "PackagePath": "staticwebassets\\img\\cachorro2.webp"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\cachorro3.webp",
+      "PackagePath": "staticwebassets\\img\\cachorro3.webp"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\cachorro4.webp",
+      "PackagePath": "staticwebassets\\img\\cachorro4.webp"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\cachorro5.webp",
+      "PackagePath": "staticwebassets\\img\\cachorro5.webp"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\cachorro6.webp",
+      "PackagePath": "staticwebassets\\img\\cachorro6.webp"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\canil.jpg",
+      "PackagePath": "staticwebassets\\img\\canil.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\casa.png",
+      "PackagePath": "staticwebassets\\img\\casa.png"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\closed-eye.png",
+      "PackagePath": "staticwebassets\\img\\closed-eye.png"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\coracao-de-pata.png",
+      "PackagePath": "staticwebassets\\img\\coracao-de-pata.png"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\d1a522fc-49d5-485d-b33f-6412dfb92402.jpg",
+      "PackagePath": "staticwebassets\\img\\d1a522fc-49d5-485d-b33f-6412dfb92402.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\d3a71123-b318-45ab-9fb4-802181c71e71.avif",
+      "PackagePath": "staticwebassets\\img\\d3a71123-b318-45ab-9fb4-802181c71e71.avif"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\d5ae2ed9-0d38-4a37-9783-62ee41aea133.jpg",
+      "PackagePath": "staticwebassets\\img\\d5ae2ed9-0d38-4a37-9783-62ee41aea133.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\d6d00c87-097f-440a-b31c-b6eae67a2ae2.jpg",
+      "PackagePath": "staticwebassets\\img\\d6d00c87-097f-440a-b31c-b6eae67a2ae2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\ddc00cde-60b7-4b7b-b426-9771273712a4.png",
+      "PackagePath": "staticwebassets\\img\\ddc00cde-60b7-4b7b-b426-9771273712a4.png"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\denuncia.png",
+      "PackagePath": "staticwebassets\\img\\denuncia.png"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\do-utilizador.png",
+      "PackagePath": "staticwebassets\\img\\do-utilizador.png"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\dog-training.png",
+      "PackagePath": "staticwebassets\\img\\dog-training.png"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\dogo-argentino.png",
+      "PackagePath": "staticwebassets\\img\\dogo-argentino.png"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\duvidas.png",
+      "PackagePath": "staticwebassets\\img\\duvidas.png"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\duvidas2.png",
+      "PackagePath": "staticwebassets\\img\\duvidas2.png"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\e36acaac-1dff-4ebc-957a-b4a087ac20a7.png",
+      "PackagePath": "staticwebassets\\img\\e36acaac-1dff-4ebc-957a-b4a087ac20a7.png"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\editar-arquivo.png",
+      "PackagePath": "staticwebassets\\img\\editar-arquivo.png"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\facebook.png",
+      "PackagePath": "staticwebassets\\img\\facebook.png"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\fd84059c-e259-4740-bd22-d13156036ed7.webp",
+      "PackagePath": "staticwebassets\\img\\fd84059c-e259-4740-bd22-d13156036ed7.webp"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\form.png",
+      "PackagePath": "staticwebassets\\img\\form.png"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\gatoPreto.jfif",
+      "PackagePath": "staticwebassets\\img\\gatoPreto.jfif"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\github.png",
+      "PackagePath": "staticwebassets\\img\\github.png"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\instagram.png",
+      "PackagePath": "staticwebassets\\img\\instagram.png"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\jornal.png",
+      "PackagePath": "staticwebassets\\img\\jornal.png"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\lampada.png",
+      "PackagePath": "staticwebassets\\img\\lampada.png"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\lixeira-xmark.png",
+      "PackagePath": "staticwebassets\\img\\lixeira-xmark.png"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\logout.png",
+      "PackagePath": "staticwebassets\\img\\logout.png"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\menu-hamburguer.png",
+      "PackagePath": "staticwebassets\\img\\menu-hamburguer.png"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\minilogo.webp",
+      "PackagePath": "staticwebassets\\img\\minilogo.webp"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\noticias\\05bfa03a-53a8-4a60-a5b9-06b77ed0727e.jpg",
+      "PackagePath": "staticwebassets\\img\\noticias\\05bfa03a-53a8-4a60-a5b9-06b77ed0727e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\noticias\\161961b1-751c-414c-823e-8b6b6cd2f700.webp",
+      "PackagePath": "staticwebassets\\img\\noticias\\161961b1-751c-414c-823e-8b6b6cd2f700.webp"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\noticias\\1e2b0928-79ec-4ece-afa5-73e1f1aa7dd5.jpg",
+      "PackagePath": "staticwebassets\\img\\noticias\\1e2b0928-79ec-4ece-afa5-73e1f1aa7dd5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\noticias\\2335577b-e734-4c09-a0c5-9660a904c0db.jpg",
+      "PackagePath": "staticwebassets\\img\\noticias\\2335577b-e734-4c09-a0c5-9660a904c0db.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\noticias\\32517968-cec8-4030-974f-6795e9dc246d.jpeg",
+      "PackagePath": "staticwebassets\\img\\noticias\\32517968-cec8-4030-974f-6795e9dc246d.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\noticias\\350f2318-9238-4234-b789-60f3e15e1bb2.webp",
+      "PackagePath": "staticwebassets\\img\\noticias\\350f2318-9238-4234-b789-60f3e15e1bb2.webp"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\noticias\\43394531-e832-4a39-9d76-3e1722d2345f.webp",
+      "PackagePath": "staticwebassets\\img\\noticias\\43394531-e832-4a39-9d76-3e1722d2345f.webp"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\noticias\\45cf7014-7308-4a14-8d8b-ca81d4324d4f.jpg",
+      "PackagePath": "staticwebassets\\img\\noticias\\45cf7014-7308-4a14-8d8b-ca81d4324d4f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\noticias\\48bfcca7-d8d7-41c0-be5c-f4b2c39aea9c.png",
+      "PackagePath": "staticwebassets\\img\\noticias\\48bfcca7-d8d7-41c0-be5c-f4b2c39aea9c.png"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\noticias\\4b01f469-9161-49f3-ae3c-d3895359b9af.png",
+      "PackagePath": "staticwebassets\\img\\noticias\\4b01f469-9161-49f3-ae3c-d3895359b9af.png"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\noticias\\4f7ab143-8bb0-4b37-8017-4384fc4245e8.jpg",
+      "PackagePath": "staticwebassets\\img\\noticias\\4f7ab143-8bb0-4b37-8017-4384fc4245e8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\noticias\\6987e484-f52b-499f-97aa-b15950a34df9.webp",
+      "PackagePath": "staticwebassets\\img\\noticias\\6987e484-f52b-499f-97aa-b15950a34df9.webp"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\noticias\\92a7bc63-49e9-4197-b85e-03efa65f1b9c.jpeg",
+      "PackagePath": "staticwebassets\\img\\noticias\\92a7bc63-49e9-4197-b85e-03efa65f1b9c.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\noticias\\945f25e8-3464-45dc-9422-69afd0eb8b31.jpg",
+      "PackagePath": "staticwebassets\\img\\noticias\\945f25e8-3464-45dc-9422-69afd0eb8b31.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\noticias\\94644a74-6223-410b-8dc5-460615b466b3.jpg",
+      "PackagePath": "staticwebassets\\img\\noticias\\94644a74-6223-410b-8dc5-460615b466b3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\noticias\\97816a3b-59a2-494c-ac6b-9e3677e29388.png",
+      "PackagePath": "staticwebassets\\img\\noticias\\97816a3b-59a2-494c-ac6b-9e3677e29388.png"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\noticias\\985229cf-ed43-42d4-9105-6a20eacb4317.jpg",
+      "PackagePath": "staticwebassets\\img\\noticias\\985229cf-ed43-42d4-9105-6a20eacb4317.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\noticias\\b1bf6a5f-bc0f-4ba8-8d6b-e958cce3825f.png",
+      "PackagePath": "staticwebassets\\img\\noticias\\b1bf6a5f-bc0f-4ba8-8d6b-e958cce3825f.png"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\noticias\\c68a3124-50e2-408a-b832-12f90d5ff76e.png",
+      "PackagePath": "staticwebassets\\img\\noticias\\c68a3124-50e2-408a-b832-12f90d5ff76e.png"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\noticias\\ce1dca7b-721b-4499-bed2-81d551051ac7.png",
+      "PackagePath": "staticwebassets\\img\\noticias\\ce1dca7b-721b-4499-bed2-81d551051ac7.png"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\noticias\\cec232cc-4b67-477f-913e-042b584f943c.png",
+      "PackagePath": "staticwebassets\\img\\noticias\\cec232cc-4b67-477f-913e-042b584f943c.png"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\noticias\\d34fb0af-afd2-421f-80b1-65a1838fed61.png",
+      "PackagePath": "staticwebassets\\img\\noticias\\d34fb0af-afd2-421f-80b1-65a1838fed61.png"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\noticias\\e1ea3257-9c86-417c-a2be-daca8b764558.jpg",
+      "PackagePath": "staticwebassets\\img\\noticias\\e1ea3257-9c86-417c-a2be-daca8b764558.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\noticias\\ec2c6bac-641d-4640-9dd1-ace0a0d52cfe.webp",
+      "PackagePath": "staticwebassets\\img\\noticias\\ec2c6bac-641d-4640-9dd1-ace0a0d52cfe.webp"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\noticias\\f72d9ee1-4136-42d5-817d-4514b6ae3b93.png",
+      "PackagePath": "staticwebassets\\img\\noticias\\f72d9ee1-4136-42d5-817d-4514b6ae3b93.png"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\noticias\\fbefb6c7-905e-4576-9cc3-5606f59bbf3c.jpg",
+      "PackagePath": "staticwebassets\\img\\noticias\\fbefb6c7-905e-4576-9cc3-5606f59bbf3c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\olho.png",
+      "PackagePath": "staticwebassets\\img\\olho.png"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\olhos-cruzados.png",
+      "PackagePath": "staticwebassets\\img\\olhos-cruzados.png"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\opened-eye.png",
+      "PackagePath": "staticwebassets\\img\\opened-eye.png"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\perfil\\16dd8c62-7518-49d8-b925-94e7698378ec.jpg",
+      "PackagePath": "staticwebassets\\img\\perfil\\16dd8c62-7518-49d8-b925-94e7698378ec.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\perfil\\20157955-3159-4247-8785-811c8b9f2107.jpg",
+      "PackagePath": "staticwebassets\\img\\perfil\\20157955-3159-4247-8785-811c8b9f2107.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\perfil\\27432662-7db0-4949-b91c-47edcff960ba.jpg",
+      "PackagePath": "staticwebassets\\img\\perfil\\27432662-7db0-4949-b91c-47edcff960ba.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\perfil\\3141868c-d192-4ee5-91ac-78ef580c527f.png",
+      "PackagePath": "staticwebassets\\img\\perfil\\3141868c-d192-4ee5-91ac-78ef580c527f.png"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\perfil\\338f616a-a173-4ddd-8bb8-67300262acac.jpg",
+      "PackagePath": "staticwebassets\\img\\perfil\\338f616a-a173-4ddd-8bb8-67300262acac.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\perfil\\41fb948f-5fdc-49f8-b809-80ee4e04f2a6.png",
+      "PackagePath": "staticwebassets\\img\\perfil\\41fb948f-5fdc-49f8-b809-80ee4e04f2a6.png"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\perfil\\43389de6-e908-4ef6-bbfb-641dbbc3e0a3.jpg",
+      "PackagePath": "staticwebassets\\img\\perfil\\43389de6-e908-4ef6-bbfb-641dbbc3e0a3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\perfil\\534fac02-a1af-40f3-bf9d-fa2a7abe03f5.jpg",
+      "PackagePath": "staticwebassets\\img\\perfil\\534fac02-a1af-40f3-bf9d-fa2a7abe03f5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\perfil\\541570f9-a13e-4e1d-9b4f-863c251c6926.png",
+      "PackagePath": "staticwebassets\\img\\perfil\\541570f9-a13e-4e1d-9b4f-863c251c6926.png"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\perfil\\576b9192-275e-441d-8fed-113a6132840a.png",
+      "PackagePath": "staticwebassets\\img\\perfil\\576b9192-275e-441d-8fed-113a6132840a.png"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\perfil\\601bb264-872d-475b-9de9-ba028ad113a8.jpeg",
+      "PackagePath": "staticwebassets\\img\\perfil\\601bb264-872d-475b-9de9-ba028ad113a8.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\perfil\\632f10ac-2cde-43fa-bd1f-5a8dcaeed8cd.png",
+      "PackagePath": "staticwebassets\\img\\perfil\\632f10ac-2cde-43fa-bd1f-5a8dcaeed8cd.png"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\perfil\\6a9aaf8d-bce6-4490-ae56-97aa55b78721.jfif",
+      "PackagePath": "staticwebassets\\img\\perfil\\6a9aaf8d-bce6-4490-ae56-97aa55b78721.jfif"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\perfil\\82a4a764-f822-4c00-a39d-9b1ad2c6366b.png",
+      "PackagePath": "staticwebassets\\img\\perfil\\82a4a764-f822-4c00-a39d-9b1ad2c6366b.png"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\perfil\\8318d705-d716-49bc-908a-0decf947533f.webp",
+      "PackagePath": "staticwebassets\\img\\perfil\\8318d705-d716-49bc-908a-0decf947533f.webp"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\perfil\\84eca5ba-d434-44f9-8e67-ffa105a7c05a.png",
+      "PackagePath": "staticwebassets\\img\\perfil\\84eca5ba-d434-44f9-8e67-ffa105a7c05a.png"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\perfil\\92d9a9fe-02d0-4459-807e-faae4204cc99.jpg",
+      "PackagePath": "staticwebassets\\img\\perfil\\92d9a9fe-02d0-4459-807e-faae4204cc99.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\perfil\\9a10611e-605f-41b2-a8c1-940cf8958df0.png",
+      "PackagePath": "staticwebassets\\img\\perfil\\9a10611e-605f-41b2-a8c1-940cf8958df0.png"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\perfil\\Jhonatan.jpg",
+      "PackagePath": "staticwebassets\\img\\perfil\\Jhonatan.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\perfil\\a5318c51-3c56-426e-9e3c-5528e76de2ba.jpg",
+      "PackagePath": "staticwebassets\\img\\perfil\\a5318c51-3c56-426e-9e3c-5528e76de2ba.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\perfil\\ab212c6c-1585-4e52-b530-787acdfe96ef.png",
+      "PackagePath": "staticwebassets\\img\\perfil\\ab212c6c-1585-4e52-b530-787acdfe96ef.png"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\perfil\\ad829ec2-e393-43af-9782-dcfd12062290.png",
+      "PackagePath": "staticwebassets\\img\\perfil\\ad829ec2-e393-43af-9782-dcfd12062290.png"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\perfil\\b36633e9-ac2c-4926-b76b-43cb629ad513.jpg",
+      "PackagePath": "staticwebassets\\img\\perfil\\b36633e9-ac2c-4926-b76b-43cb629ad513.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\perfil\\bb1b3a9a-2bfe-4487-98b6-7affe61c6f23.jpeg",
+      "PackagePath": "staticwebassets\\img\\perfil\\bb1b3a9a-2bfe-4487-98b6-7affe61c6f23.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\perfil\\c85c4f0b-472c-4d56-a25c-252777757854.jpg",
+      "PackagePath": "staticwebassets\\img\\perfil\\c85c4f0b-472c-4d56-a25c-252777757854.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\perfil\\cc9ada68-e20f-4ab0-8ca9-0b15a0705712.png",
+      "PackagePath": "staticwebassets\\img\\perfil\\cc9ada68-e20f-4ab0-8ca9-0b15a0705712.png"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\perfil\\e22732bb-e4fc-4229-85bd-1aff625907ea.png",
+      "PackagePath": "staticwebassets\\img\\perfil\\e22732bb-e4fc-4229-85bd-1aff625907ea.png"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\perfil\\e35764c9-a1bd-4485-8fc0-f9298ba515b0.jpeg",
+      "PackagePath": "staticwebassets\\img\\perfil\\e35764c9-a1bd-4485-8fc0-f9298ba515b0.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\perfil\\edc0518b-4e83-4c4c-aec1-a19c35a6d792.png",
+      "PackagePath": "staticwebassets\\img\\perfil\\edc0518b-4e83-4c4c-aec1-a19c35a6d792.png"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\perfil\\f0e7c3bf-50f6-48d5-91e4-3674e072bc0b.png",
+      "PackagePath": "staticwebassets\\img\\perfil\\f0e7c3bf-50f6-48d5-91e4-3674e072bc0b.png"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\perfil\\f7036def-8507-4a9e-af31-8e7f5a706dad.png",
+      "PackagePath": "staticwebassets\\img\\perfil\\f7036def-8507-4a9e-af31-8e7f5a706dad.png"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\pets.png",
+      "PackagePath": "staticwebassets\\img\\pets.png"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\prefeitura.png",
+      "PackagePath": "staticwebassets\\img\\prefeitura.png"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\registrese.png",
+      "PackagePath": "staticwebassets\\img\\registrese.png"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\senha.png",
+      "PackagePath": "staticwebassets\\img\\senha.png"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\usuario.png",
+      "PackagePath": "staticwebassets\\img\\usuario.png"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\img\\whatsapp.png",
+      "PackagePath": "staticwebassets\\img\\whatsapp.png"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\js\\carousel.js",
+      "PackagePath": "staticwebassets\\js\\carousel.js"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\js\\script-ativo.js",
+      "PackagePath": "staticwebassets\\js\\script-ativo.js"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\js\\script-cad.js",
+      "PackagePath": "staticwebassets\\js\\script-cad.js"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\js\\script.js",
+      "PackagePath": "staticwebassets\\js\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kiera\\OneDrive\\Área de Trabalho\\Nova pasta\\PainelAdmin\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.PainelAdmin.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.PainelAdmin.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.PainelAdmin.props",
+      "PackagePath": "build\\PainelAdmin.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.PainelAdmin.props",
+      "PackagePath": "buildMultiTargeting\\PainelAdmin.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.PainelAdmin.props",
+      "PackagePath": "buildTransitive\\PainelAdmin.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

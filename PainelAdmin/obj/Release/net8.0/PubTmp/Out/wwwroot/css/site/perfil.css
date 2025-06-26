@@ -1,0 +1,87 @@
+﻿.perfil-container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+.perfil-card {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+}
+
+.perfil-img {
+    flex: 1 1 250px;
+    background: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+    .perfil-img img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 4px solid #ff7f00;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+.perfil-info {
+    flex: 2 1 500px;
+    padding: 30px;
+}
+
+    .perfil-info h2 {
+        margin-bottom: 20px;
+        color: #333;
+        font-weight: 600;
+    }
+
+    .perfil-info p {
+        margin: 8px 0;
+        font-size: 1rem;
+        color: #555;
+    }
+
+    .perfil-info hr {
+        margin: 20px 0;
+        border-color: #ddd;
+    }
+
+.btn-editar {
+    display: inline-block;
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background 0.3s ease;
+    margin-top: 20px;
+}
+
+    .btn-editar:hover {
+        background-color: #218838;
+    }
+
+@media screen and (max-width: 768px) {
+    .perfil-card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .perfil-info {
+        padding: 20px;
+        text-align: center;
+    }
+
+        .perfil-info p {
+            font-size: 0.95rem;
+        }
+}
+
